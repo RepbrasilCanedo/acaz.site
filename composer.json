@@ -1,0 +1,20 @@
+{
+   "description": "Docnet Plataforma Operacional Administrativa" ,
+   "authors": [
+    {
+        "name":"Daniel O Canedo",
+        "email":"daniel@docnet.net.br"
+    }
+   ],
+   "autoload": {
+        "psr-4": {
+            "Core\\":"core",
+            "App\\": "app",
+            "Sts\\":"app/sts"
+
+        }
+   },
+   "require": {
+     "ext-mbstring": "*"
+   }
+}

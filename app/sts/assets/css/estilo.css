@@ -1,0 +1,512 @@
+/*
+* 
+* @author Daniel Canedo
+*/
+/* importa as fontes selecionadas no google fonts que serão utilizadas no site */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+/*--------------Layout----------------- */
+/* Atributos padões em todo site*/ 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/*Cores Padrões do site*/
+/*
+    cores acaz
+    Creme - #fef7af
+    Verde - #009748
+    Vermelho - #d92028
+    Amarelo - #efde09
+    */
+:root{
+    --main-color:#fef7af;
+	--link-visitado:#000040;
+    --site-color:#fff;
+    --active-color:#009748;
+    --fist-color:#08132f;
+    --second-color:#090b13;
+    --third-color:#1b202a;
+	--text-color:#000000;
+
+}
+body {
+    background-color: var(--main-color);
+    color: var(--fist-color);
+}
+
+.foto-pequena{
+		width: 300px;
+		height: 250px;
+}
+.wrapper .row {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    flex-wrap: wrap;
+}
+.max-width {
+    max-width: 1300px;
+    padding: 0 5px;
+    margin: auto;
+	margin-top: 2px;
+}
+.content .wrapper {
+    width: 100%;
+    padding: 0 10px;
+    background-color: var(--bg-color);
+}
+/* Inicio formulario */
+
+.wrapper .content-adm {
+    width: 100%;
+    padding: 5px;
+}
+
+.wrapper .content-adm-alert {
+    width: 100%;
+    margin: 0 10px;
+    border-top: 1px var(--main-color) solid;
+}
+
+.content .row {
+    background-color: var(--fourth-color);
+    border-radius: 6px;
+    /*margin: 10px;*/
+}
+
+ul li a:link{
+	text-decoration: none;
+	margin: 5px;
+}
+ul li a:hover{
+	color: var(--site-color);
+	text-decoration: none;
+}
+ul li a:active{
+	color: #b10333;
+}
+/* link visitado
+ul li a:visited{
+	color: var(--link-visitado);
+}
+*/
+html, body{
+	height: 100%;
+	background-color: var(--main-color);
+    color: var(--fist-color);
+	
+}
+h1{
+	color: var(--text-color);
+	text-align: center;
+	font-size: 25px;
+}
+p{
+	text-align: justify;
+}
+.texto-apresentacao{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+
+}
+.texto-caixa{
+    align-items: center; /*alinhamento na vertical em relação a altura*/
+    justify-content: right;  /*alinhamento na horizontal em relação a largura*/
+	text-align: justify;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+	color: var(--text-color);
+}
+/*Link não visitado*/
+nav a:link{
+	color: var(--active-color);	
+}
+
+
+.menu_lateral{
+	border: solid 1px #000;
+}
+
+#destaques{
+	margin-top: 20x;
+
+}
+
+/*---------- Barra de Navegação------------ */
+nav{
+	padding: 15px 0px;
+}
+.fundo_top{
+	background-color: var(--main-color);
+	color: var(--text-color);
+	
+}
+
+.navbar-light .navbar-nav .nav-link{
+	color: rgb(8, 0, 0);
+}
+.navbar-light .navbar-nav .nav-link:hover{
+	background-color: var(--main-color);
+	color: var(--active-color);
+}
+.navbar-light .navbar-toggler{
+	color: rgba(255,255,255,.5);
+	border-color: rgba(255,255,255,0.5);
+}
+.navbar-nav .nav-item{
+	color: var(--active-color);
+}
+/* Capa */
+.capa_carrousel{
+	text-align: center;
+	margin-top: 75px;
+}
+.capa{
+	text-align: center;
+	margin-top: 10px;
+}
+.capa_orcamento{
+	text-align: center;
+	margin-top: 75px;
+	border-right: solid var(--main-color) 3px;
+
+}
+.texto_solicitacao{
+	text-transform: uppercase;
+	color: red;
+}
+.texto_chamado{
+	font-weight: bold;
+	color: black;
+}
+
+#conteudo_modal{
+	padding: 3px;
+
+}
+.sol_orcamento{
+	border: solid red 2px;
+}
+
+.login_restrito{
+	border: solid var(--main-color) 1px;
+	width: 400px;
+	height: 400px;
+	margin: 200px auto;
+
+}
+.login_tamanho{
+	width: 300px;
+	height: 300px;
+	margin: 50px auto;
+}
+
+.preenchimento_form{
+	margin-top: 75px;
+}
+/*Carroussel */
+.carousel-control-next, .carousel-control-prev{
+	width: 5%;
+}
+
+
+.main {
+    margin-left: 220px;
+    padding: 15px;
+}
+
+
+#consulta{
+	margin-top: 75px;
+}
+/* Fomatação dos Blogs */
+
+
+/*formatação dos produtos e soluções*/
+.conteudo-produtos{
+	margin: 5px 20px;
+}
+
+/* fomatação de Cards */
+.bordas{
+	border-top: solid var(--main-color) 5px;
+	
+}
+
+
+/* Rodape */
+#rodape{
+	background-color: var(--main-color);
+	padding: 50px 0px 20px 0px;
+	margin: 10px auto;
+}
+#rodape h4{
+	color: #919496;
+	font-size: 0.8em;
+	text-transform: uppercase;
+}
+#rodape .navbar-nav a{
+	color: var(--site-color);
+	font-size: 0.8em;
+}
+#rodape .navbar-nav a:hover{
+	color: #9bf0e1;
+	text-decoration: none;
+}
+#rodape ul{
+	list-style: none;
+}
+#rodape ul li{
+	float: right;
+	margin: 0 5px;
+}
+
+#copy_rodape{
+	font-size: 1em;
+	font-style: italic;
+	text-align: center;
+	color: var(--text-color);
+
+
+
+}
+
+/*Noticias*/
+.caixa{
+	margin: 10px 0;
+	padding: 5px;
+	background: #f3f3f3 url(../imagens/fundo-caixa.png);
+}
+.entrevista {
+	background: rgba(0,0,64);
+	color: rgb(8, 8, 8);
+}
+.caixa-conteudo{
+	background: var(--site-color);
+	padding: 5px;
+	margin-top: 5px;
+}
+
+.destaque h3{
+	background: #b10333;
+	color: var(--site-color);
+}
+.titulo{
+	background: #b10333;
+	color: var(--site-color);
+}
+
+
+/*Formatacao imagem notícias*/
+img.imagem-principal{
+	width: 100%;
+	border: 3px solid #dfdfdf;
+	align-items: center;
+	padding: 3px;
+}
+.noticias1 {
+	columns: 100px 3;
+	column-gap: 30px;
+	text-align: justify;
+  }
+/*Formatacao titulos*/
+.cor-texto{
+	color: var(--main-color)
+}
+.centralizar{
+	text-align:center;
+}
+.justificar{
+	text-align: justify;
+}
+.alinhar-direita{
+	text-align: right;
+}
+.alinhar-esquerda{
+	text-align: left;
+}
+
+.fundo-padrao{
+	background: rgba(0,0,64) ;
+	color: #fff;
+}
+/* Formatação de textos*/
+.todas-maiusculas{
+	text-transform: uppercase;
+}.todas-minusculas{
+	text-transform: lowercase;
+}.primeiras-maiusculas{
+	text-transform: capitalize;
+}
+.cor-botoes{
+	background-color:var(--active-color);
+	color: var(--site-color);
+	
+}
+.texto-carrousel{
+	color: white; 
+	text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+	text-align: center;
+	
+}
+.saiba-mais{
+	text-transform: uppercase;
+	background-color: rgba(0,0,64);
+	color: #fff;
+}
+.papel-parede{
+	background:var(--main-color)
+}
+
+.caixas-apresentacao{
+	width: 200px;
+	height: 180px;
+}
+.botoes-chamado{
+	margin-top: 25px;
+}
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+	
+	.btn-custom{
+		margin: 10px 15px;
+	}
+	#destaques iframe{
+		width: 100%;
+		height: 100%;
+	}
+	#materias, #materias_dois img{
+		width: 100%;
+		height: 100%;
+	}
+	
+
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+	.btn-custom{
+		margin: 10px 15px;
+		width: 10px;
+		height: 10px;
+	}
+	#destaques iframe{
+		width: 100%;
+		height: 100%;
+	}
+	#materias, #materias_dois img{
+		width: 100%;
+		height: 100%;
+	}
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+	#destaques iframe{
+		width: 100%;
+		height: 100%;
+	}
+	#materias, #materias_dois img{
+		width: 100%;
+		height: 100%;
+	}
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+	#destaques iframe{
+		width: 100%;
+		height: 100%;
+	}
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+	#destaques iframe{
+		width: 100%;
+		height: 100%;
+	}
+}
+
+
+/* Inicio da pagina sobre empresa */
+
+.about {
+    color: var(--site-color);
+    background: var(--active-color);
+    font-family: 'Poppins', sans-serif;
+}
+
+.about .title {
+    text-align: center;
+    margin-bottom: 50px;
+    font-weight: 400;
+    font-size: 55px;
+    padding-top: 50px;
+}
+
+.about .about-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    background: var(--first-color);
+    border-radius: 6px;
+    padding: 30px;
+}
+
+
+
+.image-content {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.about .about-content .right p {
+    text-align: justify;
+}
+
+@media(max-width: 1104px) {
+    .about .about-content .right {
+        padding-left: 10px;
+    }
+}
+
+@media (max-width: 947px) {
+    .about .about-content .column {
+        width: 100%;
+    }
+    .about .about-content .left {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto 60px;
+    }
+    .about .about-content .right {
+        flex: 100%;
+        padding-left: 0;
+    }
+}
+
+@media (max-width: 740px) {
+    .about .title {
+        margin-top: 50px;
+    }
+}
+
+
+/* Fim da pagina sobre empresa */

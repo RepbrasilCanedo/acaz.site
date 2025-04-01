@@ -1,0 +1,550 @@
+/* importa as fontes selecionadas no google fonts que serão utilizadas no site */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+/*personalização padrão em todo o site*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+
+/* Variaveis com todas as cores utilizadas no site*/
+
+:root{
+
+    /*
+    cores acaz
+    Creme - #fef7af
+    Verde - #009748
+    Vermelho - #d92028
+    Amarelo - #efde09
+    */
+    --main-color:#fef7af;
+    --menu-color: #000040;
+    --site-color:#fff;
+    --active-color:#0063e5;
+    --fist-color:#000000;/*Cor das Letras*/
+    --second-color:#090b13;
+    --third-color:#1b202a;
+    --four-color: #f0ffff;
+    --fourth-bg-color: #131b38;
+    --primary-color: #0088cc;
+    --success-color: #47a447;
+    --info-color: #5bc0de;
+    --warning-color: #ed9c28;
+    --danger-color: #d2322d;
+    --primary-color-second: #cfe2ff;
+    --success-color-second: #d1e7dd;
+    --info-color-second: #cff4fc;
+    --warning-color-second: #fff3cd;
+    --danger-color-second: #f8d7da;
+}
+a{
+        text-decoration: none;
+}
+
+/* Inicio menu */
+
+.navbar .logo a {
+    color: var(--site-color);
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.navbar {   
+    width: 100%;
+    z-index: 999;
+    padding: 20px 0;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: var(--menu-color);
+    border-bottom: solid var(--third-color) 1px;
+
+}
+
+
+
+.navbar .max-width {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+}
+
+
+
+.navbar .menu li {
+
+    list-style: none;
+
+    display: inline-block;
+
+}
+
+
+
+.navbar .menu li a {
+
+    display: block;
+
+    color: var(--site-color);
+
+    font-size: 18px;
+
+    font-weight: 400;
+
+    margin-left: 25px;
+
+}
+
+
+
+.menu-btn {
+
+    color: var(--site-color);
+
+    font-size: 23px;
+
+    cursor: pointer;
+
+    display: none;
+
+}
+
+
+
+@media (max-width: 947px) {
+
+    .menu-btn {
+
+        display: block;
+
+        z-index: 999;
+
+    }
+
+    #menu-icon.active::before {
+
+        content: "\f00d";
+
+    }
+
+    .navbar .menu {
+
+        background-color: var(--main-color);
+
+        position: fixed;
+
+        height: 100vh;
+
+        width: 100%;
+
+        left: -100%;
+
+        top: 0;
+
+        text-align: center;
+
+        padding-top: 80px;
+
+        transition: all 0.3s ease;
+
+    }
+
+    #menu-site.active {
+
+        left: 0;
+
+    }
+
+    .navbar .menu li {
+
+        display: block;
+
+    }
+
+    .navbar .menu li a {
+
+        display: inline-block;
+
+        margin: 13px 0;
+
+        font-size: 25px;
+
+    }
+
+}
+
+
+
+
+
+/* Fim menu */
+
+.fundo_top{
+	background-color: var(--menu-color);
+	color: var(--site-color);
+}
+
+.fundo-padrao{
+
+	background: rgba(0,0,64) ;
+
+	color: #fff;
+
+}
+
+.centralizar{
+
+	text-align:center;
+
+    align-items: center;
+
+}
+
+.cor-texto{
+
+	color: var(--menu-color)
+
+}
+
+.cor-icons{
+
+    color: var(--active-color);
+
+}
+
+.title {
+
+    text-align: center;
+
+    font-family: 'Poppins', sans-serif;
+
+    font-weight: 500;
+
+    font-size: 25px;
+
+    margin-top: 10px;
+
+
+
+}
+
+.sub-title{
+
+    text-align: center;
+
+    font-family: 'Poppins', sans-serif;
+
+    font-weight: 500;
+
+    font-size: 20px;
+
+    margin-top: 10px;
+
+    color: var(--menu-color);
+
+
+
+}
+
+/* Formatação de textos*/
+
+.todas-maiusculas{
+
+	text-transform: uppercase;
+
+}.todas-minusculas{
+
+	text-transform: lowercase;
+
+}.primeiras-maiusculas{
+
+	text-transform: capitalize;
+
+}
+
+
+
+ul li a:link{
+
+	text-decoration: none;
+
+	margin: 5px;
+
+}
+
+ul li a:hover{
+
+	color: var(--main-color);
+
+	text-decoration: none;
+
+}
+
+ul li a:active{
+
+	color: #b10333;
+
+}
+
+/* link visitado
+
+ul li a:visited{
+
+	color: var(--link-visitado);
+
+}
+
+*/
+
+.caixas-apresentacao{
+
+	width: 230px;
+
+	height: 200px;
+
+}
+
+.texto-caixa{
+
+    align-items: center; /*alinhamento na vertical em relação a altura*/
+
+    justify-content: right;  /*alinhamento na horizontal em relação a largura*/
+
+    font-family: 'Poppins', sans-serif;
+
+    font-weight: 400;
+
+    font-size: 15px;
+
+}
+
+.botao-tabelas{
+
+    width: 200px;
+
+    height: 25px;
+
+    align-items: center; /*alinhamento na vertical em relação a altura*/
+
+    justify-content: right;  /*alinhamento na horizontal em relação a largura*/
+
+    padding: 0px;
+
+    margin: auto;
+
+}
+
+
+
+/* Inicio da pagina sobre empresa */
+
+
+
+.about {
+
+    color: var(--site-color);
+
+    background: var(--main-color);
+
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+
+.about .title {
+
+    text-align: center;
+
+    margin-bottom: 50px;
+
+    font-weight: 400;
+
+    font-size: 35px;
+
+    padding-top: 50px;
+
+}
+
+
+
+.about .about-content {
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    margin-bottom: 50px;
+
+    background: var(--first-color);
+
+    border-radius: 6px;
+
+    padding: 30px;
+
+}
+
+
+
+.about .about-content .left {
+
+    width: 40%;
+
+}
+
+
+
+.about .about-content .top {
+
+    width: 40%;
+
+}
+
+
+
+.about .about-content .top img {
+
+    width: 400px;
+
+    height: 400px;
+
+    object-fit: cover;
+
+    border-radius: 6px;
+
+}
+
+
+
+.about .about-content .top .text {
+
+    font-size: 25px;
+
+    font-weight: 400;
+
+    margin-bottom: 10px;
+
+}
+
+
+
+.about .about-content .left img {
+
+    width: 400px;
+
+    height: 400px;
+
+    object-fit: cover;
+
+    border-radius: 6px;
+
+}
+
+
+
+.about .about-content .right {
+
+    width: 60%;
+
+}
+
+
+
+.about .about-content .right .text {
+
+    font-size: 25px;
+
+    font-weight: 400;
+
+    margin-bottom: 10px;
+
+}
+
+
+
+.about .about-content .right p {
+
+    text-align: justify;
+
+}
+
+
+
+@media(max-width: 1104px) {
+
+    .about .about-content .left img {
+
+        width: 300px;
+
+        height: 300px;
+
+    }
+
+    .about .about-content .right {
+
+        padding-left: 10px;
+
+    }
+
+}
+
+
+
+@media (max-width: 947px) {
+
+    .about .about-content .column {
+
+        width: 100%;
+
+    }
+
+    .about .about-content .left {
+
+        display: flex;
+
+        justify-content: center;
+
+        margin: 0 auto 60px;
+
+    }
+
+    .about .about-content .right {
+
+        flex: 100%;
+
+        padding-left: 0;
+
+    }
+
+}
+
+
+
+@media (max-width: 740px) {
+
+    .about .title {
+
+        margin-top: 50px;
+
+    }
+
+}
+
+
+
+
+
+/* Fim da pagina sobre empresa */
+
