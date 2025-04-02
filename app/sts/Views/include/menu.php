@@ -33,7 +33,7 @@ if (!defined('R8P3B1R9S6L1')) {
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-            Lacalidades
+            Localidades
           </a>
           <div class="dropdown-menu">
             <a class="dropdown-item" href="<?php echo URL;?>prodrep">Canavieiras</a>
@@ -48,8 +48,6 @@ if (!defined('R8P3B1R9S6L1')) {
           </a>
           <div class="dropdown-menu">
             <a id="sobre" class="dropdown-item" href="<?php echo URL; ?>sobreempresa">Sobre Acaz</a>
-            <!--<a class="dropdown-item" href="mail.php">DocNet Mail</a>-->
-            <a id="fale_conosco" class="dropdown-item" href="<?php echo URL; ?>contato?assunto=informacoes_diversas">Contato</a>
           </div>
         </li>
       </ul>
