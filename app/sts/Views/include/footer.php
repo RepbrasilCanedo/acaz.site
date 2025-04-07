@@ -17,7 +17,6 @@ if (!empty($this->data['footer'][0])) {
 <div  class="centralizar m-5">
     <footer>
             <div class="row">
-
                 <div class="col-md-3 ">
                     <img src="<?php echo URL; ?>app/sts/assets/images/rodape/acaz_logo_g.png">
                 </div>

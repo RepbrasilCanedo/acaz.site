@@ -27,18 +27,34 @@ if (!defined('R8P3B1R9S6L1')) {
           </a>
           <div class="dropdown-menu">
             <a class="dropdown-item" href="<?php echo URL;?>prodrep">Levada Acaz</a>
-            <a class="dropdown-item" href="<?php echo URL;?>prodcat">Acervo Cultural</a>
-            <a class="dropdown-item" href="<?php echo URL;?>prodsup">Grupo Capoeira</a>
+            <a class="dropdown-item" href="<?php echo URL;?>prodcat">Centro Cultural</a>
+            <a class="dropdown-item" href="<?php echo URL;?>prodsup">Grupos Capoeira</a>
+            <a class="dropdown-item" href="<?php echo URL;?>prodsup">Projeto Pernalonga</a>
+            <a class="dropdown-item" href="<?php echo URL;?>prodsup">Capoeira na Escola</a>
           </div>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-            Localidades
+            Nucleos
           </a>
           <div class="dropdown-menu">
-            <a class="dropdown-item" href="<?php echo URL;?>prodrep">Canavieiras</a>
-            <a class="dropdown-item" href="<?php echo URL;?>prodcat">Barra Grande</a>
-            <a class="dropdown-item" href="<?php echo URL;?>prodsup">Ilheus</a>
+            <a class="dropdown-item" href="<?php echo URL;?>prodsup">Canavieiras-Ba</a>
+            <a class="dropdown-item" href="<?php echo URL;?>nucleocanI">Canavieiras-Ba I</a>
+            <a class="dropdown-item" href="<?php echo URL;?>nucleocanII">Canavieiras-Ba II</a>
+            <a class="dropdown-item" href="<?php echo URL;?>nucleocanIII">Canavieiras-Ba III</a>
+            <a class="dropdown-item" href="<?php echo URL;?>nucleocanIV">Canavieiras-Ba IV</a>
+            <a class="dropdown-item" href="<?php echo URL;?>nucleoarat">Arataca-Ba</a>
+            <a class="dropdown-item" href="<?php echo URL;?>nucleovit">Vitória-Es</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+            Eventos
+          </a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="<?php echo URL;?>nucleoarat">Batizados</a>
+            <a class="dropdown-item" href="<?php echo URL;?>nucleoarat">Apresentações</a>
+            <a class="dropdown-item" href="<?php echo URL;?>nucleoarat">Oficinas</a>
           </div>
         </li>
 
@@ -48,6 +64,7 @@ if (!defined('R8P3B1R9S6L1')) {
           </a>
           <div class="dropdown-menu">
             <a id="sobre" class="dropdown-item" href="<?php echo URL; ?>sobreempresa">Sobre Acaz</a>
+            <a id="sobre" class="dropdown-item" href="<?php echo URL; ?>sobreempresa">Histórico</a>
           </div>
         </li>
       </ul>
