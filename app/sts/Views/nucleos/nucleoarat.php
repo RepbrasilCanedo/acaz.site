@@ -29,8 +29,7 @@ if (!defined('R8P3B1R9S6L1')) {
                         <div class="col-md-4">
                         <h4 class="centralizar">Localização</h4>
                         <div class="mapa">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d934.8926853833519!2d-39.413976174249406!3d-15.259695346906236!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7382e984217fa7b%3A0x618df6b4d0ab3b68!2sPrimeira%20Igreja%20Batista%20de%20Arataca!5e0!3m2!1spt-BR!2sbr!4v1744112351654!5m2!1spt-BR!2sbr"
-                        style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7698.17512443863!2d-39.4169256!3d-15.26302!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7382eb963403bd5%3A0xd4ebec365834e1b9!2sArataca%2C%20BA%2C%2045695-000!5e0!3m2!1spt-BR!2sbr!4v1744129747497!5m2!1spt-BR!2sbr"style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </div>
                         </div>
                     </div>

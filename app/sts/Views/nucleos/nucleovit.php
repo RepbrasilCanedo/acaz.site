@@ -28,6 +28,9 @@ if (!defined('R8P3B1R9S6L1')) {
                         
                         <div class="col-md-4">
                         <h4 class="centralizar">Localização</h4>
+                        <div class="mapa">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d119674.53439555467!2d-40.5286831!3d-20.389931!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xb817b2995d6bf1%3A0xf69aa51e4ff904b1!2sVila%20Velha%2C%20ES!5e0!3m2!1spt-BR!2sbr!4v1744129998519!5m2!1spt-BR!2sbr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
                         </div>
                     </div>
                     <!-- Título e texto da pagina --> 

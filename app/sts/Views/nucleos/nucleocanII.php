@@ -28,6 +28,8 @@ if (!defined('R8P3B1R9S6L1')) {
                         
                         <div class="col-md-4">
                         <h4 class="centralizar">Localização</h4>
+                        <div class="mapa">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1169.1978030318458!2d-38.9552555!3d-15.6731184!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x737423061460fc7%3A0x824aed722db1338f!2sAv.%20Osm%C3%A1rio%20Batista%2C%20792%20-%20Centro%2C%20Canavieiras%20-%20BA%2C%2045860-000!5e1!3m2!1spt-BR!2sbr!4v1744130249006!5m2!1spt-BR!2sbr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </div>
                     </div>
                     <!-- Título e texto da pagina --> 

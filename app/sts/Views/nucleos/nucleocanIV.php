@@ -28,6 +28,9 @@ if (!defined('R8P3B1R9S6L1')) {
                         
                         <div class="col-md-4">
                         <h4 class="centralizar">Localização</h4>
+                        <div class="mapa">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1170.7584855929317!2d-38.9997854!3d-15.3981885!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x739de31c35445ed%3A0xcffa36ab62e93ce1!2sOiticica%20-%20Poxim%20do%20Sul%2C%20Canavieiras%20-%20BA%2C%2045860-000!5e1!3m2!1spt-BR!2sbr!4v1744130515006!5m2!1spt-BR!2sbr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
                         </div>
                     </div>
                     <!-- Título e texto da pagina --> 
