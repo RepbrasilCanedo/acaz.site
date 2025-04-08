@@ -40,12 +40,9 @@ if (!empty($this->data['footer'][0])) {
 
                 <div class="col-md-3">
                     <h5>Redes Sociais</h5>
-                    <a href="https://www.instagram.com/">
-                        <i class="fab fa-instagram btn-lg btn-outline-danger" data-toggle="tooltip" data-placement="top" title="Conheça melhor nossos projetos através de nosso Instagram"></i>
-                    </a>
-                    <a href="https://www.youtube.com/">
-                        <i class="fab fa-youtube btn-lg btn-outline-danger" data-toggle="tooltip" data-placement="top" title="Noticias."></i>
-                    </a>
+                    <div class="mapa">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4676.611297973711!2d-38.94707337402043!3d-15.680972120174173!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x737433a14e279c5%3A0xcb50186094c186cc!2sPrefeitura%20Municipal!5e1!3m2!1spt-BR!2sbr!4v1744135882366!5m2!1spt-BR!2sbr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
                 </div>
             </div>
 
