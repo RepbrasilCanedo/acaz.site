@@ -23,7 +23,7 @@
     Amarelo - #efde09
     */
 :root{
-    --main-color:#fef7af;
+    --main-color:#f8f6e1;
 	--link-visitado:#000040;
     --site-color:#fff;
     --active-color:#009748;
@@ -150,6 +150,11 @@ nav{
 }
 .fundo_top{
 	background-color: var(--main-color);
+	color: var(--text-color);
+	
+}
+.fundo_menu{
+	background-color: var(--active-color);
 	color: var(--text-color);
 	
 }

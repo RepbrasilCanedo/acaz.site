@@ -116,7 +116,6 @@ if (!defined('R8P3B1R9S6L1')) {
                                 <p class="justificar"><?php if (isset($content_12)) {echo $content_12;} ?></p>
                             </div>
                     </div>
-
                     
 
                     <div class="row m-2">
@@ -131,9 +130,9 @@ if (!defined('R8P3B1R9S6L1')) {
                 <a href="<?php if (isset($link_btn_2)) {echo $link_btn_2;} ?>" class="btn btn-sm btn-info cor-botoes m-3"> <?php if (isset($text_btn_2)) {echo $text_btn_2;} ?> </a>
               </div>
                    
-            <?php
+            <?php 
             }
-            } else {
+             } else {
                 echo "<p style='color: #f00;'>Erro: Nenhum registro encontrado</p>";
             }
             ?>

@@ -1,7 +1,8 @@
 <?php
+
 namespace Sts\Controllers;
 
-if(!defined('R8P3B1R9S6L1')){
+if (!defined('R8P3B1R9S6L1')) {
     //header("location:/");
     die("Erro: Pagina nao encontrata");
 }
@@ -17,15 +18,15 @@ class NucleoCanI
      * 
      */
 
-     public function index()
-     {
-         $nucleocanI = new \Sts\Models\StsNucleoCanI();
-         $this->data['nucleocanI'] = $nucleocanI->index();
+    public function index()
+    {
+        $nucleocanI = new \Sts\Models\StsNucleoCanI();
+        $this->data['nucleocanI'] = $nucleocanI->index();
 
         $footer = new \Sts\Models\StsFooter();
-          $this->data['footer'] = $footer->index();
-         $loadView = new \Core\ConfigView("sts/Views/nucleos/nucleocanI", $this->data);
+        $this->data['footer'] = $footer->index();
 
-         $loadView->loadView();
-     }
+        $loadView = new \Core\ConfigView("sts/Views/nucleos/nucleocanI", $this->data);
+        $loadView->loadView();
+    }
 }

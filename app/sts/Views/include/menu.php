@@ -6,7 +6,7 @@ if (!defined('R8P3B1R9S6L1')) {
 }
 ?>
 <!--    xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx   Inicio do Menu superior   xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx    -->
-<nav class="navbar navbar-expand-lg navbar-light fundo_top">
+<nav class="navbar navbar-expand-lg navbar-light fundo_menu">
   <div class="container">
     <img src="<?php echo URL; ?>app/sts/assets/images/logos/acaz_logo.png">
     <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal">

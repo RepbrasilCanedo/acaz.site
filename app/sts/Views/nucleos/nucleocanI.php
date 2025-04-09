@@ -13,7 +13,6 @@ if (!defined('R8P3B1R9S6L1')) {
             if (!empty($this->data['nucleocanI'])) {
                 foreach($this->data['nucleocanI'] as $nucleocanI) {
                     extract($nucleocanI);
-                   //echo('<pre>');print_r($nucleocanI); echo('</pre>');
             ?>
             <section class="mb-3">
                     <!-- Título e texto da pagina --> 
@@ -125,7 +124,7 @@ if (!defined('R8P3B1R9S6L1')) {
             </session>
                     
             <div style="text-align:center;">
-                <a href="<?php if (isset($link_btn_2)) {echo $link_btn_2;} ?>" class="btn btn-sm btn-info cor-botoes mb-5"> <?php if (isset($text_btn_2)) {echo $text_btn_2;} ?> </a>
+                <a href="<?php if (isset($link_btn_2)) {echo $link_btn_2;} ?>" class="btn btn-sm btn-info cor-botoes m-3"> <?php if (isset($text_btn_2)) {echo $text_btn_2;} ?> </a>
             </div>
 
             <?php

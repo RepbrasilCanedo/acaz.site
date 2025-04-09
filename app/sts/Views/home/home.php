@@ -118,7 +118,7 @@ if (!defined('R8P3B1R9S6L1')) {
           <p class="texto-caixa"><?php if (isset($contente_3)) {echo $contente_3;}?></p>
           <p class="texto-caixa"><?php if (isset($contente_4)) {echo $contente_4;}?></p>
         </article>
-        <a href="<?php if (isset($url_content)) {echo $url_content;}?>" class="btn btn-sm btn-info cor-botoes centralizar"> <?php if (isset($url_text)) {echo $url_text;}?> </a>
+        <a href="<?php if (isset($url_content)) {echo $url_content;}?>" class="btn btn-sm cor-botoes centralizar"> <?php if (isset($url_text)) {echo $url_text;}?> </a>
       </section> 
         <?php
             //}
