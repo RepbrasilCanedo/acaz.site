@@ -6,7 +6,7 @@ if (!defined('R8P3B1R9S6L1')) {
 }
 ?>
 <!--    xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx   Inicio do Menu superior   xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx    -->
-<nav class="navbar navbar-expand-lg navbar-light fundo_menu">
+<nav class="navbar navbar-expand-lg navbar-light fundo_menu sticky-menu">
   <div class="container">
     <img src="<?php echo URL; ?>app/sts/assets/images/logos/acaz_logo.png">
     <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal">
@@ -69,5 +69,22 @@ if (!defined('R8P3B1R9S6L1')) {
     </div>
   </div>
 </nav>
+
+<div class="menu-spacing"></div>
+
+<script>
+// Quando a página for carregada
+window.addEventListener("scroll", function() {
+  const navbar = document.querySelector('.sticky-menu'); 
+  const scrollPosition = window.scrollY;
+
+// Verifica se o menu deve ficar transparente após rolar 50px
+if (scrollPosition > 50) {
+  navbar.classList.add('transparent');
+} else {
+  navbar.classList.remove('transparent');
+}
+});
+</script>
 
 <!--    xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx   Final do Menu superior   xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx    -->
