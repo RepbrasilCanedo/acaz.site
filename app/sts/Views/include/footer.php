@@ -15,8 +15,16 @@ if (!empty($this->data['footer'][0])) {
 
     <!-- xxxxxxxxxxxxxxxxxx   Inicio do Rodapé   xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-->
     <div class="centralizar m-3">
-        <footer class="fundo_menu">
-            <div class="row m-3 p-4">
+        <footer class="fundo_menu">           
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div>
+                        <img src="<?php echo URL; ?>app/sts/assets/images/rodape/padrao.jpg" class="w-100" alt="Logomarca dos orgãos de incentivo a cultura">
+                    </div>
+                </div>
+            </div>
+            <div class="row m-3 p-2">
                 <div class="col-md-3">
                     <img src="<?php echo URL; ?>app/sts/assets/images/rodape/acaz_logo_g.png">
                 </div>
@@ -59,19 +67,11 @@ if (!empty($this->data['footer'][0])) {
                 </div>
             </div>
 
-            <div class="row p-3">
-                <div class="col-md-12">
-                    <div>
-                        <img src="<?php echo URL; ?>app/sts/assets/images/rodape/padrao.jpg" class="w-100" alt="Logomarca dos orgãos de incentivo a cultura">
-                    </div>
-                </div>
-            </div>
-
             <div class="row">
                 <div class="col-md-12">
                     <div>
                         <span id="copy_rodape">
-                            Copyright © 2025 | Grupo de Capoeira Adeptos de Zumbi, Todos os direitos reservados
+                            <b> Copyright © 2025 | Grupo de Capoeira Adeptos de Zumbi, Todos os direitos reservados</b>
                         </span>
                     </div>
                 </div>
