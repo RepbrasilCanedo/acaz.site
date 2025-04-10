@@ -121,7 +121,7 @@ if (!defined('R8P3B1R9S6L1')) {
                             <p class="justificar"><?php if (isset($content_hist)) {echo $content_hist;} ?></p>
                         </div>
                     </div>
-            </session>    
+            </section>    
             
               <div style="text-align:center;">
                 <a href="<?php if (isset($link_btn_2)) {echo $link_btn_2;} ?>" class="btn btn-sm btn-info cor-botoes m-3"> <?php if (isset($text_btn_2)) {echo $text_btn_2;} ?> </a>

@@ -14,16 +14,17 @@ if (!empty($this->data['footer'][0])) {
 ?>
 
     <!-- xxxxxxxxxxxxxxxxxx   Inicio do Rodapé   xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-->
-    <div class="centralizar m-3">
+    <div class="centralizar mx-0">
         <footer class="fundo_menu">           
-
-            <div class="row">
+        <div class="container-fluid p-0">
+            <div class="row no-gutters">
                 <div class="col-md-12">
                     <div>
                         <img src="<?php echo URL; ?>app/sts/assets/images/rodape/padrao.jpg" class="w-100" alt="Logomarca dos orgãos de incentivo a cultura">
                     </div>
                 </div>
             </div>
+        </div>
             <div class="row m-3 p-2">
                 <div class="col-md-3">
                     <img src="<?php echo URL; ?>app/sts/assets/images/rodape/acaz_logo_g.png">
@@ -66,7 +67,7 @@ if (!empty($this->data['footer'][0])) {
                     </div>
                 </div>
             </div>
-
+        <div class="container-fluid">
             <div class="row">
                 <div class="col-md-12">
                     <div>
@@ -76,6 +77,7 @@ if (!empty($this->data['footer'][0])) {
                     </div>
                 </div>
             </div>
+        </div>
         </footer>
         <!-- xxxxxxxxxxxxxxxxxx   Final do Rodapé   xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-->
     <?php } else {

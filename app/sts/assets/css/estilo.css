@@ -157,6 +157,7 @@ nav{
 .fundo_menu{
 	background-color: var(--active-color);
 	color: var(--text-color);
+	width: 100%;
 	
 }
 
