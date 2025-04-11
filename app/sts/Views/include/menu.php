@@ -29,7 +29,7 @@ if (!defined('R8P3B1R9S6L1')) {
             <a class="dropdown-item" href="<?php echo URL;?>prodrep">Levada Acaz</a>
             <a class="dropdown-item" href="<?php echo URL;?>prodcat">Centro Cultural</a>
             <a class="dropdown-item" href="<?php echo URL;?>prodsup">Grupos Capoeira</a>
-            <a class="dropdown-item" href="<?php echo URL;?>prodsup">Capoeira na Escola</a>
+            <a class="dropdown-item" href="<?php echo URL;?>capesc">Capoeira na Escola</a>
           </div>
         </li>
         <li class="nav-item dropdown">

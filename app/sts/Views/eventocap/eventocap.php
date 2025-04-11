@@ -49,7 +49,7 @@ if (!defined('R8P3B1R9S6L1')) {
                         </div>
                         <div class="col-md-3">
                             <div>
-                                <img src="<?php echo URLADM; ?>app/sts/assets/images/eventocap/eventocap/<?php if (isset($image_4)) {echo $image_4;} ?>" class="img-thumbnail d-block w-100"alt="Imagem da levada em apresentação publica">
+                                <img src="<?php echo URLADM; ?>app/sts/assets/images/eventocap/<?php if (isset($image_4)) {echo $image_4;} ?>" class="img-thumbnail d-block w-100"alt="Imagem da levada em apresentação publica">
                                 <h5 class="mt-3"><?php if (isset($sub_title_4)) {echo $sub_title_4;} ?></h5>
                                 <p class="justificar"><?php if (isset($content_4)) {echo $content_4;} ?></p>
                             </div>
@@ -59,28 +59,28 @@ if (!defined('R8P3B1R9S6L1')) {
                     <div class="row m-2">
                         <div class="col-md-3">
                             <div>
-                                <img src="<?php echo URLADM; ?>app/sts/assets/images/eventocap/eventocap/<?php if (isset($image_5)) {echo $image_5;} ?>" class="img-thumbnail d-block w-100"alt="Imagem da levada em apresentação publica">
+                                <img src="<?php echo URLADM; ?>app/sts/assets/images/eventocap/<?php if (isset($image_5)) {echo $image_5;} ?>" class="img-thumbnail d-block w-100"alt="Imagem da levada em apresentação publica">
                                 <h5 class="mt-3"><?php if (isset($sub_title_5)) {echo $sub_title_5;} ?></h5>
                                 <p class="justificar"><?php if (isset($content_5)) {echo $content_5;} ?></p>
                             </div>
                         </div>
                         <div class="col-md-3">
                             <div>
-                                <img src="<?php echo URLADM; ?>app/sts/assets/images/eventocap/eventocap/<?php if (isset($image_6)) {echo $image_6;} ?>" class="img-thumbnail d-block w-100"alt="Imagem da levada em apresentação publica">
+                                <img src="<?php echo URLADM; ?>app/sts/assets/images/eventocap/<?php if (isset($image_6)) {echo $image_6;} ?>" class="img-thumbnail d-block w-100"alt="Imagem da levada em apresentação publica">
                                 <h5 class="mt-3"><?php if (isset($sub_title_6)) {echo $sub_title_6;} ?></h5>
                                 <p class="justificar"><?php if (isset($content_6)) {echo $content_6;} ?></p>
                             </div>
                         </div>
                         <div class="col-md-3">
                             <div>
-                                <img src="<?php echo URLADM; ?>app/sts/assets/images/eventocap/eventocap/<?php if (isset($image_7)) {echo $image_7;} ?>" class="img-thumbnail d-block w-100"alt="Imagem da levada em apresentação publica">
+                                <img src="<?php echo URLADM; ?>app/sts/assets/images/eventocap/<?php if (isset($image_7)) {echo $image_7;} ?>" class="img-thumbnail d-block w-100"alt="Imagem da levada em apresentação publica">
                                 <h5 class="mt-3"><?php if (isset($sub_title_7)) {echo $sub_title_7;} ?></h5>
                                 <p class="justificar"><?php if (isset($content_7)) {echo $content_7;} ?></p>
                             </div>
                         </div>
                         <div class="col-md-3">
                             <div>
-                                <img src="<?php echo URLADM; ?>app/sts/assets/images/eventocap/eventocap/<?php if (isset($image_8)) {echo $image_8;} ?>" class="img-thumbnail d-block w-100"alt="Imagem da levada em apresentação publica">
+                                <img src="<?php echo URLADM; ?>app/sts/assets/images/eventocap/<?php if (isset($image_8)) {echo $image_8;} ?>" class="img-thumbnail d-block w-100"alt="Imagem da levada em apresentação publica">
                                 <h5 class="mt-3"><?php if (isset($sub_title_8)) {echo $sub_title_8;} ?></h5>
                                 <p class="justificar"><?php if (isset($content_8)) {echo $content_8;} ?></p>
                             </div>
@@ -90,28 +90,28 @@ if (!defined('R8P3B1R9S6L1')) {
                     <div class="row m-2">
                         <div class="col-md-3">
                             <div>
-                                <img src="<?php echo URLADM; ?>app/sts/assets/images/eventocap/eventocap/<?php if (isset($image_9)) {echo $image_9;} ?>" class="img-thumbnail d-block w-100"alt="Imagem da levada em apresentação publica">
+                                <img src="<?php echo URLADM; ?>app/sts/assets/images/eventocap/<?php if (isset($image_9)) {echo $image_9;} ?>" class="img-thumbnail d-block w-100"alt="Imagem da levada em apresentação publica">
                                 <h5 class="mt-3"><?php if (isset($sub_title_9)) {echo $sub_title_9;} ?></h5>
                                 <p class="justificar"><?php if (isset($content_9)) {echo $content_9;} ?></p>
                             </div>
                         </div>
                         <div class="col-md-3">
                             <div>
-                                <img src="<?php echo URLADM; ?>app/sts/assets/images/eventocap/eventocap/<?php if (isset($image_10)) {echo $image_10;} ?>" class="img-thumbnail d-block w-100"alt="Imagem da levada em apresentação publica">
+                                <img src="<?php echo URLADM; ?>app/sts/assets/images/eventocap/<?php if (isset($image_10)) {echo $image_10;} ?>" class="img-thumbnail d-block w-100"alt="Imagem da levada em apresentação publica">
                                 <h5 class="mt-3"><?php if (isset($sub_title_10)) {echo $sub_title_10;} ?></h5>
                                 <p class="justificar"><?php if (isset($content_10)) {echo $content_10;} ?></p>
                             </div>
                         </div>
                         <div class="col-md-3">
                             <div>
-                                <img src="<?php echo URLADM; ?>app/sts/assets/images/eventocap/eventocap/<?php if (isset($image_11)) {echo $image_11;} ?>" class="img-thumbnail d-block w-100"alt="Imagem da levada em apresentação publica">
+                                <img src="<?php echo URLADM; ?>app/sts/assets/images/eventocap/<?php if (isset($image_11)) {echo $image_11;} ?>" class="img-thumbnail d-block w-100"alt="Imagem da levada em apresentação publica">
                                 <h5 class="mt-3"><?php if (isset($sub_title_11)) {echo $sub_title_11;} ?></h5>
                                 <p class="justificar"><?php if (isset($content_11)) {echo $content_11;} ?></p>
                             </div>
                         </div>
                         <div class="col-md-3">
                             <div>
-                                <img src="<?php echo URLADM; ?>app/sts/assets/images/eventocap/eventocap/<?php if (isset($image_12)) {echo $image_12;} ?>" class="img-thumbnail d-block w-100"alt="Imagem da levada em apresentação publica">
+                                <img src="<?php echo URLADM; ?>app/sts/assets/images/eventocap/<?php if (isset($image_12)) {echo $image_12;} ?>" class="img-thumbnail d-block w-100"alt="Imagem da levada em apresentação publica">
                                 <h5 class="mt-3"><?php if (isset($sub_title_12)) {echo $sub_title_12;} ?></h5>
                                 <p class="justificar"><?php if (isset($content_12)) {echo $content_12;} ?></p>
                             </div>
