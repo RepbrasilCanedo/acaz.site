@@ -33,29 +33,29 @@ if (!empty($this->data['footer'][0])) {
                 <div class="col-md-2">
                     <h5>Ações Sociais</h5>
                     <ul class="navbar-nav">
-                        <li><a href="<?php echo URL; ?>prodrep">Levada da Acaz</a></li>
-                        <li><a href="<?php echo URL; ?>prodcat">Acervo Cultural</a></li>
-                        <li><a href="<?php echo URL; ?>prodsup">Capoeira</a></li>
+                        <li><a class="aLink" href="<?php echo URL; ?>prodrep">Levada da Acaz</a></li>
+                        <li><a class="aLink" href="<?php echo URL; ?>prodcat">Acervo Cultural</a></li>
+                        <li><a class="aLink" href="<?php echo URL; ?>prodsup">Capoeira</a></li>
                     </ul>
                 </div>
 
                 <div class="col-md-2">
                     <h5>Nucleos</h5>
                     <ul class="navbar-nav">
-                        <li><a href="<?php echo URL;?>nucleocanI">Canavieiras-Ba I</a></li>
-                        <li><a href="<?php echo URL;?>nucleocanII">Canavieiras-Ba II</a></li>
-                        <li><a href="<?php echo URL;?>nucleocanIII">Canavieiras-Ba III</a></li>
-                        <li><a href="<?php echo URL;?>nucleocanIV">Canavieiras-Ba IV</a></li>
-                        <li><a href="<?php echo URL;?>nucleoarat">Arataca-Ba</a></li>
-                        <li><a href="<?php echo URL;?>nucleovit">Vitória-Es</a></li>
+                        <li><a class="aLink" href="<?php echo URL;?>nucleocanI">Canavieiras-Ba I</a></li>
+                        <li><a class="aLink" href="<?php echo URL;?>nucleocanII">Canavieiras-Ba II</a></li>
+                        <li><a class="aLink" href="<?php echo URL;?>nucleocanIII">Canavieiras-Ba III</a></li>
+                        <li><a class="aLink" href="<?php echo URL;?>nucleocanIV">Canavieiras-Ba IV</a></li>
+                        <li><a class="aLink" href="<?php echo URL;?>nucleoarat">Arataca-Ba</a></li>
+                        <li><a class="aLink" href="<?php echo URL;?>nucleovit">Vitória-Es</a></li>
                     </ul>
                 </div>
 
                 <div class="col-md-2">
                     <h5>Institucional</h5>
                     <ul class="navbar-nav">
-                        <li><a href="<?php echo URL; ?>sobreempresa">Sobre Acaz</a></li>
-                        <li><a href="<?php echo URL; ?>historicoacaz">Histórico</a></li>
+                        <li><a class="aLink" href="<?php echo URL; ?>sobreempresa">Sobre Acaz</a></li>
+                        <li><a class="aLink" href="<?php echo URL; ?>historicoacaz">Histórico</a></li>
                     </ul>
                     <br>
                 </div>
