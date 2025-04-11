@@ -19,9 +19,9 @@ if (!empty($this->data['footer'][0])) {
         <div class="container-fluid p-0">
             <div class="row no-gutters">
                 <div class="col-md-12">
-                    <div>
+                   <!-- <div>
                         <img src="<?php echo URL; ?>app/sts/assets/images/rodape/padrao.jpg" class="w-100" alt="Logomarca dos orgãos de incentivo a cultura">
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>

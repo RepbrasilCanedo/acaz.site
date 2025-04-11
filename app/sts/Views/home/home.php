@@ -20,7 +20,7 @@ if (!defined('R8P3B1R9S6L1')) {
         ?>
 
           <!-- Início do Carousel -->
-          <div id="carousel_imagens" class="carousel slide" data-ride="carousel">
+          <div id="carousel_imagens" class="carousel slide" data-ride="carousel" >
             <!--Início inner Sistemas Secullum-->
             <div class="carousel-inner">
               <div class="carousel-item  active">
@@ -100,7 +100,7 @@ if (!defined('R8P3B1R9S6L1')) {
   </section>
   <!--  final da galeria de imgens-->
     
-  <div class="row">
+  <div class="row mt-5">
     <div class="col md-8">
     <?php
         // Acessa o IF quando encontrou algum registro no banco de dados
