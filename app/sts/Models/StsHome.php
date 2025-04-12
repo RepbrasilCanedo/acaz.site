@@ -1,31 +1,15 @@
 <?php
-
-
-
 namespace Sts\Models;
-
 // Redirecionar ou para o processamento quando o usuário não acessa o arquivo index.php
-
 if(!defined('R8P3B1R9S6L1')){
-
     //header("location:/");
-
     die("Erro: Pagina nao encontrata");
-
 }
-
-
-
 /**
-
  * Models responsável em buscar os dados da página home
-
  *
-
  * @author Daniel Canedo
-
  */
-
 class StsHome
 {
     /** @var array $data Recebe os registros do banco de dados */

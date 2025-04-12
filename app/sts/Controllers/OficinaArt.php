@@ -5,7 +5,7 @@ if(!defined('R8P3B1R9S6L1')){
     //header("location:/");
     die("Erro: Pagina nao encontrata");
 }
-class ProdSup
+class OficinaArt
 {
     /** @var array|string|null  $data recebe os dados que devem ser enviados para a View */
 
@@ -19,12 +19,13 @@ class ProdSup
 
      public function index()
      {
-         $prodsup = new \Sts\Models\StsProdSup();
-         $this->data['prodsup'] = $prodsup->index();
-        $footer = new \Sts\Models\StsFooter();
-          $this->data['footer'] = $footer->index();
-         $loadView = new \Core\ConfigView("sts/Views/prodsup/prodsup", $this->data);
+         $oficinaart = new \Sts\Models\StsOficinaArt();
+         $this->data['oficinaart'] = $oficinaart->index();
 
+        $footer = new \Sts\Models\StsFooter();
+        $this->data['footer'] = $footer->index();
+
+         $loadView = new \Core\ConfigView("sts/Views/oficinaart/oficinaart", $this->data);
          $loadView->loadView();
      }
 }

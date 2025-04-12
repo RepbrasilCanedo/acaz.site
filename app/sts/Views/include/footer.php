@@ -27,35 +27,39 @@ if (!empty($this->data['footer'][0])) {
         </div>
             <div class="row m-3 p-2">
                 <div class="col-md-3">
-                    <img src="<?php echo URL; ?>app/sts/assets/images/rodape/acaz_logo_g.png">
+                <a href="index.php">
+                   <img src="<?php echo URL; ?>app/sts/assets/images/rodape/acaz_logo_g.png">
+                </a>
                 </div>
 
                 <div class="col-md-2">
                     <h5>Ações Sociais</h5>
                     <ul class="navbar-nav">
-                        <li><a href="<?php echo URL; ?>prodrep">Levada da Acaz</a></li>
-                        <li><a href="<?php echo URL; ?>prodcat">Acervo Cultural</a></li>
-                        <li><a href="<?php echo URL; ?>prodsup">Capoeira</a></li>
+                        <li><a class="aLink" href="<?php echo URL; ?>levadaacaz">Levada da Acaz</a></li>
+                        <li><a class="aLink" href="<?php echo URL; ?>escritacaz">Escritorio Cultural</a></li>
+                        <li><a class="aLink" href="<?php echo URL; ?>oficinaart">Oficina Artezanato</a></li>
+                        <li><a class="aLink" href="<?php echo URL; ?>capesc">Capoeira na Escola</a></li>
                     </ul>
                 </div>
 
                 <div class="col-md-2">
                     <h5>Nucleos</h5>
                     <ul class="navbar-nav">
-                        <li><a href="<?php echo URL;?>nucleocanI">Canavieiras-Ba I</a></li>
-                        <li><a href="<?php echo URL;?>nucleocanII">Canavieiras-Ba II</a></li>
-                        <li><a href="<?php echo URL;?>nucleocanIII">Canavieiras-Ba III</a></li>
-                        <li><a href="<?php echo URL;?>nucleocanIV">Canavieiras-Ba IV</a></li>
-                        <li><a href="<?php echo URL;?>nucleoarat">Arataca-Ba</a></li>
-                        <li><a href="<?php echo URL;?>nucleovit">Vitória-Es</a></li>
+                        <li><a class="aLink" href="<?php echo URL;?>nucleocanI">Canavieiras-Ba I</a></li>
+                        <li><a class="aLink" href="<?php echo URL;?>nucleocanII">Canavieiras-Ba II</a></li>
+                        <li><a class="aLink" href="<?php echo URL;?>nucleocanIII">Canavieiras-Ba III</a></li>
+                        <li><a class="aLink" href="<?php echo URL;?>nucleocanIV">Canavieiras-Ba IV</a></li>
+                        <li><a class="aLink" href="<?php echo URL;?>nucleoarat">Arataca-Ba</a></li>
+                        <li><a class="aLink" href="<?php echo URL;?>nucleovit">Vitória-Es</a></li>
                     </ul>
                 </div>
 
                 <div class="col-md-2">
-                    <h5>Institucional</h5>
+                    <h5>Eventos</h5>
                     <ul class="navbar-nav">
-                        <li><a href="<?php echo URL; ?>sobreempresa">Sobre Acaz</a></li>
-                        <li><a href="<?php echo URL; ?>historicoacaz">Histórico</a></li>
+                        <li><a class="aLink" href="<?php echo URL; ?>eventocap">Capoeira Acaz</a></li>
+                        <li><a class="aLink" href="<?php echo URL; ?>eventolev">Levada da Acaz</a></li>
+                        <li><a class="aLink" href="<?php echo URL; ?>eventocul">Escritório Cultural</a></li>
                     </ul>
                     <br>
                 </div>
@@ -73,6 +77,11 @@ if (!empty($this->data['footer'][0])) {
                     <div>
                         <span id="copy_rodape">
                             <b> Copyright © 2025 | Grupo de Capoeira Adeptos de Zumbi, Todos os direitos reservados</b>
+                        </span>
+                    </div>
+                    <div class="mb-2">
+                        <span id="copy_rodape">
+                            <b> RepBrasil Tecnologia - Salvador - Ba</b>
                         </span>
                     </div>
                 </div>

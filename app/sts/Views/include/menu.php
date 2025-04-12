@@ -8,7 +8,9 @@ if (!defined('R8P3B1R9S6L1')) {
 <!--    xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx   Inicio do Menu superior   xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx    -->
 <nav class="navbar navbar-expand-lg navbar-light fundo_menu sticky-menu">
   <div class="container">
-    <img src="<?php echo URL; ?>app/sts/assets/images/logos/acaz_logo.png">
+    <a href="index.php">
+      <img src="<?php echo URL; ?>app/sts/assets/images/logos/acaz_logo.png">
+    </a>
     <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal">
       <i class="fas fa-bars text-white"></i>
     </button>
@@ -26,9 +28,9 @@ if (!defined('R8P3B1R9S6L1')) {
             Ações Sociais
           </a>
           <div class="dropdown-menu">
-            <a class="dropdown-item" href="<?php echo URL;?>prodrep">Levada Acaz</a>
-            <a class="dropdown-item" href="<?php echo URL;?>prodcat">Centro Cultural</a>
-            <a class="dropdown-item" href="<?php echo URL;?>prodsup">Grupos Capoeira</a>
+            <a class="dropdown-item" href="<?php echo URL;?>levadaacaz">Levada Acaz</a>
+            <a class="dropdown-item" href="<?php echo URL;?>escritacaz">Escritório Cultural</a>
+            <a class="dropdown-item" href="<?php echo URL;?>oficinaart">Oficina Artezanato</a>
             <a class="dropdown-item" href="<?php echo URL;?>capesc">Capoeira na Escola</a>
           </div>
         </li>
@@ -50,9 +52,9 @@ if (!defined('R8P3B1R9S6L1')) {
             Eventos
           </a>
           <div class="dropdown-menu">
-            <a class="dropdown-item" href="<?php echo URL;?>eventocap">Capoeira</a>
+            <a class="dropdown-item" href="<?php echo URL;?>eventocap">Capoeira Acaz</a>
             <a class="dropdown-item" href="<?php echo URL;?>eventolev">Levada da Acaz</a>
-            <a class="dropdown-item" href="<?php echo URL;?>eventocul">Casa da Cultura</a>
+            <a class="dropdown-item" href="<?php echo URL;?>eventocul">Escritório Cultural</a>
           </div>
         </li>
 

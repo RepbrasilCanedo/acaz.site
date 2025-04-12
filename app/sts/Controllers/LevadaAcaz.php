@@ -5,7 +5,7 @@ if(!defined('R8P3B1R9S6L1')){
     //header("location:/");
     die("Erro: Pagina nao encontrata");
 }
-class ProdRep
+class LevadaAcaz
 {
     /** @var array|string|null  $data recebe os dados que devem ser enviados para a View */
 
@@ -19,13 +19,13 @@ class ProdRep
 
      public function index()
      {
-         $prodrep = new \Sts\Models\StsProdRep();
-         $this->data['prodrep'] = $prodrep->index();
+         $levadaacaz = new \Sts\Models\StsLevadaAcaz();
+         $this->data['levadaacaz'] = $levadaacaz->index();
  
           $footer = new \Sts\Models\StsFooter();
           $this->data['footer'] = $footer->index();
 
-         $loadView = new \Core\ConfigView("sts/Views/prodrep/prodrep", $this->data);
+         $loadView = new \Core\ConfigView("sts/Views/levadaacaz/levadaacaz", $this->data);
          $loadView->loadView();
      }
 }
