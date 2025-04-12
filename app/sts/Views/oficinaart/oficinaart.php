@@ -10,10 +10,9 @@ if (!defined('R8P3B1R9S6L1')) {
     <div class="container max-width">
             <?php
             // Acessa o IF quando encontrou algum registro no banco de dados
-            if (!empty($this->data['oficinaart'])) {
-                foreach($this->data['oficinaart'] as $oficinaart) {
-                    extract($oficinaart);
-                   //echo('<pre>');print_r($oficinaart); echo('</pre>');
+            if (!empty($this->data['oficinaart']['conteudo'])) {
+                foreach($this->data['oficinaart']['conteudo'] as $oficinaart) {
+                extract($oficinaart);
             ?>
             <section class="mb-3">
                     <!-- Título e texto da pagina --> 

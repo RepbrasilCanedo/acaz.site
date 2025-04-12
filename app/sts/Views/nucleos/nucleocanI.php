@@ -9,7 +9,7 @@ if (!defined('R8P3B1R9S6L1')) {
 <body style="background: url(<?php echo URL; ?>app/sts/assets/images/Papel_Parede.jpg) left center;">
     <div class="container max-width">
             
-            <section class="mb-3">
+        <section class="mb-3">
             <?php
             // Acessa o IF quando encontrou algum registro no banco de dados
             if (!empty($this->data['nucleocanI']['conteudo'][0])) {                
@@ -122,21 +122,22 @@ if (!defined('R8P3B1R9S6L1')) {
                         </div>
                     </div>
                     <?php
-            }
-             else {
-                echo "<p style='color: #f00;'>Erro: Nenhum registro encontrado</p>";
-            }
-            ?>
-            </session>
-            <session class="mb-3">
+                    }
+                    else {
+                        echo "<p style='color: #f00;'>Erro: Nenhum registro encontrado</p>";
+                    }
+                    ?>
+        </session>
+        
+        <session class="mb-3">
             <div class="row">
-        <div class="col md-12">         
-        <?php
-        // Acessa o IF quando encontrou algum registro no banco de dados
-        if (!empty($this->data['nucleocanI']['carroussel'][0])) {
-              extract($this->data['nucleocanI']['carroussel'][0]);
-               //echo('<pre>');print_r($home); echo('</pre>');
-        ?>
+              <div class="col md-12">         
+            <?php
+            // Acessa o IF quando encontrou algum registro no banco de dados
+            if (!empty($this->data['nucleocanI']['carroussel'][0])) {
+                  extract($this->data['nucleocanI']['carroussel'][0]);
+                  //echo('<pre>');print_r($home); echo('</pre>');
+            ?>
 
           <!-- Início do Carousel -->
           <div id="carousel_imagens" class="carousel slide" data-ride="carousel" >
@@ -208,20 +209,18 @@ if (!defined('R8P3B1R9S6L1')) {
             <!-- Final dos controles -->
           </div>
           <!-- Final do Carousel -->
-        <?php
-           //}
-        } else {
-            echo "<p style='color: #f00;'>Erro: Nenhum registro encontrado</p>";
-        }
-        ?>
-        </div>
-      </div>
-            </session>
+          <?php
+            //}
+          } else {
+              echo "<p style='color: #f00;'>Erro: Nenhum registro encontrado</p>";
+          }
+          ?>
+          </div>
+          </div>
+        </session>
                     
-            <div style="text-align:center;">
-                <a href="<?php if (isset($link_btn_2)) {echo $link_btn_2;} ?>" class="btn btn-sm btn-info cor-botoes m-3"> <?php if (isset($text_btn_2)) {echo $text_btn_2;} ?> </a>
-            </div>
-
-            
+        <div style="text-align:center;">
+          <a href="<?php if (isset($link_btn_2)) {echo $link_btn_2;} ?>" class="btn btn-sm btn-info cor-botoes m-3"> <?php if (isset($text_btn_2)) {echo $text_btn_2;} ?> </a>
+        </div>            
     </div>
 </body>
