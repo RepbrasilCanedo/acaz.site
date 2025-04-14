@@ -32,14 +32,14 @@ if (!defined('R8P3B1R9S6L1')) {
                                 <p class="justificar"><?php if (isset($content_1)) {echo $content_1;} ?></p>
                         </div>
                         <div class="col-md-4">
-                            <img src="<?php echo URLADM; ?>app/sts/assets/images/nucleoarat/<?php if (isset($image_2)) {echo $image_2;} ?>" class="img-thumbnail d-block w-100" alt="Imagem de roda de capoeira">
+                            <img src="<?php echo URLADM; ?>app/sts/assets/images/bibliografias/<?php if (isset($image_2)) {echo $image_2;} ?>" class="img-thumbnail d-block w-100" alt="Imagem do mestre de capoeira">
                         </div>
                     </div>
 
                     <!--Texto e imagem da segunda linha --> 
                     <div class="row m-2">
                         <div class="col-md-4">
-                            <img src="<?php echo URLADM; ?>app/sts/assets/images/nucleoarat/<?php if (isset($image_3)) {echo $image_3;} ?>" class="img-thumbnail d-block w-100" alt="Imagem de roda de capoeira">
+                            <img src="<?php echo URLADM; ?>app/sts/assets/images/bibliografias/<?php if (isset($image_3)) {echo $image_3;} ?>" class="img-thumbnail d-block w-100" alt="Imagem do mestre de capoeira">
                         </div>
                         <div class="col-md-8">  
                                 <h5 class="mt-3"><?php if (isset($sub_title_2)) {echo $sub_title_2;} ?></h5>
@@ -54,14 +54,14 @@ if (!defined('R8P3B1R9S6L1')) {
                                 <p class="justificar"><?php if (isset($content_3)) {echo $content_3;} ?></p>
                         </div>
                         <div class="col-md-4">
-                            <img src="<?php echo URLADM; ?>app/sts/assets/images/nucleoarat/<?php if (isset($image_4)) {echo $image_4;} ?>" class="img-thumbnail d-block w-100" alt="Imagem de roda de capoeira">
+                            <img src="<?php echo URLADM; ?>app/sts/assets/images/bibliografias/<?php if (isset($image_4)) {echo $image_4;} ?>" class="img-thumbnail d-block w-100" alt="Imagem de roda de capoeira">
                         </div>
                     </div>
 
                     <!--Texto e imagem da quarta linha --> 
                     <div class="row m-2">
                         <div class="col-md-4">
-                            <img src="<?php echo URLADM; ?>app/sts/assets/images/nucleoarat/<?php if (isset($image_4)) {echo $image_4;} ?>" class="img-thumbnail d-block w-100" alt="Imagem de roda de capoeira">
+                            <img src="<?php echo URLADM; ?>app/sts/assets/images/bibliografias/<?php if (isset($image_5)) {echo $image_5;} ?>" class="img-thumbnail d-block w-100" alt="Imagem de roda de capoeira">
                         </div>
                         <div class="col-md-8">  
                                 <h5 class="mt-3"><?php if (isset($sub_title_4)) {echo $sub_title_4;} ?></h5>
@@ -76,14 +76,14 @@ if (!defined('R8P3B1R9S6L1')) {
                                 <p class="justificar"><?php if (isset($content_5)) {echo $content_5;} ?></p>
                         </div>
                         <div class="col-md-4">
-                            <img src="<?php echo URLADM; ?>app/sts/assets/images/nucleoarat/<?php if (isset($image_5)) {echo $image_5;} ?>" class="img-thumbnail d-block w-100" alt="Imagem de roda de capoeira">
+                            <img src="<?php echo URLADM; ?>app/sts/assets/images/bibliografias/<?php if (isset($image_6)) {echo $image_6;} ?>" class="img-thumbnail d-block w-100" alt="Imagem de roda de capoeira">
                         </div>
                     </div>
 
                     <!--Texto e imagem da sexta linha --> 
                     <div class="row m-2">
                         <div class="col-md-4">
-                            <img src="<?php echo URLADM; ?>app/sts/assets/images/nucleoarat/<?php if (isset($image_6)) {echo $image_6;} ?>" class="img-thumbnail d-block w-100" alt="Imagem de roda de capoeira">
+                            <img src="<?php echo URLADM; ?>app/sts/assets/images/bibliografias/<?php if (isset($image_7)) {echo $image_7;} ?>" class="img-thumbnail d-block w-100 mt-5" alt="Imagem de roda de capoeira">
                         </div>
                         <div class="col-md-8">  
                                 <h5 class="mt-3"><?php if (isset($sub_title_6)) {echo $sub_title_6;} ?></h5>
@@ -98,7 +98,7 @@ if (!defined('R8P3B1R9S6L1')) {
                                 <p class="justificar"><?php if (isset($content_7)) {echo $content_7;} ?></p>
                         </div>
                         <div class="col-md-4">
-                            <img src="<?php echo URLADM; ?>app/sts/assets/images/nucleoarat/<?php if (isset($image_7)) {echo $image_7;} ?>" class="img-thumbnail d-block w-100" alt="Imagem de roda de capoeira">
+                            <img src="<?php echo URLADM; ?>app/sts/assets/images/bibliografias/<?php if (isset($image_8)) {echo $image_8;} ?>" class="img-thumbnail d-block w-100" alt="Imagem de roda de capoeira">
                         </div>
                     </div>
 
