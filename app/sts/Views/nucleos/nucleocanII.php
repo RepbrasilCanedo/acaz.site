@@ -28,7 +28,7 @@ if (!defined('R8P3B1R9S6L1')) {
                         <div class="col-md-4">
                         <h4 class="centralizar">Localização</h4>
                         <div class="mapa">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d292.3082898733347!2d-38.9470629!3d-15.6669421!3m2!1i1024!2i768!4f13.1!3m2!1m1!2s!5e1!3m2!1spt-BR!2sbr!4v1744130368661!5m2!1spt-BR!2sbr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d826.7469865978284!2d-38.955451480993716!3d-15.673293389887517!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x737423067add42b%3A0x8b29d9d77d571431!2sSCENTRAL%20BARBER!5e1!3m2!1spt-BR!2sbr!4v1744657421668!5m2!1spt-BR!2sbr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </div>
                         </div>
                     </div>
@@ -111,8 +111,6 @@ if (!defined('R8P3B1R9S6L1')) {
                         <div class="col-md-8">
                             <h4 class="mt-3 centralizar"><?php if (isset($sub_title_hist)) {echo $sub_title_hist;} ?></h4>
                             <p class="justificar"><?php if (isset($content_hist)) {echo $content_hist;} ?></p>
-                            <img src="<?php echo URLADM; ?>app/sts/assets/images/nucleocanII/<?php if (isset($image_11)) {echo $image_11;} ?>" class="img-thumbnail d-block w-100"alt="Imagem de roda de capoeira">
-                                
                         </div>
                         <div class="col-md-4">
                             <h4 class="mt-3 centralizar">Divulgação</h4>     
@@ -148,7 +146,6 @@ if (!defined('R8P3B1R9S6L1')) {
                     <div class="carousel-caption d-none d-md-block">
                     <h3 class="texto-carrousel"><?php if (isset($titlte_1)) {echo $titlte_1;}?></h3>
                     <p class="todas-maiusculas texto-carrousel"><?php if (isset($sub_title_1)) {echo $sub_title_1;}?></p>
-                    <a href="<?php if (isset($link_url_1)) {echo $link_url_1;}?>" class="btn btn-sm btn-info cor-botoes"><?php if (isset($link_text_1)) {echo $link_text_1;}?> </a>
                     </div>
                 </div> 
 
@@ -157,7 +154,6 @@ if (!defined('R8P3B1R9S6L1')) {
                     <div class="carousel-caption d-none d-md-block">
                     <h3 class="texto-carrousel"><?php if (isset($titlte_2)) {echo $titlte_2;}?></h3>
                     <p class="todas-maiusculas texto-carrousel"><?php if (isset($sub_title_2)) {echo $sub_title_2;}?></p>
-                    <a href="<?php if (isset($link_url_2)) {echo $link_url_2;}?>" class="btn btn-sm btn-info cor-botoes"><?php if (isset($link_text_2)) {echo $link_text_2;}?></a>
                     </div>
                 </div>
 
@@ -166,7 +162,6 @@ if (!defined('R8P3B1R9S6L1')) {
                     <div class="carousel-caption d-none d-md-block">
                     <h3 class="texto-carrousel"><?php if (isset($titlte_3)) {echo $titlte_3;}?></h3>
                     <p class="todas-maiusculas texto-carrousel"><?php if (isset($sub_title_3)) {echo $sub_title_3;}?></p>
-                    <a href="<?php if (isset($link_url_3)) {echo $link_url_3;}?>" class="btn btn-sm btn-info cor-botoes"><?php if (isset($link_text_3)) {echo $link_text_3;}?></a>
                     </div>
                 </div>
 
@@ -175,7 +170,6 @@ if (!defined('R8P3B1R9S6L1')) {
                     <div class="carousel-caption d-none d-md-block">
                     <h3 class="texto-carrousel"><?php if (isset($titlte_4)) {echo $titlte_4;}?></h3>
                     <p class="todas-maiusculas texto-carrousel"><?php if (isset($sub_title_4)) {echo $sub_title_4;}?></p>
-                    <a href="<?php if (isset($link_url_4)) {echo $link_url_4;}?>" class="btn btn-sm btn-info cor-botoes"><?php if (isset($link_text_4)) {echo $link_text_4;}?></a>
                     </div>
                 </div>
 
@@ -184,7 +178,6 @@ if (!defined('R8P3B1R9S6L1')) {
                     <div class="carousel-caption d-none d-md-block">
                     <h3 class="texto-carrousel"><?php if (isset($titlte_5)) {echo $titlte_5;}?></h3>
                     <p class="todas-maiusculas texto-carrousel"><?php if (isset($sub_title_5)) {echo $sub_title_5;}?></p>
-                    <a href="<?php if (isset($link_url_5)) {echo $link_url_5;}?>" class="btn btn-sm btn-info cor-botoes"><?php if (isset($link_text_5)) {echo $link_text_5;}?></a>
                     </div>
                 </div>
 
@@ -193,7 +186,6 @@ if (!defined('R8P3B1R9S6L1')) {
                     <div class="carousel-caption d-none d-md-block">
                     <h3 class="texto-carrousel"><?php if (isset($titlte_6)) {echo $titlte_6;}?></h3>
                     <p class="todas-maiusculas texto-carrousel"><?php if (isset($sub_title_6)) {echo $sub_title_6;}?></p>
-                    <a href="<?php if (isset($link_url_6)) {echo $link_url_6;}?>" class="btn btn-sm btn-info cor-botoes"><?php if (isset($link_text_6)) {echo $link_text_6;}?></a>
                     </div>
                 </div>
                 </div>
@@ -220,7 +212,7 @@ if (!defined('R8P3B1R9S6L1')) {
             </session>
                     
             <div style="text-align:center;">
-                <a href="<?php if (isset($link_btn_2)) {echo $link_btn_2;} ?>" class="btn btn-sm btn-info cor-botoes m-3"> <?php if (isset($text_btn_2)) {echo $text_btn_2;} ?> </a>
+                <a href="<?php if (isset($link_btn_2)) {echo $link_btn_2;} ?>" class="btn btn-sm btn-info cor-botoes m-3 button_top"> <?php if (isset($text_btn_2)) {echo $text_btn_2;} ?> </a>
             </div>
 
             

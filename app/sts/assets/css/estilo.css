@@ -118,6 +118,10 @@ p{
 	text-align: justify;
 }
 
+.button_top:hover {
+	background-color: var(--hover-button);
+}
+
 .texto-apresentacao{
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
@@ -156,7 +160,13 @@ nav{
 	background-color: var(--active-color);
 	color: var(--text-color);
 	width: 100%;
-	
+}
+
+.fundo_rodape{
+	width: 100%;
+	background: linear-gradient(to top, #4b0000, #d92028);
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .navbar {
@@ -329,9 +339,17 @@ nav{
 }
 
 .aLink {
-	color: var(--site-color) !important;
+	color: var(--site-color);
 	font-weight: 500;
 	transition: all 0.3s ease-in-out;
+}
+
+.aLink:hover {
+	color: var(--hover-color);
+	background-color: var(--active-color);
+	border: 1px solid #eee;
+	border-radius: 0.3rem;
+	padding: 0.1rem 0.4rem
 }
 
 /*Noticias*/

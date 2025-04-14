@@ -28,8 +28,8 @@ if (!defined('R8P3B1R9S6L1')) {
                 } ?>
                 </div>
         </div>
-        <div style="text-align:center;">
-            <a href="sobreempresa" class="btn btn-sm btn-info cor-botoes"> Topo da Página </a>
-        </div>
     </div>
+    <div style="text-align:center;">
+            <a href="sobreempresa" class="btn btn-sm btn-info cor-botoes mb-5 button_top" > Topo da Página </a>
+        </div>
 </body>
