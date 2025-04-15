@@ -9,45 +9,25 @@ namespace Core;
 // Redirecionar ou para o processamento quando o usuário não acessa o arquivo index.php
 
 if (!defined('R8P3B1R9S6L1')) {
-
     header("Location: /");
-
     die("Erro: Página não encontrada!");
-
 }
 
-
-
 /**
-
  * Carregar as páginas da View
-
  * 
-
  * @author Daniel Canedo <docan2006@gmail.com>
-
  */
-
 class ConfigView
-
 {
-
-
-
     /**
-
      * Receber o endereço da VIEW e os dados.
-
      * @param string $nameView Endereço da VIEW que deve ser carregada
-
      * @param array|string|null $data Dados que a VIEW deve receber.
-
      */
-
-   
+ 
 
     public function __construct(private string $nameView, private array|string|null $data)
-
     {        
 
     }
