@@ -2,7 +2,7 @@
 namespace Sts\Controllers;
 
 if(!defined('R8P3B1R9S6L1')){
-    //header("location:/");
+    header("location:/");
     die("Erro: Pagina nao encontrata");
 }
 class OficinaArt
