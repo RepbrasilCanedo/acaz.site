@@ -39,7 +39,9 @@
 body {
     background-color: var(--main-color);
     color: var(--fist-color);
+	max-width: 100%;
 }
+
 
 .mapa iframe {
 	width: 100%;
@@ -128,14 +130,19 @@ p{
     font-size: 15px;
 
 }
+
 .texto-caixa{
     align-items: center; /*alinhamento na vertical em relação a altura*/
     justify-content: right;  /*alinhamento na horizontal em relação a largura*/
 	text-align: justify;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 0.938rem;
 	color: var(--text-color);
+	max-width: 100%;
+    overflow-wrap: break-word; /* quebra palavras grandes */
+    word-wrap: break-word;     /* compatibilidade */
+    hyphens: auto;    
 }
 
 .menu_lateral{
@@ -385,6 +392,12 @@ img.imagem-principal{
 	align-items: center;
 	padding: 3px;
 }
+
+img {
+	max-width: 100%;
+	height: auto;
+  }
+
 .noticias1 {
 	columns: 100px 3;
 	column-gap: 30px;
@@ -598,6 +611,5 @@ img.imagem-principal{
     width: 100%;
     height: 100%;
 }
-
 
 /* Fim da pagina sobre empresa */

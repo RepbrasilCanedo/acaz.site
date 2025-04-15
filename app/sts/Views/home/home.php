@@ -164,7 +164,7 @@ if (!defined('R8P3B1R9S6L1')) {
     
     <!-- Inicio linha de marketing-->
     <div class="row mt-5">
-      <div class="col centralizar ">
+      <div class="col centralizar">
       <img src="<?php echo URLADM; ?>app/sts/assets/images/marketing/<?php if (isset($marketing_1)) {echo $marketing_1;}?>" alt="<?php if (isset($marketing_1_alt)) {echo $marketing_1_alt;}?>">
       </div>
     </div>
@@ -228,8 +228,8 @@ if (!defined('R8P3B1R9S6L1')) {
     </div>
   </section>
 
-    <div style="text-align:center;">
-        <a href="<?php if (isset($link_btn_2)) {echo $link_btn_2;} ?>" class="btn btn-sm btn-info cor-botoes m-3 button_top"> <?php if (isset($text_btn_2)) {echo $text_btn_2;} ?> </a>
+  <div style="text-align:center;">
+            <a href="index.php" class="btn btn-sm btn-info cor-botoes mb-5 button_top" > Topo da Página </a>
     </div> 
         <?php
             //}
