@@ -51,8 +51,7 @@ class StsFooter
         $viewHomeFooter= new \Sts\Models\helper\StsRead();
         $viewHomeFooter->fullRead("SELECT id, footer_desc, footer_text_link, footer_link FROM  sts_footers WHERE id=:id", "id=1");
         $this->data= $viewHomeFooter->getResult();
-        return $this->data;
-      
+        return $this->data;      
     }
 }
 ?>

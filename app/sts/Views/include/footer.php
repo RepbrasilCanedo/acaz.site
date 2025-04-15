@@ -92,6 +92,6 @@ if (!empty($this->data['footer'][0])) {
         
         <!-- xxxxxxxxxxxxxxxxxx   Final do Rodapé   xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-->
 <?php } else {
-    echo "<p style='color:#f00'> Erro: Nenghuma informação para o Rodapé Encontrado</p>";
+    echo "<p style='color:#f00'> Erro: Nenhuma informação para o Rodapé Encontrado</p>";
 } ?>
     <script src="<?php echo URL; ?>app/sts/assets/js/custom.js"></script>

@@ -22,6 +22,7 @@ class SobreEmpresa
         
         $footer = new \Sts\Models\StsFooter();
          $this->data['footer'] = $footer->index();
+         
         $loadView = new \Core\ConfigView("sts/Views/sobreempresa/sobreempresa", $this->data);
         $loadView->loadView();
     }

@@ -30,9 +30,6 @@ class StsHistoricoAcaz
         $this->data= $historicoacaz->getResult();
         //echo('<pre>');print_r($this->data); echo('</pre>');
         return $this->data;
-      
-        //echo "<pre>"; print_r($this->data['content']); echo "</pre>";
-        return $this->data;
     }
 }
 ?>
