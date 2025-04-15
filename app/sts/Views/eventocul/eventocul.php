@@ -123,8 +123,8 @@ if (!defined('R8P3B1R9S6L1')) {
                     
 
                     <div class="row m-2">
-                        <div class="col-md-12">
-                            <h4 class="mt-3 centralizar"><?php if (isset($sub_title_hist)) {echo $sub_title_hist;} ?></h4>
+                        <div class="col-md-12 centralizar">
+                            <h4 class="mt-3"><?php if (isset($sub_title_hist)) {echo $sub_title_hist;} ?></h4>
                             <p class="justificar"><?php if (isset($content_hist)) {echo $content_hist;} ?></p>
                         </div>
                     </div>

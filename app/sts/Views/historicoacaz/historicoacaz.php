@@ -32,14 +32,14 @@ if (!defined('R8P3B1R9S6L1')) {
                                 <p class="justificar"><?php if (isset($content_1)) {echo $content_1;} ?></p>
                         </div>
                         <div class="col-md-4">
-                            <img src="<?php echo URLADM; ?>app/sts/assets/images/bibliografias/<?php if (isset($image_2)) {echo $image_2;} ?>" class="img-thumbnail d-block w-100" alt="Imagem do mestre de capoeira">
+                            <img src="<?php echo URLADM; ?>app/sts/assets/images/bibliografias/<?php if (isset($image_2)) {echo $image_2;} ?>" class="img-thumbnail d-block w-100" alt="Mestre Neném e uma figura histórica antiga da capoeira em Itabuna na Bahia, e não foram encontradas imagens dele ate o momento.">
                         </div>
                     </div>
 
                     <!--Texto e imagem da segunda linha --> 
                     <div class="row m-2">
                         <div class="col-md-4">
-                            <img src="<?php echo URLADM; ?>app/sts/assets/images/bibliografias/<?php if (isset($image_3)) {echo $image_3;} ?>" class="img-thumbnail d-block w-100" alt="Imagem do mestre de capoeira">
+                            <img src="<?php echo URLADM; ?>app/sts/assets/images/bibliografias/<?php if (isset($image_3)) {echo $image_3;} ?>" class="img-thumbnail d-block w-100" alt="Mestre Paizinho e uma figura histórica antiga da capoeira em Itabuna na Bahia, e não foram encontradas imagens dele ate o momento">
                         </div>
                         <div class="col-md-8">  
                                 <h5 class="mt-3"><?php if (isset($sub_title_2)) {echo $sub_title_2;} ?></h5>

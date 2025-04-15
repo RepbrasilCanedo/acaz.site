@@ -21,14 +21,14 @@ if (!defined('R8P3B1R9S6L1')) {
 
           <!-- Início do Carousel -->
           <div id="carousel_imagens" class="carousel slide" data-ride="carousel" >
-            <!--Início inner Sistemas Secullum-->
+            <!--Início inner-->
             <div class="carousel-inner">
               <div class="carousel-item  active">
                 <img src="<?php echo URLADM; ?>app/sts/assets/images/carrousel/<?php if (isset($image_1)) {echo $image_1;}?>" class="d-block w-100" alt="Secullum Acadêmia">
                 <div class="carousel-caption d-none d-md-block">
                   <h3 class="texto-carrousel"><?php if (isset($titlte_1)) {echo $titlte_1;}?></h3>
                   <p class="todas-maiusculas texto-carrousel"><?php if (isset($sub_title_1)) {echo $sub_title_1;}?></p>
-                  <a href="<?php if (isset($link_url_1)) {echo $link_url_1;}?>" class="btn btn-sm btn-info cor-botoes"><?php if (isset($link_text_1)) {echo $link_text_1;}?> </a>
+                  <a href="<?php if (isset($link_url_1)) {echo $link_url_1;}?>" class="btn btn-sm btn-info cor-botoes button_top"><?php if (isset($link_text_1)) {echo $link_text_1;}?> </a>
                 </div>
               </div> 
 
@@ -37,7 +37,7 @@ if (!defined('R8P3B1R9S6L1')) {
                 <div class="carousel-caption d-none d-md-block">
                   <h3 class="texto-carrousel"><?php if (isset($titlte_2)) {echo $titlte_2;}?></h3>
                   <p class="todas-maiusculas texto-carrousel"><?php if (isset($sub_title_2)) {echo $sub_title_2;}?></p>
-                   <a href="<?php if (isset($link_url_2)) {echo $link_url_2;}?>" class="btn btn-sm btn-info cor-botoes"><?php if (isset($link_text_2)) {echo $link_text_2;}?></a>
+                   <a href="<?php if (isset($link_url_2)) {echo $link_url_2;}?>" class="btn btn-sm btn-info cor-botoes button_top"><?php if (isset($link_text_2)) {echo $link_text_2;}?></a>
                 </div>
               </div>
 
@@ -46,7 +46,7 @@ if (!defined('R8P3B1R9S6L1')) {
                 <div class="carousel-caption d-none d-md-block">
                   <h3 class="texto-carrousel"><?php if (isset($titlte_3)) {echo $titlte_3;}?></h3>
                   <p class="todas-maiusculas texto-carrousel"><?php if (isset($sub_title_3)) {echo $sub_title_3;}?></p>
-                  <a href="<?php if (isset($link_url_3)) {echo $link_url_3;}?>" class="btn btn-sm btn-info cor-botoes"><?php if (isset($link_text_3)) {echo $link_text_3;}?></a>
+                  <a href="<?php if (isset($link_url_3)) {echo $link_url_3;}?>" class="btn btn-sm btn-info cor-botoes button_top"><?php if (isset($link_text_3)) {echo $link_text_3;}?></a>
                 </div>
               </div>
 
@@ -55,7 +55,7 @@ if (!defined('R8P3B1R9S6L1')) {
                 <div class="carousel-caption d-none d-md-block">
                   <h3 class="texto-carrousel"><?php if (isset($titlte_4)) {echo $titlte_4;}?></h3>
                   <p class="todas-maiusculas texto-carrousel"><?php if (isset($sub_title_4)) {echo $sub_title_4;}?></p>
-                  <a href="<?php if (isset($link_url_4)) {echo $link_url_4;}?>" class="btn btn-sm btn-info cor-botoes"><?php if (isset($link_text_4)) {echo $link_text_4;}?></a>
+                  <a href="<?php if (isset($link_url_4)) {echo $link_url_4;}?>" class="btn btn-sm btn-info cor-botoes button_top"><?php if (isset($link_text_4)) {echo $link_text_4;}?></a>
                 </div>
               </div>
 
@@ -64,7 +64,7 @@ if (!defined('R8P3B1R9S6L1')) {
                 <div class="carousel-caption d-none d-md-block">
                   <h3 class="texto-carrousel"><?php if (isset($titlte_5)) {echo $titlte_5;}?></h3>
                   <p class="todas-maiusculas texto-carrousel"><?php if (isset($sub_title_5)) {echo $sub_title_5;}?></p>
-                  <a href="<?php if (isset($link_url_5)) {echo $link_url_5;}?>" class="btn btn-sm btn-info cor-botoes"><?php if (isset($link_text_5)) {echo $link_text_5;}?></a>
+                  <a href="<?php if (isset($link_url_5)) {echo $link_url_5;}?>" class="btn btn-sm btn-info cor-botoes button_top"><?php if (isset($link_text_5)) {echo $link_text_5;}?></a>
                 </div>
               </div>
 
@@ -73,19 +73,15 @@ if (!defined('R8P3B1R9S6L1')) {
                 <div class="carousel-caption d-none d-md-block">
                   <h3 class="texto-carrousel"><?php if (isset($titlte_6)) {echo $titlte_6;}?></h3>
                   <p class="todas-maiusculas texto-carrousel"><?php if (isset($sub_title_6)) {echo $sub_title_6;}?></p>
-                  <a href="<?php if (isset($link_url_6)) {echo $link_url_6;}?>" class="btn btn-sm btn-info cor-botoes"><?php if (isset($link_text_6)) {echo $link_text_6;}?></a>
+                  <a href="<?php if (isset($link_url_6)) {echo $link_url_6;}?>" class="btn btn-sm btn-info cor-botoes button_top"><?php if (isset($link_text_6)) {echo $link_text_6;}?></a>
                 </div>
               </div>
             </div>
-            <!--Final inner Sistemas Secullum-->
+            <!--Final inner-->
 
             <!-- inicio controles -->
-            <a href="#carousel_imagens" class="carousel-control-prev" data-slide="prev">
-              <i class="fas fa-angle-left fa-3x"></i>
-            </a>
-            <a href="#carousel_imagens" class="carousel-control-next" data-slide="next">
-              <i class="fas fa-angle-right fa-3x"></i>
-            </a>
+            <a href="#carousel_imagens" class="carousel-control-prev" data-slide="prev"><i class="fas fa-angle-left fa-3x"></i></a>
+            <a href="#carousel_imagens" class="carousel-control-next" data-slide="next"><i class="fas fa-angle-right fa-3x"></i></a>
             <!-- Final dos controles -->
           </div>
           <!-- Final do Carousel -->
@@ -99,10 +95,11 @@ if (!defined('R8P3B1R9S6L1')) {
       </div>
   </section>
   <!--  final da galeria de imgens-->
-    
+  <!--Inicio da segunda linha de divulgacao-->  
   <div class="row mt-5">
+    <!-- Linha da esquerda -->
     <div class="col md-8">
-    <?php
+      <?php
         // Acessa o IF quando encontrou algum registro no banco de dados
         if (!empty($this->data['home']['content'][0])) {
             //foreach ($this->data['home']['carroussel'][0] as $home) {
@@ -111,7 +108,6 @@ if (!defined('R8P3B1R9S6L1')) {
         ?>
       <section class="initial-article">
        <article id="materia_inicial_col_esq">
-          <!--  <img src="imagens/logo_repbrasil.png" class="d-block w-50 conteudo-produtos">   -->
           <h1 id="titulo_materia_inicial" class="conteudo-produtos centralizar"><?php if (isset($title)) {echo $title;}?></h1>
           <p class="texto-caixa"><?php if (isset($contente_1)) {echo $contente_1;}?></p>
           <p class="texto-caixa"><?php if (isset($contente_2)) {echo $contente_2;}?></p>
@@ -127,15 +123,13 @@ if (!defined('R8P3B1R9S6L1')) {
         }
         ?>
     </div>
-
+    <!-- Linha da direita -->
     <div class="col centralizar md-4">
-    <?php
+      <?php
         // Acessa o IF quando encontrou algum registro no banco de dados
         if (!empty($this->data['home']['institucional'][0])) {
-            //foreach ($this->data['home']['carroussel'][0] as $home) {
               extract($this->data['home']['institucional'][0]);
-               //echo('<pre>');print_r($this->data['home']['institucional'][0]); echo('</pre>');
-        ?>
+      ?>
        <section class="institucional">        
       <h3 class="conteudo-produtos "><?php if (isset($title)) {echo $title;}?></h3>
         <article id="video">
@@ -156,18 +150,25 @@ if (!defined('R8P3B1R9S6L1')) {
             echo "<p style='color: #f00;'>Erro: Nenhum registro encontrado</p>";   
         }
         ?>
-    </div>
+    
+  </div>
   </div>
 
   <section class="divulgacao">
-    <div class="row mt-3">
+
     <?php
         // Acessa o IF quando encontrou algum registro no banco de dados
         if (!empty($this->data['home']['divulgacao'][0])) {
-            //foreach ($this->data['home']['carroussel'][0] as $home) {
               extract($this->data['home']['divulgacao'][0]);
-               //echo('<pre>');print_r($this->data['home']['divulgacao'][0]); echo('</pre>');
     ?>
+    
+    <!-- Inicio linha de marketing-->
+    <div class="row mt-5">
+      <div class="col centralizar md-12">
+      <img src="<?php echo URLADM; ?>app/sts/assets/images/marketing/<?php if (isset($marketing_1)) {echo $marketing_1;}?>" alt="<?php if (isset($marketing_1_alt)) {echo $marketing_1_alt;}?>">
+      </div>
+    </div>
+    <div class="row mt-3">
       <div class="col md-12 conteudo-produtos" style="text-align:center;">
         <h4 class="mt-2"><?php if (isset($title)) {echo $title;}?></h4>
       </div>
@@ -229,9 +230,8 @@ if (!defined('R8P3B1R9S6L1')) {
 
     <div style="text-align:center;">
         <a href="<?php if (isset($link_btn_2)) {echo $link_btn_2;} ?>" class="btn btn-sm btn-info cor-botoes m-3 button_top"> <?php if (isset($text_btn_2)) {echo $text_btn_2;} ?> </a>
-    </div>
- 
-  <?php
+    </div> 
+        <?php
             //}
         } else {
             echo "<p style='color: #f00;'>Erro: Nenhum registro encontrado</p>";   
