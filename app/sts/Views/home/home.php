@@ -164,7 +164,7 @@ if (!defined('R8P3B1R9S6L1')) {
     
     <!-- Inicio linha de marketing-->
     <div class="row mt-5">
-      <div class="col centralizar md-12">
+      <div class="col centralizar ">
       <img src="<?php echo URLADM; ?>app/sts/assets/images/marketing/<?php if (isset($marketing_1)) {echo $marketing_1;}?>" alt="<?php if (isset($marketing_1_alt)) {echo $marketing_1_alt;}?>">
       </div>
     </div>
