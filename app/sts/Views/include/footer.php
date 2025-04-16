@@ -15,7 +15,7 @@ if (!empty($this->data['footer'][0])) {
 
     <!-- xxxxxxxxxxxxxxxxxx   Inicio do Rodapé   xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-->
     <div class="centralizar mx-0">
-        <footer class="fundo_rodape">           
+        <footer class="fundo_rodape w-100">           
             <div class="container-fluid p-0">
                 <div class="row no-gutters">
                     <div class="col-md-12">

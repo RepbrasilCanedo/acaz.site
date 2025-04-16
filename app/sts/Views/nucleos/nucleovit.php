@@ -13,53 +13,56 @@ if (!defined('R8P3B1R9S6L1')) {
         <section class="mb-3">
             <?php
             // Acessa o IF quando encontrou algum registro no banco de dados
-            if (!empty($this->data['nucleovit']['conteudo'])) {
-                foreach ($this->data['nucleovit']['conteudo'] as $nucleovit) {
-                    extract($nucleovit);
-                    //echo('<pre>');print_r($nucleovit); echo('</pre>');
-                    ?>
-                    <!-- Título e texto da pagina -->
-                    <div class="row m-2">
-                        <div class="col-md-4">
-                            <img src="<?php echo URLADM; ?>app/sts/assets/images/nucleovit/<?php if (isset($image)) {
-                                   echo $image;
-                               } ?>"
-                                class="img-thumbnail d-block w-100" alt="Imagem de roda de capoeira">
-                        </div>
-                        <div class="col-md-4">
-                            <h4 class="centralizar"><?php if (isset($title)) {
-                                echo $title;
-                            } ?></h4>
-                            <p class="justificar"><?php if (isset($content)) {
-                                echo $content;
-                            } ?></p>
-                        </div>
+            if (!empty($this->data['nucleovit']['conteudo'][0])) {
+                extract($this->data['nucleovit']['conteudo'][0]);
+                ?>
+                <!-- Primeiro card da página -->
+                <h4 class="centralizar">NÚCLEO VITÓRIA</h4>
+                <div class="centralizar">
+                    <div class="card mb-3">
+                        <div class="row g-0">
+                            <div class="col-md-6">
+                                <img src="<?php echo URLADM; ?>app/sts/assets/images/nucleovit/<?php if (isset($image)) {
+                                       echo $image;
+                                   } ?>" class="img-thumbnail d-block w-100" alt="Imagem da cidade de canavieiras">
+                            </div>
 
-                        <div class="col-md-4">
-                            <h4 class="centralizar">Localização</h4>
-                            <div class="mapa">
-                                <iframe
-                                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d119674.53439555467!2d-40.5286831!3d-20.389931!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xb817b2995d6bf1%3A0xf69aa51e4ff904b1!2sVila%20Velha%2C%20ES!5e0!3m2!1spt-BR!2sbr!4v1744129998519!5m2!1spt-BR!2sbr"
-                                    style="border:0;" allowfullscreen="" loading="lazy"
-                                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            <div class="col-md-6">
+                                <div class="card-body">
+                                    <h5 class="card-title"><?php if (isset($title)) {
+                                        echo $title;
+                                    } ?></h5>
+                                    <p class="card-text"><?php if (isset($content)) {
+                                        echo $content;
+                                    } ?></p>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <!-- Título e texto da pagina -->
+                    <!-- Segundo card da página -->
                     <div class="row m-2">
-                        <div class="col-md-8">
-                            <h5 class="mt-3"><?php if (isset($sub_title_1)) {
-                                echo $sub_title_1;
-                            } ?></h5>
-                            <p class="justificar"><?php if (isset($content_1)) {
-                                echo $content_1;
-                            } ?></p>
-                        </div>
-                        <div class="col-md-4">
-                            <img src="<?php echo URLADM; ?>app/sts/assets/images/nucleovit/<?php if (isset($image_2)) {
-                                   echo $image_2;
-                               } ?>"
-                                class="img-thumbnail d-block w-100" alt="Imagem de roda de capoeira">
+                        <div class="card mb-3">
+                            <div class="row g-0">
+                                <div class="col-md-6">
+                                    <div class="card-body">
+                                        <h5 class="card-title"><?php if (isset($sub_title_1)) {
+                                            echo $sub_title_1;
+                                        } ?></h5>
+                                        <p class="card-text"><?php if (isset($content_1)) {
+                                            echo $content_1;
+                                        } ?></p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <h4 class="centralizar">Localização</h4>
+                                    <div class="card-body mapa-container">
+                                        <iframe
+                                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d119674.53439555467!2d-40.5286831!3d-20.389931!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xb817b2995d6bf1%3A0xf69aa51e4ff904b1!2sVila%20Velha%2C%20ES!5e0!3m2!1spt-BR!2sbr!4v1744129998519!5m2!1spt-BR!2sbr"
+                                            style="border:0;" allowfullscreen="" loading="lazy"
+                                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
 
@@ -69,8 +72,7 @@ if (!defined('R8P3B1R9S6L1')) {
                             <div>
                                 <img src="<?php echo URLADM; ?>app/sts/assets/images/nucleovit/<?php if (isset($image_3)) {
                                        echo $image_3;
-                                   } ?>"
-                                    class="img-thumbnail d-block w-100" alt="Imagem de roda de capoeira">
+                                   } ?>" class="img-thumbnail d-block w-100" alt="Imagem de roda de capoeira">
                                 <h5 class="mt-3"><?php if (isset($sub_title_3)) {
                                     echo $sub_title_3;
                                 } ?></h5>
@@ -83,8 +85,7 @@ if (!defined('R8P3B1R9S6L1')) {
                             <div>
                                 <img src="<?php echo URLADM; ?>app/sts/assets/images/nucleovit/<?php if (isset($image_4)) {
                                        echo $image_4;
-                                   } ?>"
-                                    class="img-thumbnail d-block w-100" alt="Imagem de roda de capoeira">
+                                   } ?>" class="img-thumbnail d-block w-100" alt="Imagem de roda de capoeira">
                                 <h5 class="mt-3"><?php if (isset($sub_title_4)) {
                                     echo $sub_title_4;
                                 } ?></h5>
@@ -97,8 +98,7 @@ if (!defined('R8P3B1R9S6L1')) {
                             <div>
                                 <img src="<?php echo URLADM; ?>app/sts/assets/images/nucleovit/<?php if (isset($image_5)) {
                                        echo $image_5;
-                                   } ?>"
-                                    class="img-thumbnail d-block w-100" alt="Imagem de roda de capoeira">
+                                   } ?>" class="img-thumbnail d-block w-100" alt="Imagem de roda de capoeira">
                                 <h5 class="mt-3"><?php if (isset($sub_title_5)) {
                                     echo $sub_title_5;
                                 } ?></h5>
@@ -111,8 +111,7 @@ if (!defined('R8P3B1R9S6L1')) {
                             <div>
                                 <img src="<?php echo URLADM; ?>app/sts/assets/images/nucleovit/<?php if (isset($image_6)) {
                                        echo $image_6;
-                                   } ?>"
-                                    class="img-thumbnail d-block w-100" alt="Imagem de roda de capoeira">
+                                   } ?>" class="img-thumbnail d-block w-100" alt="Imagem de roda de capoeira">
                                 <h5 class="mt-3"><?php if (isset($sub_title_6)) {
                                     echo $sub_title_6;
                                 } ?></h5>
@@ -129,8 +128,7 @@ if (!defined('R8P3B1R9S6L1')) {
                             <div>
                                 <img src="<?php echo URLADM; ?>app/sts/assets/images/nucleovit/<?php if (isset($image_7)) {
                                        echo $image_7;
-                                   } ?>"
-                                    class="img-thumbnail d-block w-100" alt="Imagem de roda de capoeira">
+                                   } ?>" class="img-thumbnail d-block w-100" alt="Imagem de roda de capoeira">
                                 <h5 class="mt-3"><?php if (isset($sub_title_7)) {
                                     echo $sub_title_7;
                                 } ?></h5>
@@ -143,8 +141,7 @@ if (!defined('R8P3B1R9S6L1')) {
                             <div>
                                 <img src="<?php echo URLADM; ?>app/sts/assets/images/nucleovit/<?php if (isset($image_8)) {
                                        echo $image_8;
-                                   } ?>"
-                                    class="img-thumbnail d-block w-100" alt="Imagem de roda de capoeira">
+                                   } ?>" class="img-thumbnail d-block w-100" alt="Imagem de roda de capoeira">
                                 <h5 class="mt-3"><?php if (isset($sub_title_8)) {
                                     echo $sub_title_8;
                                 } ?></h5>
@@ -157,8 +154,7 @@ if (!defined('R8P3B1R9S6L1')) {
                             <div>
                                 <img src="<?php echo URLADM; ?>app/sts/assets/images/nucleovit/<?php if (isset($image_9)) {
                                        echo $image_9;
-                                   } ?>"
-                                    class="img-thumbnail d-block w-100" alt="Imagem de roda de capoeira">
+                                   } ?>" class="img-thumbnail d-block w-100" alt="Imagem de roda de capoeira">
                                 <h5 class="mt-3"><?php if (isset($sub_title_9)) {
                                     echo $sub_title_9;
                                 } ?></h5>
@@ -171,8 +167,7 @@ if (!defined('R8P3B1R9S6L1')) {
                             <div>
                                 <img src="<?php echo URLADM; ?>app/sts/assets/images/nucleovit/<?php if (isset($image_10)) {
                                        echo $image_10;
-                                   } ?>"
-                                    class="img-thumbnail d-block w-100" alt="Imagem de roda de capoeira">
+                                   } ?>" class="img-thumbnail d-block w-100" alt="Imagem de roda de capoeira">
                                 <h5 class="mt-3"><?php if (isset($sub_title_10)) {
                                     echo $sub_title_10;
                                 } ?></h5>
@@ -183,177 +178,186 @@ if (!defined('R8P3B1R9S6L1')) {
                         </div>
                     </div>
 
-                    <div class="row m-2">
-                        <div class="col-md-8">
-                            <h4 class="mt-3 centralizar"><?php if (isset($sub_title_hist)) {
-                                echo $sub_title_hist;
-                            } ?></h4>
-                            <p class="justificar"><?php if (isset($content_hist)) {
-                                echo $content_hist;
-                            } ?></p>
-
+                    <div class="row m-1">
+                        <div class="col-12 mb-3">
+                            <div class="centralizar">
+                                <h4 class="mt-3 centralizar">
+                                    <?php if (isset($sub_title_hist)) {
+                                        echo $sub_title_hist;
+                                    } ?>
+                                </h4>
+                                <p class="justificar">
+                                    <?php if (isset($content_hist)) {
+                                        echo $content_hist;
+                                    } ?>
+                                </p>
+                            </div>
                         </div>
-                        <div class="col-md-4">
+
+                        <div class="col-12">
                             <h4 class="mt-3 centralizar">Divulgação</h4>
                             <img src="<?php echo URLADM; ?>app/sts/assets/images/nucleovit/<?php if (isset($image_12)) {
                                    echo $image_12;
-                               } ?>"
-                                class="img-thumbnail d-block w-100" alt="Imagem de roda de capoeira">
-                            <h5 class="mt-3"><?php if (isset($sub_title_12)) {
-                                echo $sub_title_12;
-                            } ?></h5>
-                            <p class="justificar"><?php if (isset($content_12)) {
-                                echo $content_12;
-                            } ?></p>
+                               } ?>" class="img-thumbnail d-block w-100" alt="Imagem de roda de capoeira">
+                            <h5 class="mt-3">
+                                <?php if (isset($sub_title_12)) {
+                                    echo $sub_title_12;
+                                } ?>
+                            </h5>
+                            <p class="justificar">
+                                <?php if (isset($content_12)) {
+                                    echo $content_12;
+                                } ?>
+                            </p>
                         </div>
                     </div>
+
                     <?php
-                }
             } else {
                 echo "<p style='color: #f00;'>Erro: Nenhum registro encontrado</p>";
             }
             ?>
-            </session>
+        </section>
 
-            <session class="mb-3">
-                <div class="row">
-                    <div class="col md-12">
-                        <?php
-                        // Acessa o IF quando encontrou algum registro no banco de dados
-                        if (!empty($this->data['nucleovit']['carroussel'][0])) {
-                            extract($this->data['nucleovit']['carroussel'][0]);
-                            //echo('<pre>');print_r($home); echo('</pre>');
-                            ?>
+        <section class="mb-3">
+            <div class="row">
+                <div class="col md-12">
+                    <?php
+                    // Acessa o IF quando encontrou algum registro no banco de dados
+                    if (!empty($this->data['nucleovit']['carroussel'][0])) {
+                        extract($this->data['nucleovit']['carroussel'][0]);
+                        //echo('<pre>');print_r($home); echo('</pre>');
+                        ?>
 
-                            <!-- Início do Carousel -->
-                            <div id="carousel_imagens" class="carousel slide" data-ride="carousel">
-                                <!--Início inner-->
-                                <div class="carousel-inner">
-                                    <div class="carousel-item  active">
-                                        <img src="<?php echo URLADM; ?>app/sts/assets/images/carrouselvitoria/<?php if (isset($image_1)) {
-                                               echo $image_1;
-                                           } ?>"
-                                            class="d-block w-100" alt="Imagem de roda de capoeira">
-                                        <div class="carousel-caption d-none d-md-block">
-                                            <h3 class="texto-carrousel"><?php if (isset($titlte_1)) {
-                                                echo $titlte_1;
-                                            } ?></h3>
-                                            <p class="todas-maiusculas texto-carrousel">
-                                                <?php if (isset($sub_title_1)) {
-                                                    echo $sub_title_1;
-                                                } ?></p>
-                                        </div>
-                                    </div>
-
-                                    <div class="carousel-item">
-                                        <img src="<?php echo URLADM; ?>app/sts/assets/images/carrouselvitoria/<?php if (isset($image_2)) {
-                                               echo $image_2;
-                                           } ?>"
-                                            class="d-block w-100" alt="Imagem de roda de capoeira">
-                                        <div class="carousel-caption d-none d-md-block">
-                                            <h3 class="texto-carrousel"><?php if (isset($titlte_2)) {
-                                                echo $titlte_2;
-                                            } ?></h3>
-                                            <p class="todas-maiusculas texto-carrousel">
-                                                <?php if (isset($sub_title_2)) {
-                                                    echo $sub_title_2;
-                                                } ?></p>
-                                        </div>
-                                    </div>
-
-                                    <div class="carousel-item">
-                                        <img src="<?php echo URLADM; ?>app/sts/assets/images/carrouselvitoria/<?php if (isset($image_3)) {
-                                               echo $image_3;
-                                           } ?>"
-                                            class="d-block w-100" alt="Imagem de roda de capoeira">
-                                        <div class="carousel-caption d-none d-md-block">
-                                            <h3 class="texto-carrousel"><?php if (isset($titlte_3)) {
-                                                echo $titlte_3;
-                                            } ?></h3>
-                                            <p class="todas-maiusculas texto-carrousel">
-                                                <?php if (isset($sub_title_3)) {
-                                                    echo $sub_title_3;
-                                                } ?></p>
-                                        </div>
-                                    </div>
-
-                                    <div class="carousel-item">
-                                        <img src="<?php echo URLADM; ?>app/sts/assets/images/carrouselvitoria/<?php if (isset($image_4)) {
-                                               echo $image_4;
-                                           } ?>"
-                                            class="d-block w-100" alt="Imagem de roda de capoeira">
-                                        <div class="carousel-caption d-none d-md-block">
-                                            <h3 class="texto-carrousel"><?php if (isset($titlte_4)) {
-                                                echo $titlte_4;
-                                            } ?></h3>
-                                            <p class="todas-maiusculas texto-carrousel">
-                                                <?php if (isset($sub_title_4)) {
-                                                    echo $sub_title_4;
-                                                } ?></p>
-                                        </div>
-                                    </div>
-
-                                    <div class="carousel-item">
-                                        <img src="<?php echo URLADM; ?>app/sts/assets/images/carrouselvitoria/<?php if (isset($image_5)) {
-                                               echo $image_5;
-                                           } ?>"
-                                            class="d-block w-100" alt="Imagem de roda de capoeira">
-                                        <div class="carousel-caption d-none d-md-block">
-                                            <h3 class="texto-carrousel"><?php if (isset($titlte_5)) {
-                                                echo $titlte_5;
-                                            } ?></h3>
-                                            <p class="todas-maiusculas texto-carrousel">
-                                                <?php if (isset($sub_title_5)) {
-                                                    echo $sub_title_5;
-                                                } ?></p>
-                                        </div>
-                                    </div>
-
-                                    <div class="carousel-item">
-                                        <img src="<?php echo URLADM; ?>app/sts/assets/images/carrouselvitoria/<?php if (isset($image_6)) {
-                                               echo $image_6;
-                                           } ?>"
-                                            class="d-block w-100" alt="Imagem de roda de capoeira">
-                                        <div class="carousel-caption d-none d-md-block">
-                                            <h3 class="texto-carrousel"><?php if (isset($titlte_6)) {
-                                                echo $titlte_6;
-                                            } ?></h3>
-                                            <p class="todas-maiusculas texto-carrousel">
-                                                <?php if (isset($sub_title_6)) {
-                                                    echo $sub_title_6;
-                                                } ?></p>
-                                        </div>
+                        <!-- Início do Carousel -->
+                        <div id="carousel_imagens" class="carousel slide" data-ride="carousel">
+                            <!--Início inner-->
+                            <div class="carousel-inner">
+                                <div class="carousel-item  active">
+                                    <img src="<?php echo URLADM; ?>app/sts/assets/images/carrouselvitoria/<?php if (isset($image_1)) {
+                                           echo $image_1;
+                                       } ?>" class="d-block w-100" alt="Imagem de roda de capoeira">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h3 class="texto-carrousel"><?php if (isset($titlte_1)) {
+                                            echo $titlte_1;
+                                        } ?></h3>
+                                        <p class="todas-maiusculas texto-carrousel">
+                                            <?php if (isset($sub_title_1)) {
+                                                echo $sub_title_1;
+                                            } ?>
+                                        </p>
                                     </div>
                                 </div>
-                                <!--Final inner Sistemas Secullum-->
 
-                                <!-- inicio controles -->
-                                <a href="#carousel_imagens" class="carousel-control-prev" data-slide="prev">
-                                    <i class="fas fa-angle-left fa-3x"></i>
-                                </a>
-                                <a href="#carousel_imagens" class="carousel-control-next" data-slide="next">
-                                    <i class="fas fa-angle-right fa-3x"></i>
-                                </a>
-                                <!-- Final dos controles -->
+                                <div class="carousel-item">
+                                    <img src="<?php echo URLADM; ?>app/sts/assets/images/carrouselvitoria/<?php if (isset($image_2)) {
+                                           echo $image_2;
+                                       } ?>" class="d-block w-100" alt="Imagem de roda de capoeira">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h3 class="texto-carrousel"><?php if (isset($titlte_2)) {
+                                            echo $titlte_2;
+                                        } ?></h3>
+                                        <p class="todas-maiusculas texto-carrousel">
+                                            <?php if (isset($sub_title_2)) {
+                                                echo $sub_title_2;
+                                            } ?>
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="carousel-item">
+                                    <img src="<?php echo URLADM; ?>app/sts/assets/images/carrouselvitoria/<?php if (isset($image_3)) {
+                                           echo $image_3;
+                                       } ?>" class="d-block w-100" alt="Imagem de roda de capoeira">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h3 class="texto-carrousel"><?php if (isset($titlte_3)) {
+                                            echo $titlte_3;
+                                        } ?></h3>
+                                        <p class="todas-maiusculas texto-carrousel">
+                                            <?php if (isset($sub_title_3)) {
+                                                echo $sub_title_3;
+                                            } ?>
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="carousel-item">
+                                    <img src="<?php echo URLADM; ?>app/sts/assets/images/carrouselvitoria/<?php if (isset($image_4)) {
+                                           echo $image_4;
+                                       } ?>" class="d-block w-100" alt="Imagem de roda de capoeira">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h3 class="texto-carrousel"><?php if (isset($titlte_4)) {
+                                            echo $titlte_4;
+                                        } ?></h3>
+                                        <p class="todas-maiusculas texto-carrousel">
+                                            <?php if (isset($sub_title_4)) {
+                                                echo $sub_title_4;
+                                            } ?>
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="carousel-item">
+                                    <img src="<?php echo URLADM; ?>app/sts/assets/images/carrouselvitoria/<?php if (isset($image_5)) {
+                                           echo $image_5;
+                                       } ?>" class="d-block w-100" alt="Imagem de roda de capoeira">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h3 class="texto-carrousel"><?php if (isset($titlte_5)) {
+                                            echo $titlte_5;
+                                        } ?></h3>
+                                        <p class="todas-maiusculas texto-carrousel">
+                                            <?php if (isset($sub_title_5)) {
+                                                echo $sub_title_5;
+                                            } ?>
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="carousel-item">
+                                    <img src="<?php echo URLADM; ?>app/sts/assets/images/carrouselvitoria/<?php if (isset($image_6)) {
+                                           echo $image_6;
+                                       } ?>" class="d-block w-100" alt="Imagem de roda de capoeira">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h3 class="texto-carrousel"><?php if (isset($titlte_6)) {
+                                            echo $titlte_6;
+                                        } ?></h3>
+                                        <p class="todas-maiusculas texto-carrousel">
+                                            <?php if (isset($sub_title_6)) {
+                                                echo $sub_title_6;
+                                            } ?>
+                                        </p>
+                                    </div>
+                                </div>
                             </div>
-                            <!-- Final do Carousel -->
-                            <?php
-                            //}
-                        } else {
-                            echo "<p style='color: #f00;'>Erro: Nenhum registro encontrado</p>";
-                        }
-                        ?>
-                    </div>
+                            <!--Final inner Sistemas Secullum-->
+
+                            <!-- inicio controles -->
+                            <a href="#carousel_imagens" class="carousel-control-prev" data-slide="prev">
+                                <i class="fas fa-angle-left fa-3x"></i>
+                            </a>
+                            <a href="#carousel_imagens" class="carousel-control-next" data-slide="next">
+                                <i class="fas fa-angle-right fa-3x"></i>
+                            </a>
+                            <!-- Final dos controles -->
+                        </div>
+                        <!-- Final do Carousel -->
+                        <?php
+                        //}
+                    } else {
+                        echo "<p style='color: #f00;'>Erro: Nenhum registro encontrado</p>";
+                    }
+                    ?>
                 </div>
-            </session>
+            </div>
+        </section>
     </div>
 
-        <div style="text-align:center;">
-            <a href="<?php if (isset($link_btn_2)) {
-                echo $link_btn_2;
-            } ?>" class="btn btn-sm btn-info cor-botoes mb-5 button_top">
-                <?php if (isset($text_btn_2)) {
-                    echo $text_btn_2;
-                } ?> </a>
-        </div>
+    <div style="text-align:center;">
+        <a href="<?php if (isset($link_btn_2)) {
+            echo $link_btn_2;
+        } ?>" class="btn btn-sm btn-info cor-botoes mb-5 button_top">
+            <?php if (isset($text_btn_2)) {
+                echo $text_btn_2;
+            } ?> </a>
+    </div>
 </body>
