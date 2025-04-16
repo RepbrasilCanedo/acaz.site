@@ -15,33 +15,42 @@ if (!defined('R8P3B1R9S6L1')) {
             if (!empty($this->data['nucleocanI']['conteudo'][0])) {                
                 extract($this->data['nucleocanI']['conteudo'][0]);
             ?>
-                    <!-- Título e texto da pagina --> 
+                    <!-- Primeiro card da página --> 
+                    <h4 class="centralizar">NUCLEO I - MESTRE GALEGO</h4>
                     <div class="row m-2">
-                        <div class="col-md-4">                            
-                            <img src="<?php echo URLADM; ?>app/sts/assets/images/nucleocanI/<?php if (isset($image)) {echo $image;} ?>" class="img-thumbnail d-block w-100" alt="Imagem de roda de capoeira">
+                      <div class="card mb-3">
+                      <div class="row g-0">
+                        <div class="col-md-6">
+                          <img src="<?php echo URLADM; ?>app/sts/assets/images/nucleocanI/<?php if (isset($image)) {echo $image;} ?>" class="img-thumbnail d-block w-100" alt="Imagem da cidade de canavieiras">
                         </div>
-                        <div class="col-md-4">
-                            <h4 class="centralizar"><?php if (isset($title)) {echo $title;} ?></h4>
-                            <p class="justificar"><?php if (isset($content)) {echo $content;} ?></p>
+
+                        <div class="col-md-6">
+                          <div class="card-body">
+                            <h5 class="card-title"><?php if (isset($title)) {echo $title;} ?></h5>
+                            <p class="card-text"><?php if (isset($content)) {echo $content;} ?></p>                            
+                          </div>
                         </div>
-                        
-                        <div class="col-md-4">
-                        <h4 class="centralizar">Localização</h4>
-                        <div class="mapa">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d292.3082898733347!2d-38.9470629!3d-15.6669421!3m2!1i1024!2i768!4f13.1!3m2!1m1!2s!5e1!3m2!1spt-BR!2sbr!4v1744130368661!5m2!1spt-BR!2sbr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                        </div>
-                        </div>
+                      </div>
                     </div>
-                    <!-- Título e texto da pagina --> 
+                    <!-- segundo card da página --> 
                     <div class="row m-2">
-                        <div class="col-md-8">  
-                                <h5 class="mt-3"><?php if (isset($sub_title_1)) {echo $sub_title_1;} ?></h5>
-                                <p class="justificar"><?php if (isset($content_1)) {echo $content_1;} ?></p>
+                      <div class="card mb-3">
+                        <div class="row g-0">
+                          <div class="col-md-6">
+                            <div class="card-body">
+                              <h5 class="card-title"><?php if (isset($sub_title_1)) {echo $sub_title_1;} ?></h5>
+                              <p class="card-text"><?php if (isset($content_1)) {echo $content_1;} ?></p>                            
+                            </div>                          
+                          </div>
+                          <div class="col-md-6">
+                          <h4 class="centralizar">Localização</h4>
+                            <div class="card-body">
+                              <iframe src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d292.3082898733347!2d-38.9470629!3d-15.6669421!3m2!1i1024!2i768!4f13.1!3m2!1m1!2s!5e1!3m2!1spt-BR!2sbr!4v1744130368661!5m2!1spt-BR!2sbr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>                           
+                            </div>
+                          </div>
                         </div>
-                        <div class="col-md-4">
-                            <img src="<?php echo URLADM; ?>app/sts/assets/images/nucleocanI/<?php if (isset($image_2)) {echo $image_2;} ?>" class="img-thumbnail d-block w-100" alt="Imagem de roda de capoeira">
-                        </div>
-                    </div>
+                      </div>
+                    </div> 
 
                     <!-- Primeira Linha de fotos --> 
                     <div class="row m-2">

@@ -37,7 +37,7 @@ if (!empty($this->data['footer'][0])) {
                         <ul class="navbar-nav">
                             <li><a class="aLink" href="<?php echo URL; ?>levadaacaz">Levada da Acaz</a></li>
                             <li><a class="aLink" href="<?php echo URL; ?>escritacaz">Escritorio Cultural</a></li>
-                            <li><a class="aLink" href="<?php echo URL; ?>oficinaart">Oficina Artezanato</a></li>
+                            <li><a class="aLink" href="<?php echo URL; ?>oficinaart">Oficina Artesanato</a></li>
                             <li><a class="aLink" href="<?php echo URL; ?>capesc">Capoeira na Escola</a></li>
                         </ul>
                     </div>

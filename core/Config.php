@@ -38,7 +38,7 @@ abstract class Config
         define('HOST', 'localhost');
         define('USER', 'root');
         define('PASS', '');
-        define('DBNAME', 'acaz_site');
+        define('DBNAME', 'acazsite_acaz_site');
         //define('PORT', 3306);
 
         define('EMAILADM', 'docan2006@gmail.com');
