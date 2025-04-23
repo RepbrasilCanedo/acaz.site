@@ -106,7 +106,7 @@ if (!defined('R8P3B1R9S6L1')) {
               extract($this->data['home']['content'][0]);
                //echo('<pre>');print_r($this->data['home']['content'][0]); echo('</pre>');
         ?>
-      <section class="initial-article">
+      <section class="initial-article max-width centralizar mb-5">
        <article id="materia_inicial_col_esq">
           <h1 id="titulo_materia_inicial" class="conteudo-produtos centralizar"><?php if (isset($title)) {echo $title;}?></h1>
           <p class="texto-caixa"><?php if (isset($contente_1)) {echo $contente_1;}?></p>
@@ -123,6 +123,8 @@ if (!defined('R8P3B1R9S6L1')) {
         }
         ?>
     </div>
+  </div>
+    <div class="row">
     <!-- Linha da direita -->
     <div class="col centralizar md-4">
       <?php
@@ -131,7 +133,7 @@ if (!defined('R8P3B1R9S6L1')) {
               extract($this->data['home']['institucional'][0]);
       ?>
        <section class="institucional">        
-      <h3 class="conteudo-produtos "><?php if (isset($title)) {echo $title;}?></h3>
+      <h3 class="conteudo-produtos mb-3"><?php if (isset($title)) {echo $title;}?></h3>
         <article id="video">
           <div class="video-container">
           <iframe width="453" height="255" src="<?php if (isset($url_video)) {echo $url_video;}?>" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> </iframe>

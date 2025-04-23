@@ -81,7 +81,7 @@ if (!empty($this->data['footer'][0])) {
                         </div>
                         <div class="mb-2">
                             <span id="copy_rodape">
-                                <b> RepBrasil Tecnologia - Salvador - Ba</b>
+                                <b>Criado e desenvolvido por RepBrasil Tecnologia - Salvador - Ba</b>
                             </span>
                         </div>
                     </div>

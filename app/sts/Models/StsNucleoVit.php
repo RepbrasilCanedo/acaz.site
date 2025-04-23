@@ -28,7 +28,7 @@ class StsNucleoVit
         $nucleocanIV->fullRead("SELECT id, title, content, image, sub_title_1, content_1, image_2, sub_title_2, content_2, 
          image_3, sub_title_3, content_3,  image_4, sub_title_4, content_4,  image_5, sub_title_5, content_5, 
          image_6, sub_title_6, content_6,  image_7, sub_title_7, content_7,  image_8, sub_title_8, content_8,  
-         image_9, sub_title_9, content_9,  image_10, sub_title_10, content_10,  image_11, sub_title_11, content_11, image_12, sub_title_12, content_12, 
+         image_9, sub_title_9, content_9,  image_10, sub_title_10, content_10,  image_11, sub_title_11, content_11, image_12, sub_title_12, content_12, image_13, content_13,   
          sub_title_hist, content_hist, link_btn_2, text_btn_2 
         FROM sts_nucleo_vit WHERE sts_situation=:sts_situation", "sts_situation=1");
         $this->data['conteudo']= $nucleocanIV->getResult();

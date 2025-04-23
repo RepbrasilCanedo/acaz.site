@@ -43,7 +43,7 @@ if (!defined('R8P3B1R9S6L1')) {
                     <div class="row m-2">
                         <div class="card mb-3">
                             <div class="row g-0">
-                                <div class="col-md-6">
+                                <div class="col-md-4">
                                     <div class="card-body">
                                         <h5 class="card-title"><?php if (isset($sub_title_1)) {
                                             echo $sub_title_1;
@@ -53,13 +53,21 @@ if (!defined('R8P3B1R9S6L1')) {
                                         } ?></p>
                                     </div>
                                 </div>
-                                <div class="col-md-6">
+                                <div class="col-md-4">
                                     <h4 class="centralizar">Localização</h4>
                                     <div class="card-body mapa-container">
                                         <iframe
                                             src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1170.7584855929317!2d-38.9997854!3d-15.3981885!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x739de31c35445ed%3A0xcffa36ab62e93ce1!2sOiticica%20-%20Poxim%20do%20Sul%2C%20Canavieiras%20-%20BA%2C%2045860-000!5e1!3m2!1spt-BR!2sbr!4v1744130515006!5m2!1spt-BR!2sbr"
                                             style="border:0;" allowfullscreen="" loading="lazy"
                                             referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card-body mapa-container">
+                                    <h5 class="mt-3"><?php if (isset($content_13)) {echo $content_13;} ?></h5>
+                                    <img src="<?php echo URLADM; ?>app/sts/assets/images/nucleocanIV/<?php if (isset($image_13)) {
+                                        echo $image_13;
+                                    } ?>" class="d-block w-100 p-5" alt="Imagem de roda de capoeira">
                                     </div>
                                 </div>
                             </div>
@@ -178,39 +186,26 @@ if (!defined('R8P3B1R9S6L1')) {
                         </div>
                     </div>
 
-                    <div class="row m-1">
-                        <div class="col-12 mb-3">
-                            <div class="centralizar">
-                                <h4 class="mt-3 centralizar">
-                                    <?php if (isset($sub_title_hist)) {
-                                        echo $sub_title_hist;
-                                    } ?>
-                                </h4>
-                                <p class="justificar">
-                                    <?php if (isset($content_hist)) {
-                                        echo $content_hist;
-                                    } ?>
-                                </p>
-                            </div>
-                        </div>
-
-                        <div class="col-12">
-                            <h4 class="mt-3 centralizar">Divulgação</h4>
-                            <img src="<?php echo URLADM; ?>app/sts/assets/images/nucleocanIV/<?php if (isset($image_12)) {
-                                   echo $image_12;
-                               } ?>" class="img-thumbnail d-block w-100" alt="Imagem de roda de capoeira">
-                            <h5 class="mt-3">
-                                <?php if (isset($sub_title_12)) {
-                                    echo $sub_title_12;
-                                } ?>
-                            </h5>
-                            <p class="justificar">
-                                <?php if (isset($content_12)) {
-                                    echo $content_12;
-                                } ?>
-                            </p>
-                        </div>
-                    </div>
+            <!-- Verifica se existe imagem e informações para apresentar -->
+            <div class="row m-1">
+              <?php if (isset($image_12)) {?>               
+                <div class="col-12">
+                  <h4 class="mt-3 centralizar">Divulgação</h4>
+                  <img src="<?php echo URLADM; ?>app/sts/assets/images/nucleocanIV/<?php if (isset($image_12)) {echo $image_12;} ?>" class="img-thumbnail d-block w-100" alt="Imagem de roda de capoeira">
+                  <h5 class="mt-3">
+                    <?php if (isset($sub_title_12)) {
+                      echo $sub_title_12;
+                    } ?>
+                  </h5>
+                  <p class="justificar">
+                    <?php if (isset($content_12)) {
+                      echo $content_12;
+                    } ?>
+                  </p>
+                </div>
+              <?php } ?>
+            </div>
+            <!-- Final da Verificação -->
 
                     <?php
             } else {
