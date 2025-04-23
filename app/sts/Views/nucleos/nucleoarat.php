@@ -17,17 +17,17 @@ if (!defined('R8P3B1R9S6L1')) {
                 extract($this->data['nucleoarat']['conteudo'][0]);
                 ?>
                 <!-- Primeiro card da página -->
-                <h4 class="centralizar">NÚCLEO - ARATACA</h4>
+                <h4 class="mt-3 centralizar">NÚCLEO - ARATACA</h4>
                 <div class="centralizar">
                     <div class="card mb-3">
-                        <div class="row g-0">
-                            <div class="col-md-6">
+                        <div class="row g-0 align-items-center">
+                            <div class="col-md-6 d-flex justify-content-center">
                                 <img src="<?php echo URLADM; ?>app/sts/assets/images/nucleoarat/<?php if (isset($image)) {
                                        echo $image;
-                                   } ?>" class="img-thumbnail d-block w-100" alt="Imagem da cidade de canavieiras">
+                                   } ?>" class="d-block w-100 img-custom" alt="Imagem da cidade de canavieiras">
                             </div>
 
-                            <div class="col-md-6">
+                            <div class="col-md-6 d-flex align-items-center">
                                 <div class="card-body">
                                     <h5 class="card-title"><?php if (isset($title)) {
                                         echo $title;
@@ -54,7 +54,7 @@ if (!defined('R8P3B1R9S6L1')) {
                                     </div>
                                 </div>
                                 <div class="col-md-4">
-                                    <h4 class="centralizar">Localização</h4>
+                                    <h4 class="mt-3">Localização</h4>
                                     <div class="card-body mapa-container">
                                         <iframe
                                             src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7698.17512443863!2d-39.4169256!3d-15.26302!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7382eb963403bd5%3A0xd4ebec365834e1b9!2sArataca%2C%20BA%2C%2045695-000!5e0!3m2!1spt-BR!2sbr!4v1744129747497!5m2!1spt-BR!2sbr"

@@ -17,17 +17,17 @@ if (!defined('R8P3B1R9S6L1')) {
                 extract($this->data['nucleocanIII']['conteudo'][0]);
                 ?>
                 <!-- Primeiro card da página -->
-                <h4 class="centralizar">NÚCLEO III - MESTRE VELHO JHON</h4>
+                <h4 class="mt-3 centralizar">NÚCLEO III - MESTRE VELHO JHON</h4>
                 <div class="centralizar">
                     <div class="card mb-3">
-                        <div class="row g-0">
-                            <div class="col-md-6">
+                        <div class="row g-0 align-items-center">
+                            <div class="col-md-6 d-flex justify-content-center">
                                 <img src="<?php echo URLADM; ?>app/sts/assets/images/nucleocanIII/<?php if (isset($image)) {
                                        echo $image;
-                                   } ?>" class="img-thumbnail d-block w-100" alt="Imagem da cidade de canavieiras">
+                                   } ?>" class="d-block w-100 img-custom" alt="Imagem da cidade de canavieiras">
                             </div>
 
-                            <div class="col-md-6">
+                            <div class="col-md-6 d-flex align-items-center">
                                 <div class="card-body">
                                     <h5 class="card-title"><?php if (isset($title)) {
                                         echo $title;

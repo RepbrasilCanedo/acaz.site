@@ -17,17 +17,17 @@ if (!defined('R8P3B1R9S6L1')) {
                 extract($this->data['nucleovit']['conteudo'][0]);
                 ?>
                 <!-- Primeiro card da página -->
-                <h4 class="centralizar">NÚCLEO VITÓRIA</h4>
+                <h4 class="mt-3 centralizar">NÚCLEO VITÓRIA</h4>
                 <div class="centralizar">
                     <div class="card mb-3">
-                        <div class="row g-0">
-                            <div class="col-md-6">
+                        <div class="row g-0 align-items-center">
+                            <div class="col-md-6 d-flex justify-content-center">
                                 <img src="<?php echo URLADM; ?>app/sts/assets/images/nucleovit/<?php if (isset($image)) {
                                        echo $image;
-                                   } ?>" class="img-thumbnail d-block w-100" alt="Imagem da cidade de canavieiras">
+                                   } ?>" class="d-block w-100 img-custom" alt="Imagem da cidade de canavieiras">
                             </div>
 
-                            <div class="col-md-6">
+                            <div class="col-md-6 d-flex align-items-center">
                                 <div class="card-body">
                                     <h5 class="card-title"><?php if (isset($title)) {
                                         echo $title;
@@ -54,7 +54,7 @@ if (!defined('R8P3B1R9S6L1')) {
                                     </div>
                                 </div>
                                 <div class="col-md-4">
-                                    <h4 class="centralizar">Localização</h4>
+                                    <h4 class="mt-3">Localização</h4>
                                     <div class="card-body mapa-container">
                                         <iframe
                                             src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d119674.53439555467!2d-40.5286831!3d-20.389931!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xb817b2995d6bf1%3A0xf69aa51e4ff904b1!2sVila%20Velha%2C%20ES!5e0!3m2!1spt-BR!2sbr!4v1744129998519!5m2!1spt-BR!2sbr"

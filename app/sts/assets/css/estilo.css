@@ -235,8 +235,8 @@ nav {
 }
 
 .dropdown-item:hover {
-	background-color: #f1f1f1;
-	color: var(--active-color);
+	background-color: #2bc273;
+	color: var(--hover-color);
 }
 
 .max-width {
@@ -263,7 +263,7 @@ nav {
 
 /* Espaçamento da navbar do conteudo */
 .menu-spacing {
-	height: 100px;
+	height: 5.25rem;
 }
 
 /* Capa */
@@ -447,6 +447,13 @@ img {
 	max-width: 100%;
 	height: auto;
 }
+
+.img-custom {
+	border-radius: 5px;
+	padding: 2%;
+	background-color: white;
+  }
+  
 
 .noticias1 {
 	columns: 100px 3;

@@ -6,11 +6,11 @@ if (!defined('R8P3B1R9S6L1')) {
 }
 ?>
 <body style="background: url(<?php echo URL; ?>app/sts/assets/images/Papel_Parede.jpg) left center;">
-<div class="container max-width">
- <!--  inicio da galeria de imagens-->
-  <section class="top-carr">
-      <div class="row">
-        <div class="col md-12">         
+  <!--  inicio da galeria de imagens-->
+  <section class="top-carr p-0 m-0 w-100">
+   <div class="container-fluid p-0">
+      <div class="row no-gutters">
+        <div class="col-md-12 p-0">         
         <?php
         // Acessa o IF quando encontrou algum registro no banco de dados
         if (!empty($this->data['home']['carroussel'][0])) {
@@ -93,8 +93,10 @@ if (!defined('R8P3B1R9S6L1')) {
         ?>
         </div>
       </div>
+    </div>
   </section>
-  <!--  final da galeria de imgens-->
+    <!--  final da galeria de imgens-->
+<div class="container max-width">
   <!--Inicio da segunda linha de divulgacao-->  
   <div class="row mt-5">
     <!-- Linha da esquerda -->
@@ -114,7 +116,7 @@ if (!defined('R8P3B1R9S6L1')) {
           <p class="texto-caixa"><?php if (isset($contente_3)) {echo $contente_3;}?></p>
           <p class="texto-caixa"><?php if (isset($contente_4)) {echo $contente_4;}?></p>
         </article>
-        <a href="<?php if (isset($url_content)) {echo $url_content;}?>" class="btn btn-sm cor-botoes centralizar"> <?php if (isset($url_text)) {echo $url_text;}?> </a>
+        <a href="<?php if (isset($url_content)) {echo $url_content;}?>" class="btn btn-sm btn-info cor-botoes mb-5 button_top"> <?php if (isset($url_text)) {echo $url_text;}?> </a>
       </section> 
         <?php
             //}

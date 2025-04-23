@@ -17,17 +17,17 @@ if (!defined('R8P3B1R9S6L1')) {
                 extract($this->data['nucleocanII']['conteudo'][0]);
                 ?>
                 <!-- Primeiro card da página -->
-                <h4 class="centralizar">NÚCLEO II - MESTRE GRILO</h4>
+                <h4 class="mt-3 centralizar">NÚCLEO II - MESTRE GRILO</h4>
                 <div class="centralizar">
                     <div class="card mb-3">
-                        <div class="row g-0">
-                            <div class="col-md-6">
+                        <div class="row g-0 align-items-center">
+                            <div class="col-md-6 d-flex justify-content-center">
                                 <img src="<?php echo URLADM; ?>app/sts/assets/images/nucleocanII/<?php if (isset($image)) {
                                        echo $image;
-                                   } ?>" class="img-thumbnail d-block w-100" alt="Imagem de roda de capoeira">
+                                   } ?>" class="img-custom d-block w-100" alt="Imagem de roda de capoeira">
                             </div>
 
-                            <div class="col-md-6">
+                            <div class="col-md-6 d-flex align-items-center">
                                 <div class="card-body">
                                     <h5 class="card-title"><?php if (isset($title)) {
                                         echo $title;
@@ -54,7 +54,7 @@ if (!defined('R8P3B1R9S6L1')) {
                                     </div>
                                 </div>
                                 <div class="col-md-4">
-                                    <h4 class="centralizar">Localização</h4>
+                                    <h4 class="mt-3">Localização</h4>
                                     <div class="card-body mapa-container">
                                         <iframe
                                             src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d826.7469865978284!2d-38.955451480993716!3d-15.673293389887517!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x737423067add42b%3A0x8b29d9d77d571431!2sSCENTRAL%20BARBER!5e1!3m2!1spt-BR!2sbr!4v1744657421668!5m2!1spt-BR!2sbr"
