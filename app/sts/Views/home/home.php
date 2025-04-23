@@ -134,8 +134,8 @@ if (!defined('R8P3B1R9S6L1')) {
         if (!empty($this->data['home']['institucional'][0])) {
               extract($this->data['home']['institucional'][0]);
       ?>
-       <section class="institucional">        
-      <h3 class="conteudo-produtos mb-3"><?php if (isset($title)) {echo $title;}?></h3>
+       <section class="institucional max-width">        
+        <h3 class="conteudo-produtos mb-3"><?php if (isset($title)) {echo $title;}?></h3>
         <article id="video">
           <div class="video-container">
           <iframe width="453" height="255" src="<?php if (isset($url_video)) {echo $url_video;}?>" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> </iframe>

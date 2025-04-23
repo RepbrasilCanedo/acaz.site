@@ -26,18 +26,18 @@ if (!defined('R8P3B1R9S6L1')) {
                     
                     
                     <!--Texto e imagem da primeira linha --> 
-                    <div class="row m-2">
+                    <div class="row g-0 align-items-center m-2">
                         <div class="col-md-8">  
                                 <h5 class="mt-3"><?php if (isset($sub_title_1)) {echo $sub_title_1;} ?></h5>
                                 <p class="justificar"><?php if (isset($content_1)) {echo $content_1;} ?></p>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-4 ">
                             <img src="<?php echo URLADM; ?>app/sts/assets/images/bibliografias/<?php if (isset($image_2)) {echo $image_2;} ?>" class="img-thumbnail d-block w-100" alt="Mestre Neném e uma figura histórica antiga da capoeira em Itabuna na Bahia, e não foram encontradas imagens dele ate o momento.">
                         </div>
                     </div>
 
                     <!--Texto e imagem da segunda linha --> 
-                    <div class="row m-2">
+                    <div class="row g-0 align-items-center m-2">
                         <div class="col-md-4">
                             <img src="<?php echo URLADM; ?>app/sts/assets/images/bibliografias/<?php if (isset($image_3)) {echo $image_3;} ?>" class="img-thumbnail d-block w-100" alt="Mestre Paizinho e uma figura histórica antiga da capoeira em Itabuna na Bahia, e não foram encontradas imagens dele ate o momento">
                         </div>
@@ -48,7 +48,7 @@ if (!defined('R8P3B1R9S6L1')) {
                     </div>
 
                     <!--Texto e imagem da terceira linha --> 
-                    <div class="row m-2">
+                    <div class="row g-0 align-items-center m-2">
                         <div class="col-md-8">  
                                 <h5 class="mt-3"><?php if (isset($sub_title_3)) {echo $sub_title_3;} ?></h5>
                                 <p class="justificar"><?php if (isset($content_3)) {echo $content_3;} ?></p>
@@ -59,7 +59,7 @@ if (!defined('R8P3B1R9S6L1')) {
                     </div>
 
                     <!--Texto e imagem da quarta linha --> 
-                    <div class="row m-2">
+                    <div class="row g-0 align-items-center m-2">
                         <div class="col-md-4">
                             <img src="<?php echo URLADM; ?>app/sts/assets/images/bibliografias/<?php if (isset($image_5)) {echo $image_5;} ?>" class="img-thumbnail d-block w-100" alt="Imagem de roda de capoeira">
                         </div>
@@ -70,7 +70,7 @@ if (!defined('R8P3B1R9S6L1')) {
                     </div>
 
                     <!--Texto e imagem da quinta linha --> 
-                    <div class="row m-2">
+                    <div class="row g-0 align-items-center m-2">
                         <div class="col-md-8">  
                                 <h5 class="mt-3"><?php if (isset($sub_title_5)) {echo $sub_title_5;} ?></h5>
                                 <p class="justificar"><?php if (isset($content_5)) {echo $content_5;} ?></p>
@@ -81,7 +81,7 @@ if (!defined('R8P3B1R9S6L1')) {
                     </div>
 
                     <!--Texto e imagem da sexta linha --> 
-                    <div class="row m-2">
+                    <div class="row g-0 align-items-center m-2">
                         <div class="col-md-4">
                             <img src="<?php echo URLADM; ?>app/sts/assets/images/bibliografias/<?php if (isset($image_7)) {echo $image_7;} ?>" class="img-thumbnail d-block w-100 mt-5" alt="Imagem de roda de capoeira">
                         </div>
@@ -92,7 +92,7 @@ if (!defined('R8P3B1R9S6L1')) {
                     </div>
 
                     <!--Texto e imagem da setima linha --> 
-                    <div class="row m-2">
+                    <div class="row g-0 align-items-center m-2">
                         <div class="col-md-8">  
                                 <h5 class="mt-3"><?php if (isset($sub_title_7)) {echo $sub_title_7;} ?></h5>
                                 <p class="justificar"><?php if (isset($content_7)) {echo $content_7;} ?></p>
@@ -104,7 +104,7 @@ if (!defined('R8P3B1R9S6L1')) {
 
                     
 
-                    <div class="row m-2">
+                    <div class="row g-0 align-items-center m-2">
                         <div class="col-md-12">
                             <h4 class="mt-3 centralizar"><?php if (isset($sub_title_hist)) {echo $sub_title_hist;} ?></h4>
                             <p class="justificar"><?php if (isset($content_hist)) {echo $content_hist;} ?></p>
