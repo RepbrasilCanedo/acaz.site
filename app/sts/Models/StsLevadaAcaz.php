@@ -21,11 +21,8 @@ class StsLevadaAcaz
     public function index(): array|null
     {  
         $levadaacaz = new \Sts\Models\helper\StsRead();
-        $levadaacaz->fullRead("SELECT id, title, content, image, content_1, image_2, content_2, 
-         image_3, image_4, image_5,
-         image_6, image_7,  image_8,
-         image_9, image_10, image_11, image_12,
-         sub_title_hist, content_hist, link_btn_2, text_btn_2 
+        $levadaacaz->fullRead("SELECT id, url_video_1, title, content, image, content_1, image_2, content_2, 
+         image_3, image_4, image_5, image_6, image_7,  image_8, image_9, image_10, image_11, image_12, sub_title_hist, content_hist, link_btn_2, text_btn_2 
         FROM sts_levada_acaz WHERE sts_situation=:sts_situation", "sts_situation=1");
         
         $this->data= $levadaacaz->getResult();

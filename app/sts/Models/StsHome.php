@@ -31,7 +31,7 @@ class StsHome
         $this->data['content']= $viewHomeContent->getResult();
       
         $viewHomeInstitucional = new \Sts\Models\helper\StsRead();
-        $viewHomeInstitucional->fullRead("SELECT title, url_video, sub_title,  content_1, content_2 FROM sts_home_institucional WHERE id=:id LIMIT :limit", "id=1&limit=1");
+        $viewHomeInstitucional->fullRead("SELECT title, url_video, sub_title,  content_1, content_2, url_video_2 FROM sts_home_institucional WHERE id=:id LIMIT :limit", "id=1&limit=1");
         $this->data['institucional']= $viewHomeInstitucional->getResult();
 
         $viewHomeDivulgacao = new \Sts\Models\helper\StsRead();

@@ -27,16 +27,15 @@ if (!empty($this->data['footer'][0])) {
             </div>
                 <div class="row m-3 p-2">
                     <div class="col-md-3">
-                    <a href="index.php">
-                    <img src="<?php echo URL; ?>app/sts/assets/images/rodape/acaz_logo_g.png">
-                    </a>
+                            <a href="index.php"><img src="<?php echo URL; ?>app/sts/assets/images/logos/acaz_logo_150.png"></a><br><br>
+                            <a href="index.php"><img src="<?php echo URL; ?>app/sts/assets/images/rodape/selo_2_150.png"></a>
                     </div>
 
                     <div class="col-md-2">
                         <h5>Ações Sociais</h5>
                         <ul class="navbar-nav">
                             <li><a class="aLink" href="<?php echo URL; ?>levadaacaz">Levada da Acaz</a></li>
-                            <li><a class="aLink" href="<?php echo URL; ?>escritacaz">Escritorio Cultural</a></li>
+                            <li><a class="aLink" href="<?php echo URL; ?>escritacaz">Centro Cultural</a></li>
                             <li><a class="aLink" href="<?php echo URL; ?>oficinaart">Oficina Artesanato</a></li>
                             <li><a class="aLink" href="<?php echo URL; ?>capesc">Capoeira na Escola</a></li>
                         </ul>
@@ -59,15 +58,17 @@ if (!empty($this->data['footer'][0])) {
                         <ul class="navbar-nav">
                             <li><a class="aLink" href="<?php echo URL; ?>eventocap">Capoeira Acaz</a></li>
                             <li><a class="aLink" href="<?php echo URL; ?>eventolev">Levada da Acaz</a></li>
-                            <li><a class="aLink" href="<?php echo URL; ?>eventocul">Escritório Cultural</a></li>
+                            <li><a class="aLink" href="<?php echo URL; ?>eventocul">Centro Cultural</a></li>
                         </ul>
                         <br>
+                        <h5>Visite Nosso Canal</h5>
+                        <a href="https://www.youtube.com/@ACAZ556" target="_blank"><img src="<?php echo URL; ?>app/sts/assets/images/logos/youtube_50.png"></a>
                     </div>
 
                     <div class="col-md-3">
-                        <h5>Onde Estamos</h5>
-                        <div class="mapa">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4676.611297973711!2d-38.94707337402043!3d-15.680972120174173!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x737433a14e279c5%3A0xcb50186094c186cc!2sPrefeitura%20Municipal!5e1!3m2!1spt-BR!2sbr!4v1744135882366!5m2!1spt-BR!2sbr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <h5>Localização Centro Cultural Acaz</h5>
+                        <div class="mapa">                           
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1358.13920872678!2d-38.94532504819686!3d-15.677025405227687!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x73743cd63fbc1db%3A0x500d94ffef4ec5fb!2sAv.%20Bar%C3%A3o%20do%20Rio%20Branco%2C%20214%20-%20Centro%2C%20Canavieiras%20-%20BA%2C%2045860-000!5e0!3m2!1spt-BR!2sbr!4v1745569553573!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </div>
                     </div>
                 </div>

@@ -130,19 +130,11 @@ if (!defined('R8P3B1R9S6L1')) {
                 extract($this->data['home']['institucional'][0]);
         ?>
        <section class="institucional max-width">        
-        <h3 class="conteudo-produtos mb-3"><?php if (isset($title)) {echo $title;}?></h3>
         <article id="video">
           <div class="video-container">
-          <iframe width="453" height="255" src="<?php if (isset($url_video)) {echo $url_video;}?>" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> </iframe>
+          <iframe width="453" height="255" src="<?php if (isset($url_video_2)) {echo $url_video_2;}?>" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> </iframe>
           </div>
         </article>
-
-        <article id="materia_topo_esq">
-          <h3 class="conteudo-produtos centralizar"><?php if (isset($sub_title)) {echo $sub_title;}?></h3>
-          <p class="texto-caixa"><?php if (isset($content_1)) {echo $content_1;}?></p>
-          <p class="texto-caixa"><?php if (isset($content_2)) {echo $content_2;}?></p>
-        </article>
-      </section>
         <?php
             //}
         } else {
@@ -154,7 +146,7 @@ if (!defined('R8P3B1R9S6L1')) {
   </div>
   <!--final da primwira linha de video e texto--> 
 
-  <!--Inicio da primwira linha de divulgações-->
+  <!--Inicio da primeira linha de divulgações-->
   <section class="divulgacao">
     <?php
         if (!empty($this->data['home']['divulgacao'][0])) {
@@ -166,7 +158,39 @@ if (!defined('R8P3B1R9S6L1')) {
       <img src="<?php echo URLADM; ?>app/sts/assets/images/marketing/<?php if (isset($marketing_1)) {echo $marketing_1;}?>" alt="<?php if (isset($marketing_1_alt)) {echo $marketing_1_alt;}?>">
       </div>
     </div>
-    <!--Final da primwira linha de Marketing-->
+    <!--Final da primeira linha de Marketing-->
+
+      <!--Inicio da segunda linha de video e texto-->  
+      <div class="row">
+        <div class="col centralizar md-4">
+            <?php
+              if (!empty($this->data['home']['institucional'][0])) {
+                    extract($this->data['home']['institucional'][0]);
+            ?>
+          <section class="institucional max-width">        
+            <h3 class="conteudo-produtos mb-3"><?php if (isset($title)) {echo $title;}?></h3>
+            <article id="video">
+              <div class="video-container">
+              <iframe width="453" height="255" src="<?php if (isset($url_video)) {echo $url_video;}?>" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> </iframe>
+              </div>
+            </article>
+
+            <article id="materia_topo_esq">
+              <h3 class="conteudo-produtos centralizar"><?php if (isset($sub_title)) {echo $sub_title;}?></h3>
+              <p class="texto-caixa"><?php if (isset($content_1)) {echo $content_1;}?></p>
+              <p class="texto-caixa"><?php if (isset($content_2)) {echo $content_2;}?></p>
+            </article>
+          </section>
+            <?php
+                //}
+            } else {
+                echo "<p style='color: #f00;'>Erro: Nenhum registro encontrado</p>";   
+            }
+            ?>
+        
+        </div>
+      </div>
+      <!--final da segunda linha de video e texto--> 
     
     <div class="row mt-3">
       <div class="col-md-12 conteudo-produtos" style="text-align:center;">

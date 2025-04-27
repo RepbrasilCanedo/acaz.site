@@ -15,6 +15,19 @@ if (!defined('R8P3B1R9S6L1')) {
                     extract($levadaacaz);
                    //echo('<pre>');print_r($levadaacaz); echo('</pre>');
             ?>
+                <!--Inicio da priewira linha de video-->  
+                <div class="row">
+                    <div class="col centralizar md-4">
+                    <section class="institucional max-width">        
+                        <article id="video">
+                        <div class="video-container">
+                        <iframe width="453" height="255" src="<?php if (isset($url_video_1)) {echo $url_video_1;}?>" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> </iframe>
+                        </div>
+                        </article>                    
+                    </div>
+                </div>
+                <!--final da primeira linha de video--> 
+
             <section class="mb-3">
                     <!-- Título e texto da pagina --> 
                     <div class="row m-2">
@@ -23,6 +36,7 @@ if (!defined('R8P3B1R9S6L1')) {
                             <p class="justificar"><?php if (isset($content)) {echo $content;} ?></p>
                         </div>
                     </div>
+                    <!-- Título e texto da pagina --> 
                     
                     <!-- Primeira Linha de fotos --> 
                     <div class="row m-2">
@@ -54,6 +68,20 @@ if (!defined('R8P3B1R9S6L1')) {
                             </div>
                         </div>
                     </div>
+                    
+                <!--Inicio da segunda linha de video-->  
+                <div class="row">
+                    <div class="col centralizar md-4">
+                    <section class="institucional max-width">        
+                        <article id="video">
+                        <div class="video-container">
+                        <iframe width="453" height="255" src="<?php if (isset($url_video_1)) {echo $url_video_1;}?>" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> </iframe>
+                        </div>
+                        </article>                    
+                    </div>
+                </div>
+                <!--final da segunda linha de video--> 
+                
                     <!-- Primeira Linha de textos --> 
                     <div class="row m-2">
                         <div class="col-md-12">
@@ -63,6 +91,9 @@ if (!defined('R8P3B1R9S6L1')) {
                             </div>
                         </div>                       
                     </div>
+
+
+                    
 
                     <!-- Segunda Linha de fotos --> 
                     <div class="row m-2">
