@@ -17,7 +17,7 @@ if (!defined('R8P3B1R9S6L1')) {
                 extract($this->data['nucleocanIII']['conteudo'][0]);
                 ?>
                 <!-- Primeiro card da página -->
-                <h4 class="mt-3 centralizar">NÚCLEO III - MESTRE VELHO JHON</h4>
+                <h4 class="mt-4 centralizar">NÚCLEO III - MESTRE VELHO JHON</h4>
                 <div class="centralizar">
                     <div class="card mb-3">
                         <div class="row g-0 align-items-center">
@@ -291,7 +291,7 @@ if (!defined('R8P3B1R9S6L1')) {
                                         </p>
                                     </div>
                                 </div>
-
+<!--
                                 <div class="carousel-item">
                                     <img src="<?php echo URLADM; ?>app/sts/assets/images/carrouselnuctres/<?php if (isset($image_5)) {
                                            echo $image_5;
@@ -324,6 +324,7 @@ if (!defined('R8P3B1R9S6L1')) {
                                     </div>
                                 </div>
                             </div>
+                                        -->
                             <!--Final inner Sistemas Secullum-->
 
                             <!-- inicio controles -->

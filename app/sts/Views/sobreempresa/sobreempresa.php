@@ -8,7 +8,7 @@ if (!defined('R8P3B1R9S6L1')) {
 ?>
 
 <body>
-    <div class="row m-3 p-2">
+    <div class="row mt-5 p-2 centralizar">
         <div class="col-md-12">
             <a href="index.php"><img src="<?php echo URL; ?>app/sts/assets/images/escritacaz/fachada.jpeg"></a>
         </div>

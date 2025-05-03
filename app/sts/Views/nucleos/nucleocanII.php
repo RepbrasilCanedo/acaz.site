@@ -17,7 +17,7 @@ if (!defined('R8P3B1R9S6L1')) {
                 extract($this->data['nucleocanII']['conteudo'][0]);
                 ?>
                 <!-- Primeiro card da página -->
-                <h4 class="mt-3 centralizar">NÚCLEO II - MESTRE GRILO</h4>
+                <h4 class="mt-4 centralizar">NÚCLEO II - MESTRE GRILO</h4>
                 <div class="centralizar">
                     <div class="card mb-3">
                         <div class="row g-0 align-items-center">
@@ -130,7 +130,7 @@ if (!defined('R8P3B1R9S6L1')) {
                         </div>
                     </div>
 
-                    <!-- Segunda Linha de fotos -->
+                    <!-- Segunda Linha de fotos 
                     <div class="row m-2">
                         <div class="col-md-3">
                             <div>
@@ -185,6 +185,7 @@ if (!defined('R8P3B1R9S6L1')) {
                             </div>
                         </div>
                     </div>
+                            -->
 
                 <!-- Verifica se existe imagem e informações para apresentar -->
                 <div class="row m-1">
