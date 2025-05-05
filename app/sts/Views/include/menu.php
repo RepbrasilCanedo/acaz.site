@@ -8,7 +8,11 @@ if (!defined('R8P3B1R9S6L1')) {
 <!--    xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx   Inicio do Menu superior   xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx    -->
 <nav class="navbar navbar-expand-lg navbar-light fundo_menu sticky-menu">
   <div class="container">
-    <a href="index.php"><img src="<?php echo URL; ?>app/sts/assets/images/logos/acaz_logo_100.png"></a>
+      <a href="index.php"><img src="<?php echo URL; ?>app/sts/assets/images/logos/acaz_logo_100.png"></a>
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal">
+        <i class="fas fa-bars text-white"></i>
+      </button>
+    
     <div class="collapse navbar-collapse" id="nav-principal">
       <ul class="navbar-nav m-auto">
         <li class="nav-item"><a class="nav-link " href="index.php" id="navbardrop">Início</a>
@@ -17,9 +21,9 @@ if (!defined('R8P3B1R9S6L1')) {
           <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
             Ações Sociais
           </a>
-          <div class="dropdown-menu">
-            <a class="dropdown-item" href="<?php echo URL;?>levadaacaz">Levada Acaz</a>
+          <div class="dropdown-menu">            
             <a class="dropdown-item" href="<?php echo URL;?>escritacaz">Centro Cultural</a>
+            <a class="dropdown-item" href="<?php echo URL;?>levadaacaz">Levada Acaz</a>
             <a class="dropdown-item" href="<?php echo URL;?>oficinaart">Oficina Artesanato</a>
             <a class="dropdown-item" href="<?php echo URL;?>capesc">Capoeira na Escola</a>
           </div>
@@ -42,9 +46,9 @@ if (!defined('R8P3B1R9S6L1')) {
             Eventos
           </a>
           <div class="dropdown-menu">
-            <a class="dropdown-item" href="<?php echo URL;?>eventocap">Capoeira Acaz</a>
-            <a class="dropdown-item" href="<?php echo URL;?>eventolev">Levada da Acaz</a>
             <a class="dropdown-item" href="<?php echo URL;?>eventocul">Centro Cultural</a>
+            <a class="dropdown-item" href="<?php echo URL;?>eventolev">Levada da Acaz</a>
+            <a class="dropdown-item" href="<?php echo URL;?>eventocap">Capoeira Acaz</a>
           </div>
         </li>
         <li class="nav-item dropdown">

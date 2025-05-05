@@ -7,7 +7,7 @@ if (!defined('R8P3B1R9S6L1')) {
 }
 ?>
 <body style="background: url(<?php echo URL; ?>app/sts/assets/images/Papel_Parede.jpg) left center;">
-    <div class="container max-width">
+    <div class="container max-width mt-2">
             <?php
             // Acessa o IF quando encontrou algum registro no banco de dados
             if (!empty($this->data['levadaacaz'])) {
@@ -69,7 +69,7 @@ if (!defined('R8P3B1R9S6L1')) {
                         </div>
                     </div>
                     
-                <!--Inicio da segunda linha de video-->  
+                <!--Inicio da segunda linha de video 
                 <div class="row">
                     <div class="col centralizar md-4">
                     <section class="institucional max-width">        
@@ -80,6 +80,7 @@ if (!defined('R8P3B1R9S6L1')) {
                         </article>                    
                     </div>
                 </div>
+                --> 
                 <!--final da segunda linha de video--> 
                 
                     <!-- Primeira Linha de textos --> 

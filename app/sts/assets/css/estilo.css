@@ -208,6 +208,7 @@ nav {
 	transition: opacity 0.3s ease;
 }
 
+
 .navbar-nav .nav-link {
 	color: var(--site-color) !important;
 	font-weight: 500;

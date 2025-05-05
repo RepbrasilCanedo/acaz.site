@@ -7,7 +7,57 @@ if (!defined('R8P3B1R9S6L1')) {
 }
 ?>
 <body style="background: url(<?php echo URL; ?>app/sts/assets/images/Papel_Parede.jpg) left center;">
-    <div class="container max-width">
+    
+  <!-- Início do Carousel superior-->
+  <section class="top-carr p-0 mt-4 w-100">
+   <div class="container-fluid p-0">      
+      <div class="row no-gutters">
+        <div class="col-md-12 p-0">         
+            <?php
+            // Acessa o IF quando encontrou algum registro no banco de dados
+            if (!empty($this->data['eventocul'][0])) {
+                //foreach ($this->data['home']['carroussel'][0] as $home) {
+                  extract($this->data['eventocul'][0]);
+                  //echo('<pre>');print_r($home); echo('</pre>');
+            ?>          
+          <div id="carousel_imagens" class="carousel slide" data-ride="carousel" >
+            <!--Início inner-->
+            <div class="carousel-inner">
+              <div class="carousel-item  active">
+                <img src="<?php echo URLADM; ?>app/sts/assets/images/carrouselcentro/<?php if (isset($carr_1)) {echo $carr_1;}?>" class="d-block w-100" alt="Secullum Acadêmia">
+              </div> 
+              <div class="carousel-item">
+                <img src="<?php echo URLADM; ?>app/sts/assets/images/carrouselcentro/<?php if (isset($carr_2)) {echo $carr_2;}?>" class="d-block w-100" alt="Secullum Acesso">
+              </div>
+              <div class="carousel-item">
+                <img src="<?php echo URLADM; ?>app/sts/assets/images/carrouselcentro/<?php if (isset($carr_3)) {echo $carr_3;}?>" class="d-block w-100" alt="Secullum Checkin">
+              </div>
+            </div>
+            <!--Final inner-->
+            <!-- inicio controles -->
+            <a href="#carousel_imagens" class="carousel-control-prev" data-slide="prev"><i class="fas fa-angle-left fa-3x"></i></a>
+            <a href="#carousel_imagens" class="carousel-control-next" data-slide="next"><i class="fas fa-angle-right fa-3x"></i></a>
+            <!-- Final dos controles -->
+          </div>
+          
+          <?php
+            //}
+          } else {
+              echo "<p style='color: #f00;'>Erro: Nenhum registro encontrado</p>";
+          }
+          ?>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Final do Carousel superior-->
+
+
+
+
+
+
+<div class="container max-width">
             <?php
             // Acessa o IF quando encontrou algum registro no banco de dados
             if (!empty($this->data['eventocul'])) {

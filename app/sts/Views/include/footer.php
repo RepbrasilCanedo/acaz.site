@@ -34,8 +34,8 @@ if (!empty($this->data['footer'][0])) {
                     <div class="col-md-2">
                         <h5>Ações Sociais</h5>
                         <ul class="navbar-nav">
-                            <li><a class="aLink" href="<?php echo URL; ?>levadaacaz">Levada da Acaz</a></li>
                             <li><a class="aLink" href="<?php echo URL; ?>escritacaz">Centro Cultural</a></li>
+                            <li><a class="aLink" href="<?php echo URL; ?>levadaacaz">Levada da Acaz</a></li>
                             <li><a class="aLink" href="<?php echo URL; ?>oficinaart">Oficina Artesanato</a></li>
                             <li><a class="aLink" href="<?php echo URL; ?>capesc">Capoeira na Escola</a></li>
                         </ul>
@@ -56,13 +56,14 @@ if (!empty($this->data['footer'][0])) {
                     <div class="col-md-2">
                         <h5>Eventos</h5>
                         <ul class="navbar-nav">
-                            <li><a class="aLink" href="<?php echo URL; ?>eventocap">Capoeira Acaz</a></li>
-                            <li><a class="aLink" href="<?php echo URL; ?>eventolev">Levada da Acaz</a></li>
                             <li><a class="aLink" href="<?php echo URL; ?>eventocul">Centro Cultural</a></li>
+                            <li><a class="aLink" href="<?php echo URL; ?>eventolev">Levada da Acaz</a></li>
+                            <li><a class="aLink" href="<?php echo URL; ?>eventocap">Capoeira Acaz</a></li>
                         </ul>
                         <br>
                         <h5>Visite Nosso Canal</h5>
-                        <a href="https://www.youtube.com/@ACAZ556" target="_blank"><img src="<?php echo URL; ?>app/sts/assets/images/logos/youtube_50.png"></a>
+                        <a href="https://www.youtube.com/@ACAZ556" target="_blank"><img src="<?php echo URL; ?>app/sts/assets/images/logos/youtube_50.png"></a><br><br>
+                        <a href="mailto:acaz.site@gmail.com">Contato por E-Mail <br> acaz.site@gmail.com</a>
                     </div>
 
                     <div class="col-md-3">
@@ -77,7 +78,7 @@ if (!empty($this->data['footer'][0])) {
                     <div class="col-md-12">
                         <div>
                             <span id="copy_rodape">
-                                <b> Copyright © 2025 | Grupo de Capoeira Adeptos de Zumbi, Todos os direitos reservados</b>
+                                <b> Copyright © 2025 | Associação de Capoeira Adeptos de Zumbi, Todos os direitos reservados</b>
                             </span>
                         </div>
                         <div class="mb-2">

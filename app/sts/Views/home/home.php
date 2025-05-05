@@ -7,7 +7,7 @@ if (!defined('R8P3B1R9S6L1')) {
 ?>
 <body style="background: url(<?php echo URL; ?>app/sts/assets/images/Papel_Parede.jpg) left center;">
   <!-- Início do Carousel superior-->
-  <section class="top-carr p-0 m-0 w-100">
+  <section class="top-carr p-0 mt-4 w-100">
    <div class="container-fluid p-0">      
       <div class="row no-gutters">
         <div class="col-md-12 p-0">         
