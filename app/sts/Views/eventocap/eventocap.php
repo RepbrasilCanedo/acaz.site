@@ -26,28 +26,32 @@ if (!defined('R8P3B1R9S6L1')) {
                     
                     <!-- Primeira Linha de fotos --> 
                     <div class="row m-2">
-                        <div class="col-md-3">
+                        <div class="col-md-6">
                             <div>
                                 <img src="<?php echo URLADM; ?>app/sts/assets/images/eventocap/<?php if (isset($image)) {echo $image;} ?>" class="img-thumbnail d-block w-100" alt="Imagem da levada em apresentação publica">
                                 <h5 class="mt-3"><?php if (isset($sub_title_1)) {echo $sub_title_1;} ?></h5>
                                 <p class="justificar"><?php if (isset($content_1)) {echo $content_1;} ?></p>
                             </div>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-md-6">
                             <div>
                                 <img src="<?php echo URLADM; ?>app/sts/assets/images/eventocap/<?php if (isset($image_2)) {echo $image_2;} ?>" class="img-thumbnail d-block w-100" alt="Imagem da levada em apresentação publica">
                                 <h5 class="mt-3"><?php if (isset($sub_title_2)) {echo $sub_title_2;} ?></h5>
                                 <p class="justificar"><?php if (isset($content_2)) {echo $content_2;} ?></p>
                             </div>
                         </div>
-                        <div class="col-md-3">
+                    </div>
+                    <!-- Final Primeira Linha de fotos --> 
+                    <!-- Segunda Linha de fotos --> 
+                    <div class="row m-2">
+                        <div class="col-md-6">
                             <div>
                                 <img src="<?php echo URLADM; ?>app/sts/assets/images/eventocap//<?php if (isset($image_3)) {echo $image_3;} ?>" class="img-thumbnail d-block w-100"alt="Imagem da levada em apresentação publica">
                                 <h5 class="mt-3"><?php if (isset($sub_title_3)) {echo $sub_title_3;} ?></h5>
                                 <p class="justificar"><?php if (isset($content_3)) {echo $content_3;} ?></p>
                             </div>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-md-6">
                             <div>
                                 <img src="<?php echo URLADM; ?>app/sts/assets/images/eventocap/<?php if (isset($image_4)) {echo $image_4;} ?>" class="img-thumbnail d-block w-100"alt="Imagem da levada em apresentação publica">
                                 <h5 class="mt-3"><?php if (isset($sub_title_4)) {echo $sub_title_4;} ?></h5>
@@ -55,22 +59,28 @@ if (!defined('R8P3B1R9S6L1')) {
                             </div>
                     </div>
 
-                    <!-- Segunda Linha de fotos --> 
+                    <!-- Terceira Linha de fotos -->                     
                     <div class="row m-2">
-                        <div class="col-md-3">
+                        <div class="col-md-6 centralizar">
                             <div>
                                 <img src="<?php echo URLADM; ?>app/sts/assets/images/eventocap/<?php if (isset($image_5)) {echo $image_5;} ?>" class="img-thumbnail d-block w-100"alt="Imagem da levada em apresentação publica">
                                 <h5 class="mt-3"><?php if (isset($sub_title_5)) {echo $sub_title_5;} ?></h5>
                                 <p class="justificar"><?php if (isset($content_5)) {echo $content_5;} ?></p>
                             </div>
                         </div>
-                        <div class="col-md-3">
-                            <div>
-                                <img src="<?php echo URLADM; ?>app/sts/assets/images/eventocap/<?php if (isset($image_6)) {echo $image_6;} ?>" class="img-thumbnail d-block w-100"alt="Imagem da levada em apresentação publica">
+                        <div class="col-md-6 centralizar">
+                            <article id="video">
+                                <div class="video-container">
+                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/alk4Vpn2azg?si=0ZiX_CBrJ0w5N9D8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                </div>
+                                <div>
                                 <h5 class="mt-3"><?php if (isset($sub_title_6)) {echo $sub_title_6;} ?></h5>
                                 <p class="justificar"><?php if (isset($content_6)) {echo $content_6;} ?></p>
                             </div>
-                        </div>
+                            </article>
+                    </div>
+                        <!-- Final Terceira Linha de fotos -->    
+                         <!--
                         <div class="col-md-3">
                             <div>
                                 <img src="<?php echo URLADM; ?>app/sts/assets/images/eventocap/<?php if (isset($image_7)) {echo $image_7;} ?>" class="img-thumbnail d-block w-100"alt="Imagem da levada em apresentação publica">
@@ -86,7 +96,6 @@ if (!defined('R8P3B1R9S6L1')) {
                             </div>
                     </div>
                     
-                    <!-- Terceira Linha de fotos --> 
                     <div class="row m-2">
                         <div class="col-md-3">
                             <div>
@@ -117,7 +126,7 @@ if (!defined('R8P3B1R9S6L1')) {
                             </div>
                     </div>
 
-                    
+                  -->   
 
                     <div class="row m-2">
                         <div class="col-md-12">
@@ -125,17 +134,18 @@ if (!defined('R8P3B1R9S6L1')) {
                             <p class="justificar"><?php if (isset($content_hist)) {echo $content_hist;} ?></p>
                         </div>
                     </div>
+               
             </section>    
             
               <div style="text-align:center;">
                 <a href="<?php if (isset($link_btn_2)) {echo $link_btn_2;} ?>" class="btn btn-sm btn-info cor-botoes m-3 button_top"> <?php if (isset($text_btn_2)) {echo $text_btn_2;} ?> </a>
               </div>
                    
-            <?php
-            }
-            } else {
-                echo "<p style='color: #f00;'>Erro: Nenhum registro encontrado</p>";
-            }
-            ?>
+                <?php
+                }
+                } else {
+                    echo "<p style='color: #f00;'>Erro: Nenhum registro encontrado</p>";
+                }
+                ?>
     </div>
 </body>

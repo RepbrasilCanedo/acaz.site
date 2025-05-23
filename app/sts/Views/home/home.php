@@ -21,7 +21,7 @@ if (!defined('R8P3B1R9S6L1')) {
           <div id="carousel_imagens" class="carousel slide" data-ride="carousel" >
             <!--Início inner-->
             <div class="carousel-inner">
-              <div class="carousel-item  active">
+              <div class="carousel-item">
                 <img src="<?php echo URLADM; ?>app/sts/assets/images/carrousel/<?php if (isset($image_1)) {echo $image_1;}?>" class="d-block w-100" alt="Secullum Acadêmia">
                 <div class="carousel-caption d-none d-md-block">
                   <h3 class="texto-carrousel"><?php if (isset($titlte_1)) {echo $titlte_1;}?></h3>
@@ -57,7 +57,7 @@ if (!defined('R8P3B1R9S6L1')) {
                 </div>
               </div>
 
-              <div class="carousel-item">
+              <div class="carousel-item active">
                 <img src="<?php echo URLADM; ?>app/sts/assets/images/carrousel/<?php if (isset($image_5)) {echo $image_5;}?>" class="d-block w-100" alt="Secullum Ponto">
                 <div class="carousel-caption d-none d-md-block">
                   <h3 class="texto-carrousel"><?php if (isset($titlte_5)) {echo $titlte_5;}?></h3>
@@ -155,6 +155,7 @@ if (!defined('R8P3B1R9S6L1')) {
     <!--Inicio da primwira linha de Marketing-->
     <div class="row mt-5">
       <div class="col centralizar">
+        <a href="eventocul">
       <img src="<?php echo URLADM; ?>app/sts/assets/images/marketing/<?php if (isset($marketing_1)) {echo $marketing_1;}?>" alt="<?php if (isset($marketing_1_alt)) {echo $marketing_1_alt;}?>">
       </div>
     </div>
