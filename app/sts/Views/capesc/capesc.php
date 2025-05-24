@@ -17,9 +17,17 @@ if (!defined('R8P3B1R9S6L1')) {
             ?>
             <section class="mb-3">
                     <!-- Título e texto da pagina --> 
+                     <div class="row m-2">
+                         <div class="col-md-12">
+                            <h4 class="mt-3 centralizar"><?php if (isset($title)) {echo $title;} ?></h4>
+                            <div>
+                                <img src="<?php echo URLADM; ?>app/sts/assets/images/capesc/<?php if (isset($image)) {echo $image;} ?>" class="img-thumbnail d-block w-100"  alt="imagens de aulas de capoira nas escolas"              >
+                            </div>
+                        </div>
+                     </div>
                     <div class="row m-2">
                         <div class="col">
-                            <h4 class="mt-3 centralizar"><?php if (isset($title)) {echo $title;} ?></h4>
+                            
                             <p class="justificar"><?php if (isset($content)) {echo $content;} ?></p>
                         </div>
                     </div>
@@ -27,20 +35,20 @@ if (!defined('R8P3B1R9S6L1')) {
                     <div class="row m-2">
                         <div class="col-md-3">
                             <div>
-                                <img src="<?php echo URLADM; ?>app/sts/assets/images/capesc/<?php if (isset($image)) {echo $image;} ?>" class="img-thumbnail d-block w-100"  alt="imagens de aulas de capoira nas escolas"              >
-
-                            </div>
-                        </div>
-
-                        <div class="col-md-3">
-                            <div>
                                 <img src="<?php echo URLADM; ?>app/sts/assets/images/capesc/<?php if (isset($image_2)) {echo $image_2;} ?>" class="img-thumbnail d-block w-100"  alt="imagens de aulas de capoira nas escolas"              >
+
                             </div>
                         </div>
 
                         <div class="col-md-3">
                             <div>
-                                <img src="<?php echo URLADM; ?>app/sts/assets/images/capesc/<?php if (isset($image_3)) {echo $image_3;} ?>" class="img-thumbnail d-block w-100" alt="imagens de aulas de capoira nas escolas"              >
+                                <img src="<?php echo URLADM; ?>app/sts/assets/images/capesc/<?php if (isset($image_3)) {echo $image_3;} ?>" class="img-thumbnail d-block w-100"  alt="imagens de aulas de capoira nas escolas"              >
+                            </div>
+                        </div>
+
+                        <div class="col-md-3">
+                            <div>
+                                <img src="<?php echo URLADM; ?>app/sts/assets/images/capesc/<?php if (isset($image_4)) {echo $image_4;} ?>" class="img-thumbnail d-block w-100" alt="imagens de aulas de capoira nas escolas"              >
                                 <h5 class="mt-3"><?php if (isset($sub_title_3)) {echo $sub_title_3;} ?></h5>
                                 <p class="justificar"><?php if (isset($content_3)) {echo $content_3;} ?></p>
                             </div>
@@ -48,7 +56,7 @@ if (!defined('R8P3B1R9S6L1')) {
 
                         <div class="col-md-3">
                             <div>
-                                <img src="<?php echo URLADM; ?>app/sts/assets/images/capesc/<?php if (isset($image_4)) {echo $image_4;} ?>" class="img-thumbnail d-block w-100" alt="imagens de aulas de capoira nas escolas"              >
+                                <img src="<?php echo URLADM; ?>app/sts/assets/images/capesc/<?php if (isset($image_5)) {echo $image_5;} ?>" class="img-thumbnail d-block w-100" alt="imagens de aulas de capoira nas escolas"              >
                                 <h5 class="mt-3"><?php if (isset($sub_title_4)) {echo $sub_title_4;} ?></h5>
                                 <p class="justificar"><?php if (isset($content_4)) {echo $content_4;} ?></p>
                             </div>
@@ -68,7 +76,7 @@ if (!defined('R8P3B1R9S6L1')) {
                     <div class="row m-2">
                         <div class="col-md-3">
                             <div>
-                                <img src="<?php echo URLADM; ?>app/sts/assets/images/capesc/<?php if (isset($image_5)) {echo $image_5;} ?>" class="img-thumbnail d-block w-100" alt="imagens de aulas de capoira nas escolas"              >
+                                <img src="<?php echo URLADM; ?>app/sts/assets/images/capesc/<?php if (isset($image_6)) {echo $image_6;} ?>" class="img-thumbnail d-block w-100" alt="imagens de aulas de capoira nas escolas"              >
                                 <h5 class="mt-3"><?php if (isset($sub_title_5)) {echo $sub_title_5;} ?></h5>
                                 <p class="justificar"><?php if (isset($content_5)) {echo $content_5;} ?></p>
                             </div>
@@ -76,7 +84,7 @@ if (!defined('R8P3B1R9S6L1')) {
 
                         <div class="col md-3">
                             <div>
-                                <img src="<?php echo URLADM; ?>app/sts/assets/images/capesc/<?php if (isset($image_6)) {echo $image_6;} ?>" class="img-thumbnail d-block w-100" alt="imagens de aulas de capoira nas escolas"              >
+                                <img src="<?php echo URLADM; ?>app/sts/assets/images/capesc/<?php if (isset($image_7)) {echo $image_7;} ?>" class="img-thumbnail d-block w-100" alt="imagens de aulas de capoira nas escolas"              >
                                 <h5 class="mt-3"><?php if (isset($sub_title_6)) {echo $sub_title_6;} ?></h5>
                                 <p class="justificar"><?php if (isset($content_6)) {echo $content_6;} ?></p>
                             </div>
@@ -84,7 +92,7 @@ if (!defined('R8P3B1R9S6L1')) {
 
                         <div class="col md-3">
                             <div>
-                                <img src="<?php echo URLADM; ?>app/sts/assets/images/capesc/<?php if (isset($image_7)) {echo $image_7;} ?>" class="img-thumbnail d-block w-100" alt="imagens de aulas de capoira nas escolas"              >
+                                <img src="<?php echo URLADM; ?>app/sts/assets/images/capesc/<?php if (isset($image_8)) {echo $image_8;} ?>" class="img-thumbnail d-block w-100" alt="imagens de aulas de capoira nas escolas"              >
                                 <h5 class="mt-3"><?php if (isset($sub_title_7)) {echo $sub_title_7;} ?></h5>
                                 <p class="justificar"><?php if (isset($content_7)) {echo $content_7;} ?></p>
                             </div>
@@ -92,7 +100,7 @@ if (!defined('R8P3B1R9S6L1')) {
 
                         <div class="col md-3">
                             <div>
-                                <img src="<?php echo URLADM; ?>app/sts/assets/images/capesc/<?php if (isset($image_8)) {echo $image_8;} ?>" class="img-thumbnail d-block w-100" alt="imagens de aulas de capoira nas escolas"              >
+                                <img src="<?php echo URLADM; ?>app/sts/assets/images/capesc/<?php if (isset($image_9)) {echo $image_9;} ?>" class="img-thumbnail d-block w-100" alt="imagens de aulas de capoira nas escolas"              >
                                 <h5 class="mt-3"><?php if (isset($sub_title_8)) {echo $sub_title_8;} ?></h5>
                                 <p class="justificar"><?php if (isset($content_8)) {echo $content_8;} ?></p>
                             </div>
@@ -110,38 +118,32 @@ if (!defined('R8P3B1R9S6L1')) {
                     
                     <!-- Terceira Linha de fotos --> 
                     <div class="row m-2">
-                        <div class="col-md-3">
+                        <div class="col-md-4">
                             <div>
-                                <img src="<?php echo URLADM; ?>app/sts/assets/images/capesc/<?php if (isset($image_9)) {echo $image_9;} ?>" class="img-thumbnail d-block w-100" alt="imagens de aulas de capoira nas escolas"              >
+                                <img src="<?php echo URLADM; ?>app/sts/assets/images/capesc/<?php if (isset($image_10)) {echo $image_10;} ?>" class="img-thumbnail d-block w-100" alt="imagens de aulas de capoira nas escolas"              >
                                 <h5 class="mt-3"><?php if (isset($sub_title_9)) {echo $sub_title_9;} ?></h5>
                                 <p class="justificar"><?php if (isset($content_9)) {echo $content_9;} ?></p>
                             </div>
                         </div>
-                        <div class="col md-3">
+                        <div class="col md-4">
                             <div>
-                                <img src="<?php echo URLADM; ?>app/sts/assets/images/capesc/<?php if (isset($image_10)) {echo $image_10;} ?>" class="img-thumbnail d-block w-100" alt="imagens de aulas de capoira nas escolas"              >
+                                <img src="<?php echo URLADM; ?>app/sts/assets/images/capesc/<?php if (isset($image_11)) {echo $image_11;} ?>" class="img-thumbnail d-block w-100" alt="imagens de aulas de capoira nas escolas"              >
                                 <h5 class="mt-3"><?php if (isset($sub_title_10)) {echo $sub_title_10;} ?></h5>
                                 <p class="justificar"><?php if (isset($content_10)) {echo $content_10;} ?></p>
                             </div>
                         </div>
-                        <div class="col md-3">
+                        <div class="col md-4">
                             <div>
-                                <img src="<?php echo URLADM; ?>app/sts/assets/images/capesc/<?php if (isset($image_11)) {echo $image_11;} ?>" class="img-thumbnail d-block w-100" alt="imagens de aulas de capoira nas escolas"              >
+                                <img src="<?php echo URLADM; ?>app/sts/assets/images/capesc/<?php if (isset($image_12)) {echo $image_12;} ?>" class="img-thumbnail d-block w-100" alt="imagens de aulas de capoira nas escolas"              >
                                 <h5 class="mt-3"><?php if (isset($sub_title_11)) {echo $sub_title_11;} ?></h5>
                                 <p class="justificar"><?php if (isset($content_11)) {echo $content_11;} ?></p>
                             </div>
                         </div>
-                        <div class="col md-3">
-                            <div>
-                                <img src="<?php echo URLADM; ?>app/sts/assets/images/capesc/<?php if (isset($image_12)) {echo $image_12;} ?>" class="img-thumbnail d-block w-100" alt="imagens de aulas de capoira nas escolas"              >
-                                <h5 class="mt-3"><?php if (isset($sub_title_12)) {echo $sub_title_12;} ?></h5>
-                                <p class="justificar"><?php if (isset($content_12)) {echo $content_12;} ?></p>
-                            </div>
                     </div>
 
                     <div class="row m-2">
                     <div class="col-md-12">
-                            <h6 class="mt-3 centralizar"><?php if (isset($sub_title_hist)) {echo $sub_title_hist;} ?></h6>
+                            <h5 class="mt-3 centralizar"><?php if (isset($sub_title_hist)) {echo $sub_title_hist;} ?></h5>
                             <p class="justificar"><?php if (isset($content_hist)) {echo $content_hist;} ?></p>
                         </div>
                     </div>
