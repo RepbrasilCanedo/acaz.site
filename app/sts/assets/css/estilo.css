@@ -509,8 +509,14 @@ img {
 }
 
 .texto-carrousel {
-	color: white;
+	color:#ffffff;
 	text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+	text-align: center;
+
+}.texto-carr_tour {
+
+	background-color: var(--hover-color);
+	color:var(--active-color);
 	text-align: center;
 
 }
