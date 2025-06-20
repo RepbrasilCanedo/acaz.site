@@ -49,7 +49,6 @@ if (!empty($this->data['footer'][0])) {
                             <li><a class="aLink" href="<?php echo URL;?>nucleocanIII">Canavieiras-Ba III</a></li>
                             <li><a class="aLink" href="<?php echo URL;?>nucleocanIV">Canavieiras-Ba IV</a></li>
                             <li><a class="aLink" href="<?php echo URL;?>nucleoarat">Arataca-Ba</a></li>
-                            <li><a class="aLink" href="<?php echo URL;?>nucleovit">Vitória-Es</a></li>
                         </ul>
                     </div>
 

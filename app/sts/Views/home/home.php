@@ -98,7 +98,7 @@ if (!defined('R8P3B1R9S6L1')) {
 
   <!--Inicio da primwira linha de textos-->  
     <div class="row mt-5">
-      <div class="col md-8">
+      <div class="col-md-8">
         <?php
           if (!empty($this->data['home']['content'][0])) {
                 extract($this->data['home']['content'][0]);
@@ -119,8 +119,28 @@ if (!defined('R8P3B1R9S6L1')) {
               echo "<p style='color: #f00;'>Erro: Nenhum registro encontrado</p>";
           }
           ?>
+
+      </div>
+
+      <div class="col-md-4 mt-5">
+            <img src="<?php echo URLADM; ?>app/sts/assets/images/institucional/oficina_2.jpg" alt="Oficinas culturais">
       </div>   
     </div>
+    <div class="row">
+        <div class="col-md-4 ">
+          <img src="<?php echo URLADM; ?>app/sts/assets/images/institucional/oficina_3.jpg" alt="Oficinas culturais">
+        </div>
+        <div class="col-md-4">
+          <img src="<?php echo URLADM; ?>app/sts/assets/images/institucional/oficina_5.jpg" alt="Oficinas culturais">
+        </div>        
+        <div class="col-md-4">
+          <img src="<?php echo URLADM; ?>app/sts/assets/images/institucional/oficina_4.jpg" alt="Oficinas culturais">
+        </div>
+    </div>
+    <div class="col centralizar mt-4">
+            <img src="<?php echo URLADM; ?>app/sts/assets/images/institucional/regua_pnab.jpg" alt="Oficinas culturais">
+      </div> 
+
   <!--final da primwira linha de textos-->  
 
   <!--Inicio da primeira linha de video e texto-->  
@@ -341,6 +361,11 @@ if (!defined('R8P3B1R9S6L1')) {
             echo "<p style='color: #f00;'>Erro: Nenhum registro encontrado</p>";   
         }
         ?>
+        <div class="row">
+          <div class="col" style="text-align:center;">
+            <img src="<?php echo URLADM; ?>app/sts/assets/images/institucional/regua_pnab.jpg">
+          </div>
+        </div>
 </div>
 </body>
 

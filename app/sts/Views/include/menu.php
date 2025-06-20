@@ -38,7 +38,6 @@ if (!defined('R8P3B1R9S6L1')) {
             <a class="dropdown-item" href="<?php echo URL;?>nucleocanIII">III - Canavieiras-Ba</a>
             <a class="dropdown-item" href="<?php echo URL;?>nucleocanIV">IV - Canavieiras-Ba</a>
             <a class="dropdown-item" href="<?php echo URL;?>nucleoarat">V - Arataca-Ba</a>
-            <a class="dropdown-item" href="<?php echo URL;?>nucleovit">VI - Vitória-Es</a>
           </div>
         </li>
         <li class="nav-item dropdown">
@@ -50,7 +49,6 @@ if (!defined('R8P3B1R9S6L1')) {
             <a class="dropdown-item" href="<?php echo URL;?>eventolev">Levada da Acaz</a>
             <a class="dropdown-item" href="<?php echo URL;?>eventocap">Capoeira Acaz</a>
           </div>
-        </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
             Institucional
@@ -58,6 +56,14 @@ if (!defined('R8P3B1R9S6L1')) {
           <div class="dropdown-menu">
             <a id="sobre" class="dropdown-item" href="<?php echo URL; ?>sobreempresa">Sobre Acaz</a>
             <a id="sobre" class="dropdown-item" href="<?php echo URL; ?>historicoacaz">Histórico</a>
+          </div>
+        </li>
+        
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">PNAB</a>
+          <div class="dropdown-menu">         
+            <a class="dropdown-item" href="<?php echo URL;?>oficinapnab">Oficinas Artezanato</a>
           </div>
         </li>
       </ul>
