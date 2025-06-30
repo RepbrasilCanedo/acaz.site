@@ -5,14 +5,6 @@ if (!defined('R8P3B1R9S6L1')) {
     die("Erro: Pagina nao encontrata");
 }
 ?>
-<!-- Inicio do Rodapé-->
-<?php
-// Ler o registro naa pagina footer retornando do banco de dados
-// A função extract()n e utilizada para extrair o array e imprimir através do nome da chave
-if (!empty($this->data['footer'][0])) {
-    extract($this->data['footer'][0]);
-?>
-
     <!-- xxxxxxxxxxxxxxxxxx   Inicio do Rodapé   xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-->
     <div class="centralizar mx-0">
         <footer class="fundo_rodape w-100">           
@@ -89,10 +81,6 @@ if (!empty($this->data['footer'][0])) {
                 </div>
             </div>
         </footer>
-    </div>
-        
-        <!-- xxxxxxxxxxxxxxxxxx   Final do Rodapé   xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-->
-<?php } else {
-    echo "<p style='color:#f00'> Erro: Nenghuma informação para o Rodapé Encontrado</p>";
-} ?>
+    </div>     
+
     <script src="<?php echo URL; ?>app/sts/assets/js/custom.js"></script>

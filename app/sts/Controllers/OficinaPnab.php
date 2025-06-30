@@ -21,7 +21,7 @@ class OficinaPnab
      {
          $oficinapnab = new \Sts\Models\StsOficinaPnab();
          $this->data['oficinapnab'] = $oficinapnab->index();
-
+         
         $footer = new \Sts\Models\StsFooter();
         $this->data['footer'] = $footer->index();
 

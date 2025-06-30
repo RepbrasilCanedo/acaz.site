@@ -157,15 +157,6 @@ if (!defined('R8P3B1R9S6L1')) {
               </div>
             </article>
           </div>
-          <!--
-          <div class="col md-6">
-            <article id="video_3">
-              <div class="video-container">
-                <iframe width="1236" height="695" src="<?php if (isset($url_video_3)) {echo $url_video_3;}?>" title="OFICINA DE CAPOEIRA NA ESCOLA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-              </div>
-            </article>
-          </div>
-          -->
         </div>
       </section>
 
@@ -265,15 +256,7 @@ if (!defined('R8P3B1R9S6L1')) {
       <?php
           if (!empty($this->data['home']['divulgacao'][0])) {
                 extract($this->data['home']['divulgacao'][0]);
-      ?>    
-      <!--Inicio da primwira linha de Marketing
-        <div class="row mt-5">
-          <div class="col centralizar">
-            <a href="eventocul">
-              <img src="<?php echo URLADM; ?>app/sts/assets/images/marketing/<?php if (isset($marketing_1)) {echo $marketing_1;}?>" alt="<?php if (isset($marketing_1_alt)) {echo $marketing_1_alt;}?>">
-          </div>
-        </div>
-      Final da primeira linha de Marketing-->
+      ?> 
 
       <!--Inicio da segunda linha de video e texto-->  
         <div class="row">

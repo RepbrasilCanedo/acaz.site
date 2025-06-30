@@ -24,7 +24,7 @@ if (!defined('R8P3B1R9S6L1')) {
           <div class="dropdown-menu">            
             <a class="dropdown-item" href="<?php echo URL;?>escritacaz">Centro Cultural</a>
             <a class="dropdown-item" href="<?php echo URL;?>levadaacaz">Levada Acaz</a>
-            <a class="dropdown-item" href="<?php echo URL;?>oficinaart">Oficina Artesanato</a>
+            <a class="dropdown-item" href="<?php echo URL;?>oficinapnab">Oficina Artesanato</a>
             <a class="dropdown-item" href="<?php echo URL;?>capesc">Capoeira na Escola</a>
           </div>
         </li>
