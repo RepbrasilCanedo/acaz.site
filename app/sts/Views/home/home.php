@@ -95,6 +95,18 @@ if (!defined('R8P3B1R9S6L1')) {
   <!-- Final do Carousel superior-->
 
 <div class="container max-width">
+    <!--Inicio da primeira Imagens de marketing-->  
+      <section class="institucional max-width"> 
+        <div class="row">
+          <div class="col md-6 centralizar">
+                <img src="<?php echo URLADM; ?>app/sts/assets/images/institucional/workshop_carav_cult.jpg" alt="Oficinas culturais">
+          </div>
+          <div class="col md-6 centralizar">
+                <img src="<?php echo URLADM; ?>app/sts/assets/images/institucional/workshop_cultural.jpg" alt="Oficinas culturais">
+          </div>
+        </div>
+      </section>
+  <!--final da primeira linha de video e texto--> 
 
   <!--Inicio da primwira linha de textos-->  
     <div class="row mt-5">
@@ -166,6 +178,15 @@ if (!defined('R8P3B1R9S6L1')) {
             echo "<p style='color: #f00;'>Erro: Nenhum registro encontrado</p>";   
         }
         ?>
+  <!--final da primeira linha de video e texto--> 
+
+        <section class="institucional max-width"> 
+        <div class="row">
+          <div class="col md-12 centralizar">
+                <img src="<?php echo URLADM; ?>app/sts/assets/images/institucional/faixa_pnab.jpg" alt="Oficinas culturais">
+          </div>
+        </div>
+      </section>
   <!--final da primeira linha de video e texto--> 
 
   <!-- Início do Carousel Turistico-->
