@@ -26,6 +26,7 @@ if (!defined('R8P3B1R9S6L1')) {
             <a class="dropdown-item" href="<?php echo URL;?>levadaacaz">Levada Acaz</a>
             <a class="dropdown-item" href="<?php echo URL;?>oficinapnab">Oficina Artesanato</a>
             <a class="dropdown-item" href="<?php echo URL;?>capesc">Capoeira na Escola</a>
+            <a class="dropdown-item" href="<?php echo URL;?>caravanacult">Caravana Cultural</a>
           </div>
         </li>
         <li class="nav-item dropdown">
@@ -61,9 +62,11 @@ if (!defined('R8P3B1R9S6L1')) {
         
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">PNAB</a>
+          <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Pnab</a>
           <div class="dropdown-menu">         
             <a class="dropdown-item" href="<?php echo URL;?>oficinapnab">Oficinas Artezanato</a>
+        
+            <a class="dropdown-item" href="<?php echo URL;?>caravanacult">Caravana Cultural</a>
           </div>
         </li>
       </ul>

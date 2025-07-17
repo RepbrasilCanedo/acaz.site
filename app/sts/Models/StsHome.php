@@ -31,7 +31,9 @@ class StsHome
         $this->data['carr_tour']= $viewHomeTop->getResult();
 
         $viewHomeContent = new \Sts\Models\helper\StsRead();
-        $viewHomeContent->fullRead("SELECT title, contente_1, contente_2,  contente_3, contente_4, url_content,  url_text FROM sts_home_initial_article WHERE id=:id LIMIT :limit", "id=1&limit=1");
+        $viewHomeContent->fullRead("SELECT title, contente_1, contente_2,  contente_3, contente_4, url_content, url_text,
+        title_2, contente_5, contente_6,  contente_7, contente_8, url_content_2, url_text_2, title_3, contente_9, contente_10,  contente_11, contente_12, url_content_3, url_text_3
+        FROM sts_home_initial_article WHERE id=:id LIMIT :limit", "id=1&limit=1");
         $this->data['content']= $viewHomeContent->getResult();
       
         $viewHomeInstitucional = new \Sts\Models\helper\StsRead();

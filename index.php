@@ -3,8 +3,6 @@
 session_start();// Inicia a sessão
 ob_start(); // Buffer de saida
 
-
-
 // Constante que define que o usuario esta acessando paginas interna  atarvés da página Index.php.
 
 define('R8P3B1R9S6L1', true);
