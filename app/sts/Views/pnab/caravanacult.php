@@ -6,7 +6,7 @@ if (!defined('R8P3B1R9S6L1')) {
     die("Erro: Pagina nao encontrata");
 }
 ?>
-<body>
+<body style="background: url(<?php echo URL; ?>app/sts/assets/images/Papel_Parede.jpg) left center;">
     <div class="container max-width">
             <?php
             // Acessa o IF quando encontrou algum registro no banco de dados

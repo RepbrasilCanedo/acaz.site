@@ -1,6 +1,5 @@
 <?php
 namespace Sts\Controllers;
-
 if(!defined('R8P3B1R9S6L1')){
     header("location:/");
     die("Erro: Pagina nao encontrata");
@@ -16,7 +15,6 @@ class OficinaArt
      * @author Daniel Canedo <doacan2006@gmail.com>
      * 
      */
-
      public function index()
      {
          $oficinaart = new \Sts\Models\StsOficinaArt();

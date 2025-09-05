@@ -29,7 +29,6 @@ class StsOficinaPnab
         FROM sts_oficina_art_pnab WHERE sts_situation=:sts_situation", "sts_situation=1");
         
         $this->data['conteudo']= $oficinapnab->getResult();
-       
         return $this->data;
     }
 }

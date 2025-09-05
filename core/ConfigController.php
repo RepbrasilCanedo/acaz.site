@@ -191,24 +191,14 @@ class ConfigController extends Config
      *
      * @return void
      */
-
     private function loadClass()//: void
-
     {
-
         $classPage = new $this->classLoad();
-
         if (method_exists($classPage, "index")) {
-
             $classPage->index();
-
         } else {
-
             die("Erro: Por favor tente novamente. Caso o problema persista, entre em contato o administrador " . EMAILADM);
-
         }
-
     }
-
 }
 

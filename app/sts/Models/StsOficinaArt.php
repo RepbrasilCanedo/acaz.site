@@ -34,7 +34,6 @@ class StsOficinaArt
          FROM sts_oficina_art WHERE sts_situation=:sts_situation", "sts_situation=1");
         
         $this->data['conteudo']= $oficinaart->getResult();
-        //echo('<pre>');print_r($this->data); echo('</pre>');
         return $this->data;
     }
 }
