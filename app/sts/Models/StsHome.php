@@ -44,6 +44,10 @@ class StsHome
         $viewHomeDivulgacao->fullRead("SELECT marketing_1, marketing_1_alt, title, title_img_1, image_1, image_1_alt,  image_1_title, url_image_1, sub_title_1, url_btn_1, text_btn_1, title_img_2, image_2, image_2_alt, image_2_title, url_image_2, sub_title_2, url_btn_2,text_btn_2, title_img_3, image_3, image_3_alt, image_3_title, url_image_3, sub_title_3, url_btn_3, text_btn_3, title_img_4, image_4, image_4_alt, image_4_title, url_image_4, sub_title_4, url_btn_4, text_btn_4, title_img_5, image_5, image_5_alt, image_5_title, url_image_5, sub_title_5, url_btn_5, text_btn_5, title_img_6, image_6, image_6_alt, image_6_title, url_image_6, sub_title_6, url_btn_6, text_btn_6 FROM  sts_home_divulgacao WHERE id=:id LIMIT :limit", "id=1&limit=1");
         $this->data['divulgacao']= $viewHomeDivulgacao->getResult();
 
+        $viewHomeDivulgacao = new \Sts\Models\helper\StsRead();
+        $viewHomeDivulgacao->fullRead("SELECT img, img_alt, title, content, img_2, img_alt2, img_3, img_alt3 FROM  sts_evento_home WHERE id=:id LIMIT :limit", "id=1&limit=1");
+        $this->data['evento']= $viewHomeDivulgacao->getResult();
+
         return $this->data;
 
     }

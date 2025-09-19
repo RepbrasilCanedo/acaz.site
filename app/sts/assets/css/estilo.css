@@ -463,6 +463,14 @@ img {
 	text-align: justify;
 }
 
+/*CSS da Secão Evento*/
+.image-container{
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center;     /* Centraliza verticalmente (se houver altura definida) */
+}
+
+
 /*Formatacao titulos*/
 .cor-texto {
 	color: var(--main-color)

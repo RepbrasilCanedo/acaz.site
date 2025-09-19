@@ -72,7 +72,82 @@ if (!defined('R8P3B1R9S6L1')) {
             </div>
           </div>
 
+          <div>
+        <?php
+          if (!empty($this->data['nucleocanI']['conteudo'][0])) {
+                extract($this->data['nucleocanI']['conteudo'][0]);
+        ?>
+        <section class="max-width centralizar mb-1 ">
+        <article>
+            <h5 class="centralizar "><?php if (isset($sub_title_2)) {echo $sub_title_2;}?></h5>
+        </article>
+        <?php
+            //}
+        } else {
+            echo "<p style='color: #f00;'>Erro: Nenhum registro encontrado</p>";
+        }
+        ?>
+    </div>
+
           <!-- Primeira Linha de fotos -->
+           <div class="row m-2">
+            <div class="col-md-3">
+              <div>
+                <img src="<?php echo URLADM; ?>app/sts/assets/images/nucleocanI/<?php if (isset($image_7)) {
+                     echo $image_7;
+                   } ?>" class="img-thumbnail d-block w-100" alt="Imagem de roda de capoeira">
+                <h5 class="mt-3"><?php if (isset($sub_title_7)) {
+                  echo $sub_title_7;
+                } ?></h5>
+                <p class="justificar"><?php if (isset($content_7)) {
+                  echo $content_7;
+                } ?></p>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div>
+                <img src="<?php echo URLADM; ?>app/sts/assets/images/nucleocanI/<?php if (isset($image_8)) {
+                     echo $image_8;
+                   } ?>" class="img-thumbnail d-block w-100" alt="Imagem de roda de capoeira">
+                <h5 class="mt-3"><?php if (isset($sub_title_8)) {
+                  echo $sub_title_8;
+                } ?></h5>
+                <p class="justificar"><?php if (isset($content_8)) {
+                  echo $content_8;
+                } ?></p>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div>
+                <img src="<?php echo URLADM; ?>app/sts/assets/images/nucleocanI/<?php if (isset($image_9)) {
+                     echo $image_9;
+                   } ?>" class="img-thumbnail d-block w-100" alt="Imagem de roda de capoeira">
+                <h5 class="mt-3"><?php if (isset($sub_title_9)) {
+                  echo $sub_title_9;
+                } ?></h5>
+                <p class="justificar"><?php if (isset($content_9)) {
+                  echo $content_9;
+                } ?></p>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div>
+                <img src="<?php echo URLADM; ?>app/sts/assets/images/nucleocanI/<?php if (isset($image_10)) {
+                     echo $image_10;
+                   } ?>" class="img-thumbnail d-block w-100" alt="Imagem de roda de capoeira">
+                <h5 class="mt-3"><?php if (isset($sub_title_10)) {
+                  echo $sub_title_10;
+                } ?></h5>
+                <p class="justificar"><?php if (isset($content_10)) {
+                  echo $content_10;
+                } ?></p>
+              </div>
+            </div>
+          </div>
+
+          
+
+          <!-- Segunda Linha de fotos -->
           <div class="row m-2">
             <div class="col-md-3">
               <div>
@@ -127,63 +202,7 @@ if (!defined('R8P3B1R9S6L1')) {
               </div>
             </div>
           </div>
-
-          <!-- Segunda Linha de fotos 
-          <div class="row m-2">
-            <div class="col-md-3">
-              <div>
-                <img src="<?php echo URLADM; ?>app/sts/assets/images/nucleocanI/<?php if (isset($image_7)) {
-                     echo $image_7;
-                   } ?>" class="img-thumbnail d-block w-100" alt="Imagem de roda de capoeira">
-                <h5 class="mt-3"><?php if (isset($sub_title_7)) {
-                  echo $sub_title_7;
-                } ?></h5>
-                <p class="justificar"><?php if (isset($content_7)) {
-                  echo $content_7;
-                } ?></p>
-              </div>
-            </div>
-            <div class="col-md-3">
-              <div>
-                <img src="<?php echo URLADM; ?>app/sts/assets/images/nucleocanI/<?php if (isset($image_8)) {
-                     echo $image_8;
-                   } ?>" class="img-thumbnail d-block w-100" alt="Imagem de roda de capoeira">
-                <h5 class="mt-3"><?php if (isset($sub_title_8)) {
-                  echo $sub_title_8;
-                } ?></h5>
-                <p class="justificar"><?php if (isset($content_8)) {
-                  echo $content_8;
-                } ?></p>
-              </div>
-            </div>
-            <div class="col-md-3">
-              <div>
-                <img src="<?php echo URLADM; ?>app/sts/assets/images/nucleocanI/<?php if (isset($image_9)) {
-                     echo $image_9;
-                   } ?>" class="img-thumbnail d-block w-100" alt="Imagem de roda de capoeira">
-                <h5 class="mt-3"><?php if (isset($sub_title_9)) {
-                  echo $sub_title_9;
-                } ?></h5>
-                <p class="justificar"><?php if (isset($content_9)) {
-                  echo $content_9;
-                } ?></p>
-              </div>
-            </div>
-            <div class="col-md-3">
-              <div>
-                <img src="<?php echo URLADM; ?>app/sts/assets/images/nucleocanI/<?php if (isset($image_10)) {
-                     echo $image_10;
-                   } ?>" class="img-thumbnail d-block w-100" alt="Imagem de roda de capoeira">
-                <h5 class="mt-3"><?php if (isset($sub_title_10)) {
-                  echo $sub_title_10;
-                } ?></h5>
-                <p class="justificar"><?php if (isset($content_10)) {
-                  echo $content_10;
-                } ?></p>
-              </div>
-            </div>
-          </div>
-          -->
+  
             <!-- Verifica se existe imagem e informações para apresentar -->
             <div class="row m-1">
               <?php if (isset($image_12)) {?>               
