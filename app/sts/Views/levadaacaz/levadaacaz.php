@@ -28,6 +28,39 @@ if (!defined('R8P3B1R9S6L1')) {
                 </div>
                 <!--final da primeira linha de video--> 
 
+    <!--1 POST-->  
+     <div class="row mt-5">
+      <div class="col-md-8">
+
+        <section class="initial-article max-width centralizar mb-5">
+        <article id="materia_inicial_col_esq">
+            <!--<?php if (isset($sub_title_1)) {echo $sub_title_1;}?>-->  
+            <h1 id="titulo_materia_inicial" class="conteudo-produtos centralizar mb-4">Ensaio para a apresentação do dia 21 de Setembro no Projeto Social Centro de Abastecimento no AUÊ CULTURAL DA ACAZ<br> Novos toques e novas batidas para implementar nossos trabalhos</h1>
+            <p class="texto-caixa"><?php if (isset($content_1)) {echo $content_1;}?></p>
+            <p class="texto-caixa"><?php if (isset($content_2)) {echo $content_2;}?></p>
+        </article>
+        </section>
+
+      </div>
+
+      <div class="col-md-4 mt-5">
+            <img src="<?php echo URLADM; ?>app/sts/assets/images/levadaacaz/lev1.jpg" class="p-3" alt="Levada percursiva">
+            <img src="<?php echo URLADM; ?>app/sts/assets/images/levadaacaz/lev2.jpg" class="p-3" alt="Levada percursiva">
+      </div>   
+    </div>
+    <div class="row">
+        <div class="col-md-6 ">
+          <img src="<?php echo URLADM; ?>app/sts/assets/images/levadaacaz/lev3.jpg" alt="Levada percursiva">
+        </div>
+        <div class="col-md-6">
+          <img src="<?php echo URLADM; ?>app/sts/assets/images/levadaacaz/lev4.jpg" alt="Levada percursiva">
+        </div>        
+    </div>
+    <div class="col centralizar mt-4">
+      <img src="<?php echo URLADM; ?>app/sts/assets/images/institucional/regua_pnab.jpg" alt="Levada percursiva">
+    </div> 
+    <!--FINAL 1 POST--> 
+
             <section class="mb-3">
                     <!-- Título e texto da pagina --> 
                     <div class="row m-2">
@@ -87,8 +120,8 @@ if (!defined('R8P3B1R9S6L1')) {
                     <div class="row m-2">
                         <div class="col-md-12">
                             <div>
-                               <h5 class="mt-3"><?php if (isset($sub_title_1)) {echo $sub_title_1;} ?></h5>
-                                <p class="justificar"><?php if (isset($content_1)) {echo $content_1;} ?></p>
+                              <!--  <h5 class="mt-3"><?php if (isset($sub_title_1)) {echo $sub_title_1;} ?></h5>
+                                <p class="justificar"><?php if (isset($content_1)) {echo $content_1;} ?></p>--> 
                             </div>
                         </div>                       
                     </div>
@@ -136,7 +169,7 @@ if (!defined('R8P3B1R9S6L1')) {
                         <div class="col-md-12">
                             <div>
                                <h5 class="mt-3"><?php if (isset($sub_title_2)) {echo $sub_title_2;} ?></h5>
-                                <p class="justificar"><?php if (isset($content_2)) {echo $content_2;} ?></p>
+                                <!--<p class="justificar"><?php if (isset($content_2)) {echo $content_2;} ?></p> --> 
                             </div>
                         </div>                       
                     </div>
@@ -187,7 +220,7 @@ if (!defined('R8P3B1R9S6L1')) {
                    
             <?php 
             }
-             } else {
+            } else {
                 echo "<p style='color: #f00;'>Erro: Nenhum registro encontrado</p>";
             }
             ?>
