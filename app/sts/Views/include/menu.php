@@ -61,14 +61,14 @@ if (!defined('R8P3B1R9S6L1')) {
         </li>
         
         </li>
-        <li class="nav-item dropdown">
+        <!--    <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Pnab</a>
           <div class="dropdown-menu">         
             <a class="dropdown-item" href="<?php echo URL;?>oficinapnab">Oficinas Artezanato</a>
         
             <a class="dropdown-item" href="<?php echo URL;?>caravanacult">Caravana Cultural</a>
           </div>
-        </li>
+        </li> -->
       </ul>
     </div>
     <a href="index.php"><img src="<?php echo URL; ?>app/sts/assets/images/menu/selo_2_100.png"></a>
