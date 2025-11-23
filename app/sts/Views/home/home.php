@@ -168,7 +168,21 @@ final da primeira linha de textos-->
       <img src="<?php echo URLADM; ?>app/sts/assets/images/marketing/<?php if (isset($img)) {echo $img;}?>" alt="<?php if (isset($img_alt)) {echo $img_alt;}?>" class="img-fluid rounded shadow-lg w-75">
     </div>
 
+    <div class="mb-4">
+      <img src="<?php echo URLADM; ?>app/sts/assets/images/marketing/post__1" alt="<?php if (isset($img_alt)) {echo $img_alt;}?>" class="img-fluid rounded shadow-lg w-75">
+    </div>
+
+    <div class="mb-4">
+      <img src="<?php echo URLADM; ?>app/sts/assets/images/marketing/post__2" class="img-fluid rounded shadow-lg w-75">
+    </div>
     <p class="fs-5 fw-bold"><?php if (isset($content)) {echo $content;}?></p>
+
+    
+<!--<video width="640" height="360" controls>
+  <source src="<?php echo URL; ?>app/sts/assets/videos/home.mp4" type="video/mp4">
+  Seu navegador não suporta a tag de vídeo.
+</video>--> 
+
 
   <?php
     } else {
@@ -182,56 +196,7 @@ final da primeira linha de textos-->
     <!--1 POST-->  
     <!--Inicio da terceira linha de textos-->  
     
-     <div class="row mt-5">
-      <div class="col-md-8">
-        <?php
-          if (!empty($this->data['home']['content'][0])) {
-                extract($this->data['home']['content'][0]);
-          ?>
-        <section class="initial-article max-width centralizar mb-5">
-        <article id="materia_inicial_col_esq">
-            <h1 id="titulo_materia_inicial" class="conteudo-produtos centralizar mb-4"><?php if (isset($title)) {echo $title;}?></h1>
-            <p class="texto-caixa"><?php if (isset($contente_1)) {echo $contente_1;}?></p>
-            <p class="texto-caixa"><?php if (isset($contente_2)) {echo $contente_2;}?></p>
-            <p class="texto-caixa"><?php if (isset($contente_3)) {echo $contente_3;}?></p>
-            <p class="texto-caixa"><?php if (isset($contente_4)) {echo $contente_4;}?></p>
-          </article>
-          <!--<a href="<?php if (isset($url_content)) {echo $url_content;}?>" class="btn btn-sm btn-info cor-botoes mb-5 button_top"> <?php if (isset($url_text)) {echo $url_text;}?> </a>-->
-        </section> 
-          <?php
-              //}
-          } else {
-              echo "<p style='color: #f00;'>Erro: Nenhum registro encontrado</p>";
-          }
-          ?>
-
-      </div>
-
-      <div class="col-md-4 mt-5">
-            <img src="<?php echo URLADM; ?>app/sts/assets/images/institucional/post_1.jpg" class="p-3" alt="Oficinas culturais">
-            <img src="<?php echo URLADM; ?>app/sts/assets/images/institucional/post_15.jpg" class="p-3" alt="Oficinas culturais">
-      </div>   
-    </div>
-    <div class="row">
-        <div class="col-md-4 ">
-          <img src="<?php echo URLADM; ?>app/sts/assets/images/institucional/post_12.jpg" alt="Oficinas culturais">
-        </div>
-        <div class="col-md-4">
-          <img src="<?php echo URLADM; ?>app/sts/assets/images/institucional/post_13.jpg" alt="Oficinas culturais">
-        </div>        
-        <div class="col-md-4">
-          <img src="<?php echo URLADM; ?>app/sts/assets/images/institucional/post_14.jpg" alt="Oficinas culturais">
-        </div>
-    </div>
-    <div class="col centralizar mt-4">
-      <img src="<?php echo URLADM; ?>app/sts/assets/images/institucional/regua_pnab.jpg" alt="Oficinas culturais">
-    </div> 
-
-  <!--final da terceira linha de textos-->  
-   
-    <!--2 POST-->  
-     <!--Inicio da segunda linha de textos-->  
-    <div class="row mt-5 centralizar">
+      <div class="row mt-5 centralizar">
       <div class="col-md-8">
         <?php
           if (!empty($this->data['home']['content'][0])) {
@@ -257,30 +222,80 @@ final da primeira linha de textos-->
       </div>
 
       <div class="col-md-4 mt-5 ">
-            <img src="<?php echo URLADM; ?>app/sts/assets/images/institucional/aue4.jpg" class="p-3" alt="Caravana Cultural">
-            <img src="<?php echo URLADM; ?>app/sts/assets/images/institucional/aue6.jpg" class="p-3" alt="Caravana Cultural">
+            <img src="<?php echo URLADM; ?>app/sts/assets/images/institucional/post_2.jpg" class="p-3" alt="Caravana Cultural">
+            <img src="<?php echo URLADM; ?>app/sts/assets/images/institucional/post_21.jpg" class="p-3" alt="Caravana Cultural">
       </div>   
     </div>
     <div class="row">
         <div class="col-md-3 ">
-          <img src="<?php echo URLADM; ?>app/sts/assets/images/institucional/aue1.jpg"  alt="Caravana Cultural">
+          <img src="<?php echo URLADM; ?>app/sts/assets/images/institucional/post_22.jpg"  alt="Caravana Cultural">
         </div>
         <div class="col-md-3">
-          <img src="<?php echo URLADM; ?>app/sts/assets/images/institucional/aue2.jpg" alt="Caravana Cultural">
+          <img src="<?php echo URLADM; ?>app/sts/assets/images/institucional/post_23.jpg" alt="Caravana Cultural">
         </div>        
         <div class="col-md-3">
-          <img src="<?php echo URLADM; ?>app/sts/assets/images/institucional/aue3.jpg" alt="Caravana Cultural">
+          <img src="<?php echo URLADM; ?>app/sts/assets/images/institucional/post_24.jpg" alt="Caravana Cultural">
         </div>        
         <div class="col-md-3">
-          <img src="<?php echo URLADM; ?>app/sts/assets/images/institucional/aue5.jpg" alt="Caravana Cultural">
+          <img src="<?php echo URLADM; ?>app/sts/assets/images/institucional/post_25.jpg" alt="Caravana Cultural">
         </div>
     </div>
     <div class="col centralizar mt-4">
             <img src="<?php echo URLADM; ?>app/sts/assets/images/institucional/regua_pnab.jpg" alt="Oficinas culturais">
-      </div> 
-      
-    
-  <!--final da segunda linha de textos-->  
+    </div> 
+   
+    <!--2 POST-->  
+    <!--Inicio da segunda linha de textos-->  
+
+    <div class="row mt-5">
+      <div class="col-md-8">
+        <?php
+          if (!empty($this->data['home']['content'][0])) {
+                extract($this->data['home']['content'][0]);
+          ?>
+        <section class="initial-article max-width centralizar mb-5">
+        <article id="materia_inicial_col_esq">
+            <h1 id="titulo_materia_inicial" class="conteudo-produtos centralizar mb-4"><?php if (isset($title)) {echo $title;}?></h1>
+            <p class="texto-caixa"><?php if (isset($contente_1)) {echo $contente_1;}?></p>
+            <p class="texto-caixa"><?php if (isset($contente_2)) {echo $contente_2;}?></p>
+            <p class="texto-caixa"><?php if (isset($contente_3)) {echo $contente_3;}?></p>
+            <p class="texto-caixa"><?php if (isset($contente_4)) {echo $contente_4;}?></p>
+          </article>
+          <!--<a href="<?php if (isset($url_content)) {echo $url_content;}?>" class="btn btn-sm btn-info cor-botoes mb-5 button_top"> <?php if (isset($url_text)) {echo $url_text;}?> </a>-->
+        </section> 
+          <?php
+              //}
+          } else {
+              echo "<p style='color: #f00;'>Erro: Nenhum registro encontrado</p>";
+          }
+          ?>
+
+      </div>
+
+      <div class="col-md-4 mt-5">
+            <img src="<?php echo URLADM; ?>app/sts/assets/images/institucional/post_1.jpeg" class="p-3" alt="Oficinas culturais">
+            <img src="<?php echo URLADM; ?>app/sts/assets/images/institucional/post_12.jpeg" class="p-3" alt="Oficinas culturais">
+      </div>   
+    </div>
+    <div class="row">
+        <div class="col-md-4 ">
+          <img src="<?php echo URLADM; ?>app/sts/assets/images/institucional/post_13.jpeg" alt="Oficinas culturais">
+        </div>
+        <div class="col-md-4">
+          <img src="<?php echo URLADM; ?>app/sts/assets/images/institucional/post_14.jpeg" alt="Oficinas culturais">
+        </div>        
+        <div class="col-md-4">
+          <img src="<?php echo URLADM; ?>app/sts/assets/images/institucional/post_15.jpeg" alt="Oficinas culturais">
+        </div>
+    </div>
+    <div class="col centralizar mt-4">
+      <img src="<?php echo URLADM; ?>app/sts/assets/images/institucional/regua_pnab.jpg" alt="Oficinas culturais">
+    </div> 
+
+  
+  <!--final da primeira linha de video e texto--> 
+
+   <!--final da segunda linha de textos-->  
 
 
 
@@ -317,8 +332,7 @@ final da primeira linha de textos-->
           </div>
         </div>
       </section>
-  <!--final da primeira linha de video e texto--> 
-
+  <!--final da terceira linha de textos-->  
   <!-- Início do Carousel Turistico-->
     <section class="top-carr p-0 mt-4 w-100">
     <div class="container-fluid p-0">      
