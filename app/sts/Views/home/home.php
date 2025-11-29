@@ -167,21 +167,13 @@ final da primeira linha de textos-->
     <div class="mb-4">
       <img src="<?php echo URLADM; ?>app/sts/assets/images/marketing/<?php if (isset($img)) {echo $img;}?>" alt="<?php if (isset($img_alt)) {echo $img_alt;}?>" class="img-fluid rounded shadow-lg w-75">
     </div>
-
-    <div class="mb-4">
-      <img src="<?php echo URLADM; ?>app/sts/assets/images/marketing/post__1" alt="<?php if (isset($img_alt)) {echo $img_alt;}?>" class="img-fluid rounded shadow-lg w-75">
-    </div>
-
-    <div class="mb-4">
-      <img src="<?php echo URLADM; ?>app/sts/assets/images/marketing/post__2" class="img-fluid rounded shadow-lg w-75">
-    </div>
     <p class="fs-5 fw-bold"><?php if (isset($content)) {echo $content;}?></p>
 
     
-<!--<video width="640" height="360" controls>
-  <source src="<?php echo URL; ?>app/sts/assets/videos/home.mp4" type="video/mp4">
-  Seu navegador não suporta a tag de vídeo.
-</video>--> 
+      <!--<video width="640" height="360" controls>
+        <source src="<?php echo URL; ?>app/sts/assets/videos/home.mp4" type="video/mp4">
+        Seu navegador não suporta a tag de vídeo.
+      </video>--> 
 
 
   <?php
@@ -191,7 +183,46 @@ final da primeira linha de textos-->
   ?>
 </div>
 
+<!--1 POST temporario-->  
+    <!--Inicio da terceira linha de textos-->  
+    
+      <div class="row mt-5 centralizar">
+      <div class="col-md-8">
+        <section class="initial-article max-width centralizar mb-5">
+        <article id="materia_inicial_col_esq">
+            <h1 id="titulo_materia_inicial" class="conteudo-produtos centralizar">Associação de Capoeira Nação Yorubá da cidade de Una</h1><br>
+            <p class="texto-caixa">Em mais um importante evento realizado pela <strong>Associação de Capoeira Nação Yorubá</strong>, na cidade de Una, a <strong>ACAZ</strong> marcou presença atendendo ao convite especial do <strong>Mestre Fábio</strong>, contribuindo para abrilhantar a cerimônia de <strong>Batizado e Troca de Cordéis</strong></p><br>
+            <p class="texto-caixa">Representando nossa Associação estiveram presentes o <strong>Mestre Lucas</strong>, os maestros da <strong>Levada Percussiva</strong> — <strong>Sávio Lucas</strong> e <strong>D'Lucas</strong> — além do percussionista <strong>Pedro Lucas</strong>, que juntos levaram energia, musicalidade e envolvimento cultural ao evento, fortalecendo ainda mais os laços entre os grupos participantes.</p><br>
+            <p class="texto-caixa">Durante a programação, foi realizada uma justa e emocionante homenagem aos mestres presentes, reconhecendo sua <strong>brilhante trajetória na difusão, preservação e valorização da Capoeira</strong> em nossa Bahia e em todo o Brasil. Cada homenagem reforçou a importância desses guardiões da tradição, responsáveis por manter viva a essência, a história e os valores dessa arte que atravessa gerações.</p><br>
+            <p class="texto-caixa">O evento, repleto de integração, respeito e celebração, reafirma o papel fundamental da Capoeira como instrumento cultural, social e educativo, fortalecendo a união entre as comunidades e garantindo que sua memória siga viva e pulsante.</p>
+          </article>
+          <!--<a href="<?php if (isset($url_content)) {echo $url_content;}?>" class="btn btn-sm btn-info cor-botoes mb-5 button_top"> <?php if (isset($url_text)) {echo $url_text;}?> </a>-->
+        </section> 
+      </div>
 
+      <div class="col-md-4 mt-5 ">
+            <img src="<?php echo URLADM; ?>app\sts\assets\images\institucional\temp1.jpg" class="p-3" alt="Caravana Cultural">
+            <img src="<?php echo URLADM; ?>app\sts\assets\images\institucional\temp2.jpg" class="p-3" alt="Caravana Cultural">
+      </div>   
+    </div>
+    <div class="row">
+        <div class="col-md-3 ">
+          <img src="<?php echo URLADM; ?>app\sts\assets\images\institucional\temp3.jpg"  alt="Caravana Cultural">
+        </div>
+        <div class="col-md-3">
+          <img src="<?php echo URLADM; ?>app\sts\assets\images\institucional\temp4.jpg" alt="Caravana Cultural">
+        </div>        
+        <div class="col-md-3">
+          <img src="<?php echo URLADM; ?>app\sts\assets\images\institucional\temp5.jpg" alt="Caravana Cultural">
+        </div>        
+        <div class="col-md-3">
+          <img src="<?php echo URLADM; ?>app\sts\assets\images\institucional\temp6.jpg" alt="Caravana Cultural">
+        </div>
+    </div>
+    <div class="col centralizar mt-4">
+            <img src="<?php echo URLADM; ?>app/sts/assets/images/institucional/regua_pnab.jpg" alt="Oficinas culturais">
+    </div> 
+    
 
     <!--1 POST-->  
     <!--Inicio da terceira linha de textos-->  
